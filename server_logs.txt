@@ -1,0 +1,1004 @@
+{"timestamp": "2026-10-17T10:00:04.075Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_6e1b8", "message": "Job completed", "endpoint": "/api/v1/billing/status", "cart_id": "crt_2722"}
+{"timestamp": "2026-10-17T10:00:08.939Z", "level": "INFO", "service": "inventory-service", "trace_id": "tr_6641c", "message": "Job completed", "endpoint": "/api/v1/products/usr_5576/stock"}
+{"timestamp": "2026-10-17T10:00:13.016Z", "level": "WARN", "service": "auth-service", "trace_id": "tr_67037", "message": "Rate limit approaching", "endpoint": "/api/v1/auth/logout", "user_id": "usr_5902"}
+{"timestamp": "2026-10-17T10:00:17.559Z", "level": "INFO", "service": "email-service", "trace_id": "tr_83dfb", "message": "User logged in", "endpoint": "/api/v1/email/templates"}
+{"timestamp": "2026-10-17T10:00:21.789Z", "level": "WARN", "service": "payment-gateway", "trace_id": "tr_4ce30", "message": "Retry attempt 1", "endpoint": "/api/v1/checkout/refund", "cart_id": "crt_4244"}
+{"timestamp": "2026-10-17T10:00:23.759Z", "level": "INFO", "service": "auth-service", "trace_id": "tr_b2869", "message": "Email sent", "endpoint": "/api/v1/auth/refresh", "user_id": "usr_7905"}
+{"timestamp": "2026-10-17T10:00:27.698Z", "level": "INFO", "service": "search-service", "trace_id": "tr_b1e29", "message": "Request processed successfully", "endpoint": "/api/v1/search?q=shoes"}
+{"timestamp": "2026-10-17T10:00:27.952Z", "level": "INFO", "service": "auth-service", "trace_id": "tr_d57b9", "message": "Stock updated", "endpoint": "/api/v1/auth/logout", "user_id": "usr_3722"}
+{"timestamp": "2026-10-17T10:00:32.502Z", "level": "INFO", "service": "user-service", "trace_id": "tr_9c6a6", "message": "Request processed successfully", "endpoint": "/api/v1/users/usr_6042/profile", "user_id": "usr_9928"}
+{"timestamp": "2026-10-17T10:00:36.310Z", "level": "INFO", "service": "auth-service", "trace_id": "tr_993e9", "message": "User logged in", "endpoint": "/api/v1/auth/logout", "user_id": "usr_9710"}
+{"timestamp": "2026-10-17T10:00:40.352Z", "level": "INFO", "service": "user-service", "trace_id": "tr_51019", "message": "Email sent", "endpoint": "/api/v1/users/usr_6937/profile", "user_id": "usr_7180"}
+{"timestamp": "2026-10-17T10:00:40.765Z", "level": "INFO", "service": "email-service", "trace_id": "tr_aa0bf", "message": "Stock updated", "endpoint": "/api/v1/email/send"}
+{"timestamp": "2026-10-17T10:00:44.039Z", "level": "INFO", "service": "auth-service", "trace_id": "tr_3ea6e", "message": "Request processed successfully", "endpoint": "/api/v1/auth/logout", "user_id": "usr_6432"}
+{"timestamp": "2026-10-17T10:00:44.229Z", "level": "INFO", "service": "inventory-service", "trace_id": "tr_a1b2d", "message": "Request processed successfully", "endpoint": "/api/v1/inventory/reserve"}
+{"timestamp": "2026-10-17T10:00:45.227Z", "level": "INFO", "service": "user-service", "trace_id": "tr_f22a6", "message": "Job completed", "endpoint": "/api/v1/users/register", "user_id": "usr_9162"}
+{"timestamp": "2026-10-17T10:00:46.162Z", "level": "INFO", "service": "inventory-service", "trace_id": "tr_553f5", "message": "Job completed", "endpoint": "/api/v1/warehouse/sync"}
+{"timestamp": "2026-10-17T10:00:46.640Z", "level": "ERROR", "service": "search-service", "trace_id": "tr_2ce6d", "message": "Database connection timeout", "endpoint": "/api/v1/search?q=laptop", "error": "QueryTimeoutException"}
+{"timestamp": "2026-10-17T10:00:50.302Z", "level": "INFO", "service": "auth-service", "trace_id": "tr_54041", "message": "User logged in", "endpoint": "/api/v1/auth/logout", "user_id": "usr_7411"}
+{"timestamp": "2026-10-17T10:00:55.108Z", "level": "INFO", "service": "auth-service", "trace_id": "tr_221fc", "message": "Job completed", "endpoint": "/api/v1/auth/logout", "user_id": "usr_2403"}
+{"timestamp": "2026-10-17T10:00:56.726Z", "level": "WARN", "service": "auth-service", "trace_id": "tr_516f3", "message": "Retry attempt 1", "endpoint": "/api/v1/auth/refresh", "user_id": "usr_2308"}
+{"timestamp": "2026-10-17T10:00:57.195Z", "level": "INFO", "service": "email-service", "trace_id": "tr_4a75c", "message": "Email sent", "endpoint": "/api/v1/email/send"}
+{"timestamp": "2026-10-17T10:00:59.492Z", "level": "INFO", "service": "inventory-service", "trace_id": "tr_c6953", "message": "Email sent", "endpoint": "/api/v1/warehouse/sync"}
+{"timestamp": "2026-10-17T10:01:00.436Z", "level": "INFO", "service": "auth-service", "trace_id": "tr_60c7c", "message": "Request processed successfully", "endpoint": "/api/v1/auth/refresh", "user_id": "usr_7105"}
+{"timestamp": "2026-10-17T10:01:04.051Z", "level": "INFO", "service": "email-service", "trace_id": "tr_c787a", "message": "Job completed", "endpoint": "/api/v1/email/send"}
+{"timestamp": "2026-10-17T10:01:04.242Z", "level": "WARN", "service": "inventory-service", "trace_id": "tr_5aaae", "message": "Latency high", "endpoint": "/api/v1/inventory/reserve"}
+{"timestamp": "2026-10-17T10:01:05.427Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_b3f6a", "message": "Email sent", "endpoint": "/api/v1/checkout/refund", "cart_id": "crt_5309"}
+{"timestamp": "2026-10-17T10:01:08.669Z", "level": "DEBUG", "service": "auth-service", "trace_id": "tr_4d234", "message": "Cache hit", "endpoint": "/api/v1/auth/login", "user_id": "usr_1459"}
+{"timestamp": "2026-10-17T10:01:10.891Z", "level": "DEBUG", "service": "email-service", "trace_id": "tr_d2d07", "message": "Cache hit", "endpoint": "/api/v1/email/send"}
+{"timestamp": "2026-10-17T10:01:13.707Z", "level": "INFO", "service": "inventory-service", "trace_id": "tr_cbe60", "message": "User logged in", "endpoint": "/api/v1/warehouse/sync"}
+{"timestamp": "2026-10-17T10:01:16.973Z", "level": "INFO", "service": "email-service", "trace_id": "tr_6e317", "message": "Request processed successfully", "endpoint": "/api/v1/email/templates"}
+{"timestamp": "2026-10-17T10:01:21.837Z", "level": "ERROR", "service": "payment-gateway", "trace_id": "tr_a0af0", "message": "Payment rejected", "endpoint": "/api/v1/checkout/charge", "cart_id": "crt_5183", "error": "ConnectionRefused"}
+{"timestamp": "2026-10-17T10:01:26.724Z", "level": "ERROR", "service": "inventory-service", "trace_id": "tr_660c8", "message": "Service unavailable", "endpoint": "/api/v1/inventory/reserve", "error": "ConnectionRefused"}
+{"timestamp": "2026-10-17T10:01:26.786Z", "level": "INFO", "service": "user-service", "trace_id": "tr_3358e", "message": "Job completed", "endpoint": "/api/v1/users/usr_4768/settings", "user_id": "usr_3826"}
+{"timestamp": "2026-10-17T10:01:30.189Z", "level": "ERROR", "service": "payment-gateway", "trace_id": "tr_1ef60", "message": "Null pointer exception", "endpoint": "/api/v1/billing/status", "cart_id": "crt_3087", "error": "NullReferenceException"}
+{"timestamp": "2026-10-17T10:01:32.016Z", "level": "DEBUG", "service": "payment-gateway", "trace_id": "tr_bc0c6", "message": "Cache hit", "endpoint": "/api/v1/checkout/charge", "cart_id": "crt_7562"}
+{"timestamp": "2026-10-17T10:01:35.195Z", "level": "WARN", "service": "payment-gateway", "trace_id": "tr_d5705", "message": "Retry attempt 1", "endpoint": "/api/v1/checkout/refund", "cart_id": "crt_9874"}
+{"timestamp": "2026-10-17T10:01:37.780Z", "level": "INFO", "service": "inventory-service", "trace_id": "tr_94da9", "message": "User logged in", "endpoint": "/api/v1/products/usr_1865/stock"}
+{"timestamp": "2026-10-17T10:01:38.470Z", "level": "DEBUG", "service": "auth-service", "trace_id": "tr_1dabe", "message": "Cache hit", "endpoint": "/api/v1/auth/login", "user_id": "usr_9535"}
+{"timestamp": "2026-10-17T10:01:40.892Z", "level": "ERROR", "service": "auth-service", "trace_id": "tr_81a80", "message": "Null pointer exception", "endpoint": "/api/v1/auth/refresh", "user_id": "usr_3555", "error": "ConnectionRefused"}
+{"timestamp": "2026-10-17T10:01:42.940Z", "level": "WARN", "service": "email-service", "trace_id": "tr_f296f", "message": "Retry attempt 1", "endpoint": "/api/v1/email/send"}
+{"timestamp": "2026-10-17T10:01:47.628Z", "level": "DEBUG", "service": "payment-gateway", "trace_id": "tr_eb36a", "message": "Starting transaction", "endpoint": "/api/v1/billing/status", "cart_id": "crt_8039"}
+{"timestamp": "2026-10-17T10:01:51.682Z", "level": "ERROR", "service": "auth-service", "trace_id": "tr_5fe3d", "message": "Null pointer exception", "endpoint": "/api/v1/auth/logout", "user_id": "usr_5412", "error": "QueryTimeoutException"}
+{"timestamp": "2026-10-17T10:01:53.405Z", "level": "WARN", "service": "user-service", "trace_id": "tr_64bca", "message": "Retry attempt 1", "endpoint": "/api/v1/users/usr_1612/profile", "user_id": "usr_5957"}
+{"timestamp": "2026-10-17T10:01:53.785Z", "level": "DEBUG", "service": "auth-service", "trace_id": "tr_d32f5", "message": "Starting transaction", "endpoint": "/api/v1/auth/login", "user_id": "usr_8638"}
+{"timestamp": "2026-10-17T10:01:54.854Z", "level": "INFO", "service": "email-service", "trace_id": "tr_aea78", "message": "User logged in", "endpoint": "/api/v1/email/templates"}
+{"timestamp": "2026-10-17T10:01:56.780Z", "level": "INFO", "service": "auth-service", "trace_id": "tr_c2efa", "message": "Email sent", "endpoint": "/api/v1/auth/logout", "user_id": "usr_3886"}
+{"timestamp": "2026-10-17T10:01:57.341Z", "level": "INFO", "service": "email-service", "trace_id": "tr_a1a7f", "message": "User logged in", "endpoint": "/api/v1/email/send"}
+{"timestamp": "2026-10-17T10:01:58.458Z", "level": "INFO", "service": "auth-service", "trace_id": "tr_ac749", "message": "Stock updated", "endpoint": "/api/v1/auth/logout", "user_id": "usr_4845"}
+{"timestamp": "2026-10-17T10:02:02.586Z", "level": "INFO", "service": "inventory-service", "trace_id": "tr_f319d", "message": "Stock updated", "endpoint": "/api/v1/inventory/reserve"}
+{"timestamp": "2026-10-17T10:02:03.232Z", "level": "INFO", "service": "search-service", "trace_id": "tr_86736", "message": "Job completed", "endpoint": "/api/v1/catalog/index"}
+{"timestamp": "2026-10-17T10:02:04.050Z", "level": "DEBUG", "service": "email-service", "trace_id": "tr_6e179", "message": "Starting transaction", "endpoint": "/api/v1/email/send"}
+{"timestamp": "2026-10-17T10:02:05.352Z", "level": "ERROR", "service": "auth-service", "trace_id": "tr_d027d", "message": "Database connection timeout", "endpoint": "/api/v1/auth/logout", "user_id": "usr_9076", "error": "ConnectionRefused"}
+{"timestamp": "2026-10-17T10:02:10.031Z", "level": "DEBUG", "service": "user-service", "trace_id": "tr_51a5f", "message": "Payload size: 450 bytes", "endpoint": "/api/v1/users/register", "user_id": "usr_1222"}
+{"timestamp": "2026-10-17T10:02:11.691Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_c2251", "message": "Email sent", "endpoint": "/api/v1/billing/status", "cart_id": "crt_2050"}
+{"timestamp": "2026-10-17T10:02:12.696Z", "level": "INFO", "service": "user-service", "trace_id": "tr_3c664", "message": "Request processed successfully", "endpoint": "/api/v1/users/usr_1735/profile", "user_id": "usr_9651"}
+{"timestamp": "2026-10-17T10:02:14.244Z", "level": "INFO", "service": "user-service", "trace_id": "tr_7dfbe", "message": "User logged in", "endpoint": "/api/v1/users/usr_1999/profile", "user_id": "usr_7487"}
+{"timestamp": "2026-10-17T10:02:16.243Z", "level": "INFO", "service": "search-service", "trace_id": "tr_56d69", "message": "Job completed", "endpoint": "/api/v1/catalog/index"}
+{"timestamp": "2026-10-17T10:02:20.870Z", "level": "DEBUG", "service": "inventory-service", "trace_id": "tr_82383", "message": "Payload size: 450 bytes", "endpoint": "/api/v1/warehouse/sync"}
+{"timestamp": "2026-10-17T10:02:25.153Z", "level": "INFO", "service": "email-service", "trace_id": "tr_8048b", "message": "Email sent", "endpoint": "/api/v1/email/send"}
+{"timestamp": "2026-10-17T10:02:29.456Z", "level": "ERROR", "service": "payment-gateway", "trace_id": "tr_c874d", "message": "Null pointer exception", "endpoint": "/api/v1/checkout/charge", "cart_id": "crt_2118", "error": "QueryTimeoutException"}
+{"timestamp": "2026-10-17T10:02:34.371Z", "level": "INFO", "service": "auth-service", "trace_id": "tr_dfd1e", "message": "Email sent", "endpoint": "/api/v1/auth/logout", "user_id": "usr_3946"}
+{"timestamp": "2026-10-17T10:02:37.229Z", "level": "INFO", "service": "inventory-service", "trace_id": "tr_e38ab", "message": "User logged in", "endpoint": "/api/v1/warehouse/sync"}
+{"timestamp": "2026-10-17T10:02:37.554Z", "level": "DEBUG", "service": "email-service", "trace_id": "tr_7d335", "message": "Payload size: 450 bytes", "endpoint": "/api/v1/email/templates"}
+{"timestamp": "2026-10-17T10:02:40.176Z", "level": "INFO", "service": "user-service", "trace_id": "tr_73cd4", "message": "Request processed successfully", "endpoint": "/api/v1/users/usr_1979/settings", "user_id": "usr_2176"}
+{"timestamp": "2026-10-17T10:02:42.615Z", "level": "INFO", "service": "user-service", "trace_id": "tr_da624", "message": "Stock updated", "endpoint": "/api/v1/users/usr_7516/settings", "user_id": "usr_3650"}
+{"timestamp": "2026-10-17T10:02:46.294Z", "level": "INFO", "service": "user-service", "trace_id": "tr_d2077", "message": "Stock updated", "endpoint": "/api/v1/users/usr_6196/settings", "user_id": "usr_5706"}
+{"timestamp": "2026-10-17T10:02:50.153Z", "level": "DEBUG", "service": "user-service", "trace_id": "tr_72b5c", "message": "Cache miss", "endpoint": "/api/v1/users/usr_9574/settings", "user_id": "usr_8573"}
+{"timestamp": "2026-10-17T10:02:50.972Z", "level": "INFO", "service": "auth-service", "trace_id": "tr_c7861", "message": "User logged in", "endpoint": "/api/v1/auth/logout", "user_id": "usr_1134"}
+{"timestamp": "2026-10-17T10:02:52.007Z", "level": "WARN", "service": "inventory-service", "trace_id": "tr_f1973", "message": "Rate limit approaching", "endpoint": "/api/v1/products/usr_4632/stock"}
+{"timestamp": "2026-10-17T10:02:56.498Z", "level": "INFO", "service": "user-service", "trace_id": "tr_c2c75", "message": "Request processed successfully", "endpoint": "/api/v1/users/usr_7559/settings", "user_id": "usr_4453"}
+{"timestamp": "2026-10-17T10:03:00.188Z", "level": "DEBUG", "service": "payment-gateway", "trace_id": "tr_a77b1", "message": "Starting transaction", "endpoint": "/api/v1/checkout/refund", "cart_id": "crt_9521"}
+{"timestamp": "2026-10-17T10:03:01.654Z", "level": "INFO", "service": "search-service", "trace_id": "tr_af562", "message": "Email sent", "endpoint": "/api/v1/search?q=shoes"}
+{"timestamp": "2026-10-17T10:03:01.857Z", "level": "INFO", "service": "search-service", "trace_id": "tr_789c8", "message": "Request processed successfully", "endpoint": "/api/v1/catalog/index"}
+{"timestamp": "2026-10-17T10:03:02.461Z", "level": "INFO", "service": "inventory-service", "trace_id": "tr_41d43", "message": "Stock updated", "endpoint": "/api/v1/products/usr_8037/stock"}
+{"timestamp": "2026-10-17T10:03:04.528Z", "level": "INFO", "service": "search-service", "trace_id": "tr_7f4ac", "message": "Job completed", "endpoint": "/api/v1/search?q=watch"}
+{"timestamp": "2026-10-17T10:03:06.415Z", "level": "INFO", "service": "search-service", "trace_id": "tr_e3f16", "message": "User logged in", "endpoint": "/api/v1/catalog/index"}
+{"timestamp": "2026-10-17T10:03:09.411Z", "level": "WARN", "service": "auth-service", "trace_id": "tr_23203", "message": "Retry attempt 1", "endpoint": "/api/v1/auth/logout", "user_id": "usr_8891"}
+{"timestamp": "2026-10-17T10:03:13.261Z", "level": "INFO", "service": "inventory-service", "trace_id": "tr_c4189", "message": "User logged in", "endpoint": "/api/v1/warehouse/sync"}
+{"timestamp": "2026-10-17T10:03:16.325Z", "level": "DEBUG", "service": "email-service", "trace_id": "tr_63f75", "message": "Cache miss", "endpoint": "/api/v1/email/templates"}
+{"timestamp": "2026-10-17T10:03:17.565Z", "level": "INFO", "service": "auth-service", "trace_id": "tr_5de3f", "message": "User logged in", "endpoint": "/api/v1/auth/refresh", "user_id": "usr_4124"}
+{"timestamp": "2026-10-17T10:03:17.804Z", "level": "INFO", "service": "email-service", "trace_id": "tr_e0ac0", "message": "Job completed", "endpoint": "/api/v1/email/templates"}
+{"timestamp": "2026-10-17T10:03:18.001Z", "level": "DEBUG", "service": "search-service", "trace_id": "tr_37bf8", "message": "Payload size: 450 bytes", "endpoint": "/api/v1/catalog/index"}
+{"timestamp": "2026-10-17T10:03:21.354Z", "level": "INFO", "service": "auth-service", "trace_id": "tr_ca865", "message": "User logged in", "endpoint": "/api/v1/auth/refresh", "user_id": "usr_2280"}
+{"timestamp": "2026-10-17T10:03:25.923Z", "level": "DEBUG", "service": "email-service", "trace_id": "tr_e62d8", "message": "Cache hit", "endpoint": "/api/v1/email/send"}
+{"timestamp": "2026-10-17T10:03:28.194Z", "level": "INFO", "service": "email-service", "trace_id": "tr_dc81c", "message": "Email sent", "endpoint": "/api/v1/email/templates"}
+{"timestamp": "2026-10-17T10:03:29.012Z", "level": "DEBUG", "service": "email-service", "trace_id": "tr_b309e", "message": "Starting transaction", "endpoint": "/api/v1/email/send"}
+{"timestamp": "2026-10-17T10:03:29.409Z", "level": "INFO", "service": "email-service", "trace_id": "tr_7bf2c", "message": "User logged in", "endpoint": "/api/v1/email/send"}
+{"timestamp": "2026-10-17T10:03:29.537Z", "level": "INFO", "service": "auth-service", "trace_id": "tr_8cedb", "message": "User logged in", "endpoint": "/api/v1/auth/refresh", "user_id": "usr_6836"}
+{"timestamp": "2026-10-17T10:03:34.289Z", "level": "WARN", "service": "user-service", "trace_id": "tr_b3506", "message": "Latency high", "endpoint": "/api/v1/users/register", "user_id": "usr_3178"}
+{"timestamp": "2026-10-17T10:03:38.113Z", "level": "DEBUG", "service": "user-service", "trace_id": "tr_bb66f", "message": "Starting transaction", "endpoint": "/api/v1/users/usr_3457/settings", "user_id": "usr_1171"}
+{"timestamp": "2026-10-17T10:03:41.061Z", "level": "INFO", "service": "user-service", "trace_id": "tr_dbed3", "message": "Job completed", "endpoint": "/api/v1/users/register", "user_id": "usr_7566"}
+{"timestamp": "2026-10-17T10:03:42.825Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_d2620", "message": "User logged in", "endpoint": "/api/v1/billing/status", "cart_id": "crt_3707"}
+{"timestamp": "2026-10-17T10:03:44.053Z", "level": "INFO", "service": "user-service", "trace_id": "tr_42fd2", "message": "Stock updated", "endpoint": "/api/v1/users/usr_8708/profile", "user_id": "usr_8058"}
+{"timestamp": "2026-10-17T10:03:44.937Z", "level": "WARN", "service": "auth-service", "trace_id": "tr_7938f", "message": "Latency high", "endpoint": "/api/v1/auth/logout", "user_id": "usr_9307"}
+{"timestamp": "2026-10-17T10:03:47.163Z", "level": "INFO", "service": "user-service", "trace_id": "tr_78546", "message": "Job completed", "endpoint": "/api/v1/users/register", "user_id": "usr_7699"}
+{"timestamp": "2026-10-17T10:03:51.394Z", "level": "DEBUG", "service": "search-service", "trace_id": "tr_78d4c", "message": "Payload size: 450 bytes", "endpoint": "/api/v1/catalog/index"}
+{"timestamp": "2026-10-17T10:03:55.934Z", "level": "WARN", "service": "payment-gateway", "trace_id": "tr_510ec", "message": "Deprecated API used", "endpoint": "/api/v1/checkout/charge", "cart_id": "crt_2536"}
+{"timestamp": "2026-10-17T10:03:56.428Z", "level": "WARN", "service": "user-service", "trace_id": "tr_c082e", "message": "Rate limit approaching", "endpoint": "/api/v1/users/usr_6988/profile", "user_id": "usr_5288"}
+{"timestamp": "2026-10-17T10:03:59.668Z", "level": "INFO", "service": "email-service", "trace_id": "tr_1dc08", "message": "Request processed successfully", "endpoint": "/api/v1/email/templates"}
+{"timestamp": "2026-10-17T10:04:04.370Z", "level": "INFO", "service": "auth-service", "trace_id": "tr_2834e", "message": "User logged in", "endpoint": "/api/v1/auth/login", "user_id": "usr_9464"}
+{"timestamp": "2026-10-17T10:04:07.607Z", "level": "WARN", "service": "email-service", "trace_id": "tr_dd750", "message": "Retry attempt 1", "endpoint": "/api/v1/email/send"}
+{"timestamp": "2026-10-17T10:04:10.228Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_e828f", "message": "Request processed successfully", "endpoint": "/api/v1/checkout/charge", "cart_id": "crt_8484"}
+{"timestamp": "2026-10-17T10:04:15.134Z", "level": "WARN", "service": "search-service", "trace_id": "tr_cc6a0", "message": "Latency high", "endpoint": "/api/v1/catalog/index"}
+{"timestamp": "2026-10-17T10:04:19.837Z", "level": "INFO", "service": "email-service", "trace_id": "tr_1e273", "message": "Request processed successfully", "endpoint": "/api/v1/email/templates"}
+{"timestamp": "2026-10-17T10:04:24.774Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_90bad", "message": "Stock updated", "endpoint": "/api/v1/billing/status", "cart_id": "crt_8992"}
+{"timestamp": "2026-10-17T10:04:27.260Z", "level": "WARN", "service": "user-service", "trace_id": "tr_eb5ee", "message": "Rate limit approaching", "endpoint": "/api/v1/users/usr_7058/settings", "user_id": "usr_9016"}
+{"timestamp": "2026-10-17T10:04:27.626Z", "level": "INFO", "service": "auth-service", "trace_id": "tr_1e6f9", "message": "Job completed", "endpoint": "/api/v1/auth/logout", "user_id": "usr_2842"}
+{"timestamp": "2026-10-17T10:04:28.879Z", "level": "WARN", "service": "inventory-service", "trace_id": "tr_c5c28", "message": "Retry attempt 1", "endpoint": "/api/v1/products/usr_9820/stock"}
+{"timestamp": "2026-10-17T10:04:30.663Z", "level": "DEBUG", "service": "auth-service", "trace_id": "tr_4791a", "message": "Payload size: 450 bytes", "endpoint": "/api/v1/auth/logout", "user_id": "usr_8682"}
+{"timestamp": "2026-10-17T10:04:34.678Z", "level": "INFO", "service": "user-service", "trace_id": "tr_dce83", "message": "Email sent", "endpoint": "/api/v1/users/usr_3913/settings", "user_id": "usr_3943"}
+{"timestamp": "2026-10-17T10:04:39.009Z", "level": "INFO", "service": "auth-service", "trace_id": "tr_44298", "message": "Job completed", "endpoint": "/api/v1/auth/login", "user_id": "usr_2937"}
+{"timestamp": "2026-10-17T10:04:40.020Z", "level": "DEBUG", "service": "user-service", "trace_id": "tr_da526", "message": "Cache miss", "endpoint": "/api/v1/users/usr_2524/profile", "user_id": "usr_7530"}
+{"timestamp": "2026-10-17T10:04:40.420Z", "level": "WARN", "service": "payment-gateway", "trace_id": "tr_b2d05", "message": "Rate limit approaching", "endpoint": "/api/v1/checkout/charge", "cart_id": "crt_2616"}
+{"timestamp": "2026-10-17T10:04:43.076Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_9e99d", "message": "User logged in", "endpoint": "/api/v1/checkout/charge", "cart_id": "crt_3052"}
+{"timestamp": "2026-10-17T10:04:44.951Z", "level": "INFO", "service": "auth-service", "trace_id": "tr_c4581", "message": "User logged in", "endpoint": "/api/v1/auth/login", "user_id": "usr_6394"}
+{"timestamp": "2026-10-17T10:04:45.864Z", "level": "INFO", "service": "search-service", "trace_id": "tr_e950f", "message": "User logged in", "endpoint": "/api/v1/search?q=watch"}
+{"timestamp": "2026-10-17T10:04:46.110Z", "level": "INFO", "service": "email-service", "trace_id": "tr_b5853", "message": "Job completed", "endpoint": "/api/v1/email/templates"}
+{"timestamp": "2026-10-17T10:04:49.064Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_374ce", "message": "User logged in", "endpoint": "/api/v1/checkout/charge", "cart_id": "crt_5139"}
+{"timestamp": "2026-10-17T10:04:53.216Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_27c1c", "message": "Request processed successfully", "endpoint": "/api/v1/billing/status", "cart_id": "crt_6080"}
+{"timestamp": "2026-10-17T10:04:55.307Z", "level": "INFO", "service": "inventory-service", "trace_id": "tr_93b32", "message": "Request processed successfully", "endpoint": "/api/v1/inventory/reserve"}
+{"timestamp": "2026-10-17T10:04:56.292Z", "level": "INFO", "service": "search-service", "trace_id": "tr_2df1f", "message": "User logged in", "endpoint": "/api/v1/search?q=watch"}
+{"timestamp": "2026-10-17T10:04:59.400Z", "level": "INFO", "service": "user-service", "trace_id": "tr_6bb76", "message": "Request processed successfully", "endpoint": "/api/v1/users/register", "user_id": "usr_2837"}
+{"timestamp": "2026-10-17T10:05:03.577Z", "level": "INFO", "service": "user-service", "trace_id": "tr_5fd75", "message": "Stock updated", "endpoint": "/api/v1/users/usr_9204/settings", "user_id": "usr_2425"}
+{"timestamp": "2026-10-17T10:05:04.290Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_5cedc", "message": "User logged in", "endpoint": "/api/v1/checkout/refund", "cart_id": "crt_7186"}
+{"timestamp": "2026-10-17T10:05:08.221Z", "level": "DEBUG", "service": "search-service", "trace_id": "tr_e0c18", "message": "Cache miss", "endpoint": "/api/v1/search?q=shoes"}
+{"timestamp": "2026-10-17T10:05:10.354Z", "level": "WARN", "service": "payment-gateway", "trace_id": "tr_3afc2", "message": "Retry attempt 1", "endpoint": "/api/v1/billing/status", "cart_id": "crt_1907"}
+{"timestamp": "2026-10-17T10:05:11.583Z", "level": "DEBUG", "service": "search-service", "trace_id": "tr_dafe7", "message": "Starting transaction", "endpoint": "/api/v1/catalog/index"}
+{"timestamp": "2026-10-17T10:05:15.816Z", "level": "WARN", "service": "user-service", "trace_id": "tr_d53f1", "message": "Rate limit approaching", "endpoint": "/api/v1/users/register", "user_id": "usr_6562"}
+{"timestamp": "2026-10-17T10:05:17.429Z", "level": "ERROR", "service": "payment-gateway", "trace_id": "tr_5f743", "message": "Payment rejected", "endpoint": "/api/v1/checkout/charge", "cart_id": "crt_9701", "error": "NullReferenceException"}
+{"timestamp": "2026-10-17T10:05:17.466Z", "level": "INFO", "service": "email-service", "trace_id": "tr_dc112", "message": "Email sent", "endpoint": "/api/v1/email/templates"}
+{"timestamp": "2026-10-17T10:05:20.850Z", "level": "INFO", "service": "search-service", "trace_id": "tr_d89cf", "message": "User logged in", "endpoint": "/api/v1/catalog/index"}
+{"timestamp": "2026-10-17T10:05:22.594Z", "level": "INFO", "service": "search-service", "trace_id": "tr_ddaff", "message": "User logged in", "endpoint": "/api/v1/search?q=watch"}
+{"timestamp": "2026-10-17T10:05:27.041Z", "level": "DEBUG", "service": "user-service", "trace_id": "tr_5fa68", "message": "Starting transaction", "endpoint": "/api/v1/users/usr_5661/profile", "user_id": "usr_5580"}
+{"timestamp": "2026-10-17T10:05:30.662Z", "level": "INFO", "service": "search-service", "trace_id": "tr_84461", "message": "Job completed", "endpoint": "/api/v1/search?q=shoes"}
+{"timestamp": "2026-10-17T10:05:32.213Z", "level": "INFO", "service": "auth-service", "trace_id": "tr_5a577", "message": "User logged in", "endpoint": "/api/v1/auth/logout", "user_id": "usr_1785"}
+{"timestamp": "2026-10-17T10:05:33.007Z", "level": "INFO", "service": "email-service", "trace_id": "tr_4dbef", "message": "Stock updated", "endpoint": "/api/v1/email/templates"}
+{"timestamp": "2026-10-17T10:05:34.139Z", "level": "INFO", "service": "email-service", "trace_id": "tr_3bc1e", "message": "User logged in", "endpoint": "/api/v1/email/templates"}
+{"timestamp": "2026-10-17T10:05:35.980Z", "level": "ERROR", "service": "user-service", "trace_id": "tr_69a89", "message": "Service unavailable", "endpoint": "/api/v1/users/usr_8313/settings", "user_id": "usr_2758", "error": "ConnectionRefused"}
+{"timestamp": "2026-10-17T10:05:36.571Z", "level": "WARN", "service": "auth-service", "trace_id": "tr_92a31", "message": "Retry attempt 1", "endpoint": "/api/v1/auth/logout", "user_id": "usr_9257"}
+{"timestamp": "2026-10-17T10:05:40.878Z", "level": "DEBUG", "service": "email-service", "trace_id": "tr_cfbcc", "message": "Starting transaction", "endpoint": "/api/v1/email/send"}
+{"timestamp": "2026-10-17T10:05:41.852Z", "level": "WARN", "service": "auth-service", "trace_id": "tr_a4995", "message": "Retry attempt 1", "endpoint": "/api/v1/auth/logout", "user_id": "usr_3763"}
+{"timestamp": "2026-10-17T10:05:46.298Z", "level": "INFO", "service": "user-service", "trace_id": "tr_1bd91", "message": "Email sent", "endpoint": "/api/v1/users/register", "user_id": "usr_6192"}
+{"timestamp": "2026-10-17T10:05:46.731Z", "level": "INFO", "service": "email-service", "trace_id": "tr_ce160", "message": "Email sent", "endpoint": "/api/v1/email/send"}
+{"timestamp": "2026-10-17T10:05:47.985Z", "level": "INFO", "service": "email-service", "trace_id": "tr_6ff56", "message": "Job completed", "endpoint": "/api/v1/email/templates"}
+{"timestamp": "2026-10-17T10:05:50.466Z", "level": "INFO", "service": "inventory-service", "trace_id": "tr_b59ab", "message": "Job completed", "endpoint": "/api/v1/products/usr_6671/stock"}
+{"timestamp": "2026-10-17T10:05:51.226Z", "level": "ERROR", "service": "search-service", "trace_id": "tr_8041b", "message": "Payment rejected", "endpoint": "/api/v1/catalog/index", "error": "NullReferenceException"}
+{"timestamp": "2026-10-17T10:05:53.527Z", "level": "INFO", "service": "email-service", "trace_id": "tr_b4422", "message": "Email sent", "endpoint": "/api/v1/email/send"}
+{"timestamp": "2026-10-17T10:05:53.677Z", "level": "WARN", "service": "payment-gateway", "trace_id": "tr_8e70d", "message": "Retry attempt 1", "endpoint": "/api/v1/billing/status", "cart_id": "crt_4817"}
+{"timestamp": "2026-10-17T10:05:53.829Z", "level": "WARN", "service": "user-service", "trace_id": "tr_bcdb0", "message": "Rate limit approaching", "endpoint": "/api/v1/users/usr_8328/profile", "user_id": "usr_1795"}
+{"timestamp": "2026-10-17T10:05:58.402Z", "level": "INFO", "service": "user-service", "trace_id": "tr_7a9d2", "message": "Stock updated", "endpoint": "/api/v1/users/register", "user_id": "usr_5703"}
+{"timestamp": "2026-10-17T10:06:02.604Z", "level": "ERROR", "service": "payment-gateway", "trace_id": "tr_33246", "message": "Null pointer exception", "endpoint": "/api/v1/checkout/refund", "cart_id": "crt_3584", "error": "QueryTimeoutException"}
+{"timestamp": "2026-10-17T10:06:02.985Z", "level": "WARN", "service": "email-service", "trace_id": "tr_615ae", "message": "Deprecated API used", "endpoint": "/api/v1/email/send"}
+{"timestamp": "2026-10-17T10:06:03.832Z", "level": "DEBUG", "service": "payment-gateway", "trace_id": "tr_3b106", "message": "Cache hit", "endpoint": "/api/v1/billing/status", "cart_id": "crt_7977"}
+{"timestamp": "2026-10-17T10:06:06.604Z", "level": "INFO", "service": "email-service", "trace_id": "tr_aa287", "message": "User logged in", "endpoint": "/api/v1/email/templates"}
+{"timestamp": "2026-10-17T10:06:11.034Z", "level": "INFO", "service": "user-service", "trace_id": "tr_64b09", "message": "Job completed", "endpoint": "/api/v1/users/usr_5282/profile", "user_id": "usr_3721"}
+{"timestamp": "2026-10-17T10:06:13.250Z", "level": "INFO", "service": "auth-service", "trace_id": "tr_a1afb", "message": "User logged in", "endpoint": "/api/v1/auth/logout", "user_id": "usr_8123"}
+{"timestamp": "2026-10-17T10:06:17.195Z", "level": "DEBUG", "service": "inventory-service", "trace_id": "tr_8a990", "message": "Cache miss", "endpoint": "/api/v1/products/usr_5965/stock"}
+{"timestamp": "2026-10-17T10:06:20.842Z", "level": "INFO", "service": "inventory-service", "trace_id": "tr_8bb5f", "message": "Job completed", "endpoint": "/api/v1/products/usr_7760/stock"}
+{"timestamp": "2026-10-17T10:06:22.408Z", "level": "INFO", "service": "search-service", "trace_id": "tr_e1589", "message": "User logged in", "endpoint": "/api/v1/search?q=shoes"}
+{"timestamp": "2026-10-17T10:06:25.552Z", "level": "WARN", "service": "search-service", "trace_id": "tr_77306", "message": "Latency high", "endpoint": "/api/v1/search?q=laptop"}
+{"timestamp": "2026-10-17T10:06:27.332Z", "level": "WARN", "service": "payment-gateway", "trace_id": "tr_ad3a8", "message": "Retry attempt 1", "endpoint": "/api/v1/checkout/charge", "cart_id": "crt_2961"}
+{"timestamp": "2026-10-17T10:06:29.996Z", "level": "WARN", "service": "payment-gateway", "trace_id": "tr_1b92a", "message": "Retry attempt 1", "endpoint": "/api/v1/billing/status", "cart_id": "crt_9452"}
+{"timestamp": "2026-10-17T10:06:32.851Z", "level": "INFO", "service": "email-service", "trace_id": "tr_60c47", "message": "Request processed successfully", "endpoint": "/api/v1/email/send"}
+{"timestamp": "2026-10-17T10:06:34.390Z", "level": "INFO", "service": "auth-service", "trace_id": "tr_2fc0d", "message": "Job completed", "endpoint": "/api/v1/auth/refresh", "user_id": "usr_9764"}
+{"timestamp": "2026-10-17T10:06:39.249Z", "level": "DEBUG", "service": "email-service", "trace_id": "tr_a12e7", "message": "Payload size: 450 bytes", "endpoint": "/api/v1/email/templates"}
+{"timestamp": "2026-10-17T10:06:44.135Z", "level": "DEBUG", "service": "search-service", "trace_id": "tr_a3267", "message": "Starting transaction", "endpoint": "/api/v1/search?q=watch"}
+{"timestamp": "2026-10-17T10:06:44.167Z", "level": "DEBUG", "service": "inventory-service", "trace_id": "tr_23ccc", "message": "Starting transaction", "endpoint": "/api/v1/inventory/reserve"}
+{"timestamp": "2026-10-17T10:06:46.963Z", "level": "ERROR", "service": "user-service", "trace_id": "tr_840fe", "message": "Database connection timeout", "endpoint": "/api/v1/users/usr_6552/settings", "user_id": "usr_9977", "error": "NullReferenceException"}
+{"timestamp": "2026-10-17T10:06:49.339Z", "level": "INFO", "service": "user-service", "trace_id": "tr_60678", "message": "Job completed", "endpoint": "/api/v1/users/usr_2469/profile", "user_id": "usr_3229"}
+{"timestamp": "2026-10-17T10:06:52.819Z", "level": "ERROR", "service": "inventory-service", "trace_id": "tr_2cc36", "message": "Service unavailable", "endpoint": "/api/v1/warehouse/sync", "error": "ConnectionRefused"}
+{"timestamp": "2026-10-17T10:06:53.897Z", "level": "INFO", "service": "email-service", "trace_id": "tr_551a2", "message": "User logged in", "endpoint": "/api/v1/email/send"}
+{"timestamp": "2026-10-17T10:06:54.599Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_2229e", "message": "Request processed successfully", "endpoint": "/api/v1/checkout/charge", "cart_id": "crt_1435"}
+{"timestamp": "2026-10-17T10:06:56.516Z", "level": "INFO", "service": "search-service", "trace_id": "tr_a5146", "message": "Email sent", "endpoint": "/api/v1/catalog/index"}
+{"timestamp": "2026-10-17T10:06:59.244Z", "level": "DEBUG", "service": "user-service", "trace_id": "tr_e6d00", "message": "Cache miss", "endpoint": "/api/v1/users/usr_6111/settings", "user_id": "usr_3339"}
+{"timestamp": "2026-10-17T10:07:01.898Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_5db0c", "message": "Stock updated", "endpoint": "/api/v1/billing/status", "cart_id": "crt_2838"}
+{"timestamp": "2026-10-17T10:07:04.989Z", "level": "DEBUG", "service": "user-service", "trace_id": "tr_c5c3c", "message": "Starting transaction", "endpoint": "/api/v1/users/usr_1837/settings", "user_id": "usr_8325"}
+{"timestamp": "2026-10-17T10:07:09.985Z", "level": "ERROR", "service": "user-service", "trace_id": "tr_5ae40", "message": "Payment rejected", "endpoint": "/api/v1/users/usr_2968/profile", "user_id": "usr_8395", "error": "NullReferenceException"}
+{"timestamp": "2026-10-17T10:07:14.419Z", "level": "WARN", "service": "inventory-service", "trace_id": "tr_f16d2", "message": "Rate limit approaching", "endpoint": "/api/v1/products/usr_1270/stock"}
+{"timestamp": "2026-10-17T10:07:14.929Z", "level": "WARN", "service": "user-service", "trace_id": "tr_21f11", "message": "Rate limit approaching", "endpoint": "/api/v1/users/usr_9692/settings", "user_id": "usr_4715"}
+{"timestamp": "2026-10-17T10:07:19.442Z", "level": "DEBUG", "service": "search-service", "trace_id": "tr_3bca6", "message": "Payload size: 450 bytes", "endpoint": "/api/v1/catalog/index"}
+{"timestamp": "2026-10-17T10:07:19.747Z", "level": "WARN", "service": "user-service", "trace_id": "tr_89f41", "message": "Rate limit approaching", "endpoint": "/api/v1/users/register", "user_id": "usr_3163"}
+{"timestamp": "2026-10-17T10:07:21.943Z", "level": "DEBUG", "service": "payment-gateway", "trace_id": "tr_39a34", "message": "Payload size: 450 bytes", "endpoint": "/api/v1/checkout/refund", "cart_id": "crt_6873"}
+{"timestamp": "2026-10-17T10:07:24.312Z", "level": "INFO", "service": "search-service", "trace_id": "tr_28186", "message": "Stock updated", "endpoint": "/api/v1/catalog/index"}
+{"timestamp": "2026-10-17T10:07:28.829Z", "level": "INFO", "service": "search-service", "trace_id": "tr_e1fd0", "message": "Stock updated", "endpoint": "/api/v1/catalog/index"}
+{"timestamp": "2026-10-17T10:07:31.688Z", "level": "WARN", "service": "inventory-service", "trace_id": "tr_7ff88", "message": "Deprecated API used", "endpoint": "/api/v1/warehouse/sync"}
+{"timestamp": "2026-10-17T10:07:35.855Z", "level": "INFO", "service": "search-service", "trace_id": "tr_53d9c", "message": "Stock updated", "endpoint": "/api/v1/catalog/index"}
+{"timestamp": "2026-10-17T10:07:35.909Z", "level": "WARN", "service": "user-service", "trace_id": "tr_b292b", "message": "Deprecated API used", "endpoint": "/api/v1/users/register", "user_id": "usr_5711"}
+{"timestamp": "2026-10-17T10:07:37.768Z", "level": "WARN", "service": "email-service", "trace_id": "tr_56931", "message": "Deprecated API used", "endpoint": "/api/v1/email/send"}
+{"timestamp": "2026-10-17T10:07:42.127Z", "level": "INFO", "service": "user-service", "trace_id": "tr_63843", "message": "Job completed", "endpoint": "/api/v1/users/usr_3512/settings", "user_id": "usr_7101"}
+{"timestamp": "2026-10-17T10:07:42.613Z", "level": "INFO", "service": "inventory-service", "trace_id": "tr_ee1ad", "message": "User logged in", "endpoint": "/api/v1/warehouse/sync"}
+{"timestamp": "2026-10-17T10:07:45.963Z", "level": "INFO", "service": "search-service", "trace_id": "tr_92344", "message": "User logged in", "endpoint": "/api/v1/catalog/index"}
+{"timestamp": "2026-10-17T10:07:49.594Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_25b1e", "message": "User logged in", "endpoint": "/api/v1/checkout/charge", "cart_id": "crt_5273"}
+{"timestamp": "2026-10-17T10:07:51.043Z", "level": "ERROR", "service": "user-service", "trace_id": "tr_aba8c", "message": "Null pointer exception", "endpoint": "/api/v1/users/register", "user_id": "usr_5801", "error": "ConnectionRefused"}
+{"timestamp": "2026-10-17T10:07:53.066Z", "level": "INFO", "service": "auth-service", "trace_id": "tr_82675", "message": "Email sent", "endpoint": "/api/v1/auth/refresh", "user_id": "usr_1195"}
+{"timestamp": "2026-10-17T10:07:54.188Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_4db7d", "message": "Job completed", "endpoint": "/api/v1/billing/status", "cart_id": "crt_4772"}
+{"timestamp": "2026-10-17T10:07:59.077Z", "level": "WARN", "service": "payment-gateway", "trace_id": "tr_5582c", "message": "Retry attempt 1", "endpoint": "/api/v1/checkout/charge", "cart_id": "crt_2749"}
+{"timestamp": "2026-10-17T10:08:02.791Z", "level": "WARN", "service": "inventory-service", "trace_id": "tr_be7fc", "message": "Deprecated API used", "endpoint": "/api/v1/inventory/reserve"}
+{"timestamp": "2026-10-17T10:08:07.208Z", "level": "WARN", "service": "inventory-service", "trace_id": "tr_738d6", "message": "Deprecated API used", "endpoint": "/api/v1/inventory/reserve"}
+{"timestamp": "2026-10-17T10:08:08.592Z", "level": "ERROR", "service": "email-service", "trace_id": "tr_c4e3a", "message": "Service unavailable", "endpoint": "/api/v1/email/send", "error": "NullReferenceException"}
+{"timestamp": "2026-10-17T10:08:09.733Z", "level": "ERROR", "service": "search-service", "trace_id": "tr_ceef3", "message": "Service unavailable", "endpoint": "/api/v1/catalog/index", "error": "ConnectionRefused"}
+{"timestamp": "2026-10-17T10:08:10.399Z", "level": "INFO", "service": "email-service", "trace_id": "tr_52765", "message": "Email sent", "endpoint": "/api/v1/email/templates"}
+{"timestamp": "2026-10-17T10:08:13.009Z", "level": "INFO", "service": "user-service", "trace_id": "tr_e7102", "message": "Stock updated", "endpoint": "/api/v1/users/usr_8095/settings", "user_id": "usr_8273"}
+{"timestamp": "2026-10-17T10:08:15.017Z", "level": "INFO", "service": "search-service", "trace_id": "tr_68208", "message": "Request processed successfully", "endpoint": "/api/v1/search?q=watch"}
+{"timestamp": "2026-10-17T10:08:16.907Z", "level": "INFO", "service": "inventory-service", "trace_id": "tr_5597c", "message": "Request processed successfully", "endpoint": "/api/v1/products/usr_8275/stock"}
+{"timestamp": "2026-10-17T10:08:18.755Z", "level": "DEBUG", "service": "inventory-service", "trace_id": "tr_99504", "message": "Cache miss", "endpoint": "/api/v1/products/usr_9015/stock"}
+{"timestamp": "2026-10-17T10:08:22.581Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_a295f", "message": "Job completed", "endpoint": "/api/v1/billing/status", "cart_id": "crt_6691"}
+{"timestamp": "2026-10-17T10:08:22.656Z", "level": "INFO", "service": "user-service", "trace_id": "tr_46863", "message": "Email sent", "endpoint": "/api/v1/users/register", "user_id": "usr_2300"}
+{"timestamp": "2026-10-17T10:08:23.766Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_426b2", "message": "Request processed successfully", "endpoint": "/api/v1/checkout/charge", "cart_id": "crt_7590"}
+{"timestamp": "2026-10-17T10:08:27.277Z", "level": "INFO", "service": "user-service", "trace_id": "tr_515db", "message": "Email sent", "endpoint": "/api/v1/users/usr_6735/profile", "user_id": "usr_3473"}
+{"timestamp": "2026-10-17T10:08:30.019Z", "level": "WARN", "service": "search-service", "trace_id": "tr_7b950", "message": "Latency high", "endpoint": "/api/v1/catalog/index"}
+{"timestamp": "2026-10-17T10:08:34.667Z", "level": "INFO", "service": "inventory-service", "trace_id": "tr_98264", "message": "Stock updated", "endpoint": "/api/v1/warehouse/sync"}
+{"timestamp": "2026-10-17T10:08:37.880Z", "level": "WARN", "service": "payment-gateway", "trace_id": "tr_5b034", "message": "Latency high", "endpoint": "/api/v1/billing/status", "cart_id": "crt_5436"}
+{"timestamp": "2026-10-17T10:08:42.336Z", "level": "INFO", "service": "email-service", "trace_id": "tr_3ef69", "message": "Stock updated", "endpoint": "/api/v1/email/templates"}
+{"timestamp": "2026-10-17T10:08:46.229Z", "level": "DEBUG", "service": "inventory-service", "trace_id": "tr_581f8", "message": "Cache hit", "endpoint": "/api/v1/warehouse/sync"}
+{"timestamp": "2026-10-17T10:08:51.147Z", "level": "DEBUG", "service": "search-service", "trace_id": "tr_d9c6d", "message": "Cache hit", "endpoint": "/api/v1/search?q=shoes"}
+{"timestamp": "2026-10-17T10:08:52.929Z", "level": "DEBUG", "service": "search-service", "trace_id": "tr_7df98", "message": "Cache hit", "endpoint": "/api/v1/search?q=shoes"}
+{"timestamp": "2026-10-17T10:08:52.945Z", "level": "INFO", "service": "search-service", "trace_id": "tr_26ca5", "message": "Email sent", "endpoint": "/api/v1/search?q=laptop"}
+{"timestamp": "2026-10-17T10:08:54.515Z", "level": "DEBUG", "service": "payment-gateway", "trace_id": "tr_89b90", "message": "Payload size: 450 bytes", "endpoint": "/api/v1/checkout/refund", "cart_id": "crt_3114"}
+{"timestamp": "2026-10-17T10:08:58.714Z", "level": "ERROR", "service": "search-service", "trace_id": "tr_46084", "message": "Payment rejected", "endpoint": "/api/v1/catalog/index", "error": "ConnectionRefused"}
+{"timestamp": "2026-10-17T10:08:59.830Z", "level": "WARN", "service": "payment-gateway", "trace_id": "tr_a1f52", "message": "Deprecated API used", "endpoint": "/api/v1/checkout/charge", "cart_id": "crt_9861"}
+{"timestamp": "2026-10-17T10:09:04.676Z", "level": "ERROR", "service": "email-service", "trace_id": "tr_7ed57", "message": "Service unavailable", "endpoint": "/api/v1/email/send", "error": "ConnectionRefused"}
+{"timestamp": "2026-10-17T10:09:05.948Z", "level": "INFO", "service": "inventory-service", "trace_id": "tr_ddc76", "message": "User logged in", "endpoint": "/api/v1/inventory/reserve"}
+{"timestamp": "2026-10-17T10:09:07.300Z", "level": "DEBUG", "service": "payment-gateway", "trace_id": "tr_b47a6", "message": "Cache miss", "endpoint": "/api/v1/checkout/refund", "cart_id": "crt_9354"}
+{"timestamp": "2026-10-17T10:09:11.879Z", "level": "ERROR", "service": "user-service", "trace_id": "tr_2ab81", "message": "Null pointer exception", "endpoint": "/api/v1/users/usr_1931/settings", "user_id": "usr_4697", "error": "QueryTimeoutException"}
+{"timestamp": "2026-10-17T10:09:16.157Z", "level": "INFO", "service": "email-service", "trace_id": "tr_852a2", "message": "User logged in", "endpoint": "/api/v1/email/send"}
+{"timestamp": "2026-10-17T10:09:19.646Z", "level": "INFO", "service": "inventory-service", "trace_id": "tr_1e2b2", "message": "Job completed", "endpoint": "/api/v1/inventory/reserve"}
+{"timestamp": "2026-10-17T10:09:21.938Z", "level": "INFO", "service": "auth-service", "trace_id": "tr_21923", "message": "Request processed successfully", "endpoint": "/api/v1/auth/logout", "user_id": "usr_5727"}
+{"timestamp": "2026-10-17T10:09:22.641Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_879d9", "message": "User logged in", "endpoint": "/api/v1/billing/status", "cart_id": "crt_2210"}
+{"timestamp": "2026-10-17T10:09:26.273Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_8b15c", "message": "Email sent", "endpoint": "/api/v1/billing/status", "cart_id": "crt_2007"}
+{"timestamp": "2026-10-17T10:09:29.564Z", "level": "WARN", "service": "user-service", "trace_id": "tr_9c457", "message": "Retry attempt 1", "endpoint": "/api/v1/users/register", "user_id": "usr_5780"}
+{"timestamp": "2026-10-17T10:09:31.933Z", "level": "DEBUG", "service": "user-service", "trace_id": "tr_2a989", "message": "Cache hit", "endpoint": "/api/v1/users/usr_3786/profile", "user_id": "usr_6955"}
+{"timestamp": "2026-10-17T10:09:36.358Z", "level": "INFO", "service": "search-service", "trace_id": "tr_9ce45", "message": "Request processed successfully", "endpoint": "/api/v1/search?q=laptop"}
+{"timestamp": "2026-10-17T10:09:37.201Z", "level": "INFO", "service": "user-service", "trace_id": "tr_235e1", "message": "User logged in", "endpoint": "/api/v1/users/usr_5821/settings", "user_id": "usr_2590"}
+{"timestamp": "2026-10-17T10:09:39.184Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_d26d7", "message": "Request processed successfully", "endpoint": "/api/v1/checkout/charge", "cart_id": "crt_5943"}
+{"timestamp": "2026-10-17T10:09:41.295Z", "level": "WARN", "service": "inventory-service", "trace_id": "tr_4fa0a", "message": "Latency high", "endpoint": "/api/v1/products/usr_7302/stock"}
+{"timestamp": "2026-10-17T10:09:41.503Z", "level": "ERROR", "service": "search-service", "trace_id": "tr_23831", "message": "Payment rejected", "endpoint": "/api/v1/catalog/index", "error": "NullReferenceException"}
+{"timestamp": "2026-10-17T10:09:46.387Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_b9aba", "message": "Job completed", "endpoint": "/api/v1/checkout/charge", "cart_id": "crt_6461"}
+{"timestamp": "2026-10-17T10:09:50.239Z", "level": "INFO", "service": "inventory-service", "trace_id": "tr_50f5f", "message": "User logged in", "endpoint": "/api/v1/products/usr_8558/stock"}
+{"timestamp": "2026-10-17T10:09:53.567Z", "level": "DEBUG", "service": "search-service", "trace_id": "tr_56378", "message": "Cache hit", "endpoint": "/api/v1/search?q=laptop"}
+{"timestamp": "2026-10-17T10:09:57.124Z", "level": "WARN", "service": "auth-service", "trace_id": "tr_2b985", "message": "Deprecated API used", "endpoint": "/api/v1/auth/login", "user_id": "usr_3321"}
+{"timestamp": "2026-10-17T10:10:00.963Z", "level": "DEBUG", "service": "search-service", "trace_id": "tr_b4fb5", "message": "Starting transaction", "endpoint": "/api/v1/catalog/index"}
+{"timestamp": "2026-10-17T10:10:02.402Z", "level": "INFO", "service": "user-service", "trace_id": "tr_b7739", "message": "Request processed successfully", "endpoint": "/api/v1/users/usr_6940/profile", "user_id": "usr_7945"}
+{"timestamp": "2026-10-17T10:10:04.659Z", "level": "ERROR", "service": "payment-gateway", "trace_id": "tr_d43b6", "message": "Database connection timeout", "endpoint": "/api/v1/checkout/refund", "cart_id": "crt_1586", "error": "NullReferenceException"}
+{"timestamp": "2026-10-17T10:10:06.072Z", "level": "INFO", "service": "user-service", "trace_id": "tr_6372a", "message": "Stock updated", "endpoint": "/api/v1/users/usr_4445/settings", "user_id": "usr_8341"}
+{"timestamp": "2026-10-17T10:10:09.400Z", "level": "INFO", "service": "inventory-service", "trace_id": "tr_5e010", "message": "Job completed", "endpoint": "/api/v1/inventory/reserve"}
+{"timestamp": "2026-10-17T10:10:11.496Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_326c6", "message": "Request processed successfully", "endpoint": "/api/v1/billing/status", "cart_id": "crt_5907"}
+{"timestamp": "2026-10-17T10:10:16.135Z", "level": "DEBUG", "service": "inventory-service", "trace_id": "tr_d6d9f", "message": "Cache miss", "endpoint": "/api/v1/inventory/reserve"}
+{"timestamp": "2026-10-17T10:10:20.294Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_ea792", "message": "Request processed successfully", "endpoint": "/api/v1/billing/status", "cart_id": "crt_4798"}
+{"timestamp": "2026-10-17T10:10:25.260Z", "level": "WARN", "service": "user-service", "trace_id": "tr_afe4e", "message": "Retry attempt 1", "endpoint": "/api/v1/users/usr_4282/profile", "user_id": "usr_8719"}
+{"timestamp": "2026-10-17T10:10:30.174Z", "level": "INFO", "service": "search-service", "trace_id": "tr_a6a73", "message": "Request processed successfully", "endpoint": "/api/v1/catalog/index"}
+{"timestamp": "2026-10-17T10:10:34.682Z", "level": "DEBUG", "service": "auth-service", "trace_id": "tr_e2513", "message": "Cache miss", "endpoint": "/api/v1/auth/refresh", "user_id": "usr_1792"}
+{"timestamp": "2026-10-17T10:10:35.907Z", "level": "INFO", "service": "email-service", "trace_id": "tr_d63dd", "message": "Stock updated", "endpoint": "/api/v1/email/templates"}
+{"timestamp": "2026-10-17T10:10:36.878Z", "level": "WARN", "service": "search-service", "trace_id": "tr_3e4a0", "message": "Latency high", "endpoint": "/api/v1/catalog/index"}
+{"timestamp": "2026-10-17T10:10:40.635Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_5ec0b", "message": "Job completed", "endpoint": "/api/v1/checkout/refund", "cart_id": "crt_6210"}
+{"timestamp": "2026-10-17T10:10:44.236Z", "level": "WARN", "service": "auth-service", "trace_id": "tr_aa67e", "message": "Retry attempt 1", "endpoint": "/api/v1/auth/refresh", "user_id": "usr_2717"}
+{"timestamp": "2026-10-17T10:10:44.270Z", "level": "DEBUG", "service": "inventory-service", "trace_id": "tr_dfdb0", "message": "Cache miss", "endpoint": "/api/v1/inventory/reserve"}
+{"timestamp": "2026-10-17T10:10:44.291Z", "level": "DEBUG", "service": "user-service", "trace_id": "tr_36f6e", "message": "Cache hit", "endpoint": "/api/v1/users/register", "user_id": "usr_5571"}
+{"timestamp": "2026-10-17T10:10:48.770Z", "level": "INFO", "service": "search-service", "trace_id": "tr_291c6", "message": "Stock updated", "endpoint": "/api/v1/search?q=watch"}
+{"timestamp": "2026-10-17T10:10:52.717Z", "level": "WARN", "service": "payment-gateway", "trace_id": "tr_44db1", "message": "Deprecated API used", "endpoint": "/api/v1/billing/status", "cart_id": "crt_6847"}
+{"timestamp": "2026-10-17T10:10:54.691Z", "level": "DEBUG", "service": "auth-service", "trace_id": "tr_a80b8", "message": "Cache hit", "endpoint": "/api/v1/auth/login", "user_id": "usr_9097"}
+{"timestamp": "2026-10-17T10:10:55.383Z", "level": "DEBUG", "service": "user-service", "trace_id": "tr_1929a", "message": "Payload size: 450 bytes", "endpoint": "/api/v1/users/usr_4592/settings", "user_id": "usr_9590"}
+{"timestamp": "2026-10-17T10:10:57.122Z", "level": "DEBUG", "service": "email-service", "trace_id": "tr_743fc", "message": "Payload size: 450 bytes", "endpoint": "/api/v1/email/templates"}
+{"timestamp": "2026-10-17T10:10:59.086Z", "level": "WARN", "service": "payment-gateway", "trace_id": "tr_2ee52", "message": "Retry attempt 1", "endpoint": "/api/v1/checkout/charge", "cart_id": "crt_4224"}
+{"timestamp": "2026-10-17T10:10:59.984Z", "level": "DEBUG", "service": "inventory-service", "trace_id": "tr_38812", "message": "Starting transaction", "endpoint": "/api/v1/warehouse/sync"}
+{"timestamp": "2026-10-17T10:11:04.427Z", "level": "WARN", "service": "payment-gateway", "trace_id": "tr_afc53", "message": "Rate limit approaching", "endpoint": "/api/v1/checkout/charge", "cart_id": "crt_7127"}
+{"timestamp": "2026-10-17T10:11:08.672Z", "level": "DEBUG", "service": "auth-service", "trace_id": "tr_b97d2", "message": "Starting transaction", "endpoint": "/api/v1/auth/refresh", "user_id": "usr_1636"}
+{"timestamp": "2026-10-17T10:11:13.501Z", "level": "DEBUG", "service": "user-service", "trace_id": "tr_43d9e", "message": "Cache hit", "endpoint": "/api/v1/users/register", "user_id": "usr_2195"}
+{"timestamp": "2026-10-17T10:11:13.954Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_a80fa", "message": "Request processed successfully", "endpoint": "/api/v1/checkout/refund", "cart_id": "crt_1531"}
+{"timestamp": "2026-10-17T10:11:15.182Z", "level": "ERROR", "service": "user-service", "trace_id": "tr_d1e97", "message": "Payment rejected", "endpoint": "/api/v1/users/usr_2566/profile", "user_id": "usr_8784", "error": "QueryTimeoutException"}
+{"timestamp": "2026-10-17T10:11:15.923Z", "level": "DEBUG", "service": "user-service", "trace_id": "tr_448ed", "message": "Payload size: 450 bytes", "endpoint": "/api/v1/users/register", "user_id": "usr_8496"}
+{"timestamp": "2026-10-17T10:11:18.344Z", "level": "INFO", "service": "email-service", "trace_id": "tr_89f5a", "message": "Request processed successfully", "endpoint": "/api/v1/email/templates"}
+{"timestamp": "2026-10-17T10:11:21.750Z", "level": "WARN", "service": "email-service", "trace_id": "tr_8c108", "message": "Retry attempt 1", "endpoint": "/api/v1/email/send"}
+{"timestamp": "2026-10-17T10:11:26.135Z", "level": "WARN", "service": "search-service", "trace_id": "tr_e018c", "message": "Latency high", "endpoint": "/api/v1/catalog/index"}
+{"timestamp": "2026-10-17T10:11:27.279Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_e80a6", "message": "Stock updated", "endpoint": "/api/v1/billing/status", "cart_id": "crt_1400"}
+{"timestamp": "2026-10-17T10:11:29.606Z", "level": "INFO", "service": "user-service", "trace_id": "tr_649b3", "message": "Job completed", "endpoint": "/api/v1/users/usr_9722/settings", "user_id": "usr_8585"}
+{"timestamp": "2026-10-17T10:11:32.375Z", "level": "DEBUG", "service": "email-service", "trace_id": "tr_93c94", "message": "Cache hit", "endpoint": "/api/v1/email/templates"}
+{"timestamp": "2026-10-17T10:11:36.348Z", "level": "DEBUG", "service": "payment-gateway", "trace_id": "tr_9c7de", "message": "Cache hit", "endpoint": "/api/v1/billing/status", "cart_id": "crt_3135"}
+{"timestamp": "2026-10-17T10:11:41.307Z", "level": "DEBUG", "service": "search-service", "trace_id": "tr_78960", "message": "Payload size: 450 bytes", "endpoint": "/api/v1/search?q=watch"}
+{"timestamp": "2026-10-17T10:11:44.230Z", "level": "WARN", "service": "search-service", "trace_id": "tr_6244e", "message": "Latency high", "endpoint": "/api/v1/search?q=watch"}
+{"timestamp": "2026-10-17T10:11:48.310Z", "level": "INFO", "service": "search-service", "trace_id": "tr_ad597", "message": "Stock updated", "endpoint": "/api/v1/search?q=laptop"}
+{"timestamp": "2026-10-17T10:11:52.053Z", "level": "INFO", "service": "search-service", "trace_id": "tr_c12a3", "message": "Request processed successfully", "endpoint": "/api/v1/search?q=shoes"}
+{"timestamp": "2026-10-17T10:11:56.150Z", "level": "INFO", "service": "auth-service", "trace_id": "tr_a8c59", "message": "Email sent", "endpoint": "/api/v1/auth/logout", "user_id": "usr_5622"}
+{"timestamp": "2026-10-17T10:11:59.035Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_3e784", "message": "User logged in", "endpoint": "/api/v1/checkout/charge", "cart_id": "crt_9978"}
+{"timestamp": "2026-10-17T10:12:01.155Z", "level": "DEBUG", "service": "email-service", "trace_id": "tr_7adcc", "message": "Starting transaction", "endpoint": "/api/v1/email/send"}
+{"timestamp": "2026-10-17T10:12:04.722Z", "level": "WARN", "service": "email-service", "trace_id": "tr_53118", "message": "Retry attempt 1", "endpoint": "/api/v1/email/send"}
+{"timestamp": "2026-10-17T10:12:06.284Z", "level": "WARN", "service": "email-service", "trace_id": "tr_2d32d", "message": "Rate limit approaching", "endpoint": "/api/v1/email/templates"}
+{"timestamp": "2026-10-17T10:12:09.237Z", "level": "WARN", "service": "user-service", "trace_id": "tr_32840", "message": "Retry attempt 1", "endpoint": "/api/v1/users/usr_6720/settings", "user_id": "usr_4139"}
+{"timestamp": "2026-10-17T10:12:13.577Z", "level": "INFO", "service": "email-service", "trace_id": "tr_d2db4", "message": "Stock updated", "endpoint": "/api/v1/email/templates"}
+{"timestamp": "2026-10-17T10:12:13.809Z", "level": "WARN", "service": "user-service", "trace_id": "tr_38ff4", "message": "Latency high", "endpoint": "/api/v1/users/usr_1599/profile", "user_id": "usr_4427"}
+{"timestamp": "2026-10-17T10:12:18.257Z", "level": "DEBUG", "service": "user-service", "trace_id": "tr_263d4", "message": "Cache miss", "endpoint": "/api/v1/users/usr_9414/profile", "user_id": "usr_3784"}
+{"timestamp": "2026-10-17T10:12:19.264Z", "level": "ERROR", "service": "auth-service", "trace_id": "tr_876d8", "message": "Service unavailable", "endpoint": "/api/v1/auth/logout", "user_id": "usr_9015", "error": "ConnectionRefused"}
+{"timestamp": "2026-10-17T10:12:20.925Z", "level": "ERROR", "service": "user-service", "trace_id": "tr_76b63", "message": "Payment rejected", "endpoint": "/api/v1/users/register", "user_id": "usr_7080", "error": "ConnectionRefused"}
+{"timestamp": "2026-10-17T10:12:24.477Z", "level": "INFO", "service": "search-service", "trace_id": "tr_32c89", "message": "User logged in", "endpoint": "/api/v1/search?q=laptop"}
+{"timestamp": "2026-10-17T10:12:25.780Z", "level": "WARN", "service": "auth-service", "trace_id": "tr_d360f", "message": "Rate limit approaching", "endpoint": "/api/v1/auth/logout", "user_id": "usr_8509"}
+{"timestamp": "2026-10-17T10:12:28.173Z", "level": "DEBUG", "service": "user-service", "trace_id": "tr_23fcf", "message": "Starting transaction", "endpoint": "/api/v1/users/usr_2771/settings", "user_id": "usr_7269"}
+{"timestamp": "2026-10-17T10:12:31.904Z", "level": "DEBUG", "service": "payment-gateway", "trace_id": "tr_df464", "message": "Payload size: 450 bytes", "endpoint": "/api/v1/checkout/refund", "cart_id": "crt_8448"}
+{"timestamp": "2026-10-17T10:12:32.464Z", "level": "WARN", "service": "auth-service", "trace_id": "tr_1d059", "message": "Rate limit approaching", "endpoint": "/api/v1/auth/login", "user_id": "usr_7303"}
+{"timestamp": "2026-10-17T10:12:36.091Z", "level": "ERROR", "service": "inventory-service", "trace_id": "tr_529fb", "message": "Database connection timeout", "endpoint": "/api/v1/inventory/reserve", "error": "ConnectionRefused"}
+{"timestamp": "2026-10-17T10:12:38.251Z", "level": "INFO", "service": "search-service", "trace_id": "tr_5f522", "message": "Email sent", "endpoint": "/api/v1/search?q=watch"}
+{"timestamp": "2026-10-17T10:12:42.513Z", "level": "DEBUG", "service": "search-service", "trace_id": "tr_b180c", "message": "Cache miss", "endpoint": "/api/v1/search?q=shoes"}
+{"timestamp": "2026-10-17T10:12:42.816Z", "level": "INFO", "service": "user-service", "trace_id": "tr_7abed", "message": "Stock updated", "endpoint": "/api/v1/users/usr_4321/profile", "user_id": "usr_1997"}
+{"timestamp": "2026-10-17T10:12:47.582Z", "level": "DEBUG", "service": "auth-service", "trace_id": "tr_9aa07", "message": "Cache hit", "endpoint": "/api/v1/auth/refresh", "user_id": "usr_3184"}
+{"timestamp": "2026-10-17T10:12:52.056Z", "level": "INFO", "service": "auth-service", "trace_id": "tr_c6038", "message": "Stock updated", "endpoint": "/api/v1/auth/login", "user_id": "usr_4401"}
+{"timestamp": "2026-10-17T10:12:53.626Z", "level": "INFO", "service": "inventory-service", "trace_id": "tr_44ced", "message": "Email sent", "endpoint": "/api/v1/products/usr_9619/stock"}
+{"timestamp": "2026-10-17T10:12:56.980Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_4c0f0", "message": "Job completed", "endpoint": "/api/v1/billing/status", "cart_id": "crt_9488"}
+{"timestamp": "2026-10-17T10:12:59.730Z", "level": "WARN", "service": "auth-service", "trace_id": "tr_5da96", "message": "Retry attempt 1", "endpoint": "/api/v1/auth/refresh", "user_id": "usr_2058"}
+{"timestamp": "2026-10-17T10:13:00.859Z", "level": "INFO", "service": "email-service", "trace_id": "tr_c95c2", "message": "Job completed", "endpoint": "/api/v1/email/templates"}
+{"timestamp": "2026-10-17T10:13:02.602Z", "level": "INFO", "service": "inventory-service", "trace_id": "tr_20b7f", "message": "Job completed", "endpoint": "/api/v1/warehouse/sync"}
+{"timestamp": "2026-10-17T10:13:05.925Z", "level": "INFO", "service": "email-service", "trace_id": "tr_c30d4", "message": "Request processed successfully", "endpoint": "/api/v1/email/send"}
+{"timestamp": "2026-10-17T10:13:09.003Z", "level": "WARN", "service": "auth-service", "trace_id": "tr_395bf", "message": "Latency high", "endpoint": "/api/v1/auth/login", "user_id": "usr_3660"}
+{"timestamp": "2026-10-17T10:13:10.862Z", "level": "WARN", "service": "auth-service", "trace_id": "tr_b777a", "message": "Rate limit approaching", "endpoint": "/api/v1/auth/refresh", "user_id": "usr_5606"}
+{"timestamp": "2026-10-17T10:13:13.479Z", "level": "DEBUG", "service": "search-service", "trace_id": "tr_523be", "message": "Starting transaction", "endpoint": "/api/v1/search?q=watch"}
+{"timestamp": "2026-10-17T10:13:14.144Z", "level": "INFO", "service": "search-service", "trace_id": "tr_68700", "message": "Stock updated", "endpoint": "/api/v1/search?q=laptop"}
+{"timestamp": "2026-10-17T10:13:17.120Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_52c79", "message": "Request processed successfully", "endpoint": "/api/v1/checkout/charge", "cart_id": "crt_2814"}
+{"timestamp": "2026-10-17T10:13:21.703Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_770ef", "message": "User logged in", "endpoint": "/api/v1/checkout/refund", "cart_id": "crt_3559"}
+{"timestamp": "2026-10-17T10:13:24.781Z", "level": "INFO", "service": "search-service", "trace_id": "tr_301bb", "message": "Stock updated", "endpoint": "/api/v1/search?q=watch"}
+{"timestamp": "2026-10-17T10:13:26.135Z", "level": "INFO", "service": "user-service", "trace_id": "tr_3d627", "message": "Job completed", "endpoint": "/api/v1/users/usr_2248/profile", "user_id": "usr_2840"}
+{"timestamp": "2026-10-17T10:13:29.339Z", "level": "WARN", "service": "email-service", "trace_id": "tr_72765", "message": "Latency high", "endpoint": "/api/v1/email/send"}
+{"timestamp": "2026-10-17T10:13:32.945Z", "level": "DEBUG", "service": "auth-service", "trace_id": "tr_bafc0", "message": "Cache miss", "endpoint": "/api/v1/auth/logout", "user_id": "usr_2503"}
+{"timestamp": "2026-10-17T10:13:34.563Z", "level": "INFO", "service": "search-service", "trace_id": "tr_223c2", "message": "Job completed", "endpoint": "/api/v1/catalog/index"}
+{"timestamp": "2026-10-17T10:13:36.156Z", "level": "INFO", "service": "email-service", "trace_id": "tr_2361c", "message": "User logged in", "endpoint": "/api/v1/email/templates"}
+{"timestamp": "2026-10-17T10:13:40.951Z", "level": "INFO", "service": "email-service", "trace_id": "tr_a2dc3", "message": "Email sent", "endpoint": "/api/v1/email/templates"}
+{"timestamp": "2026-10-17T10:13:44.705Z", "level": "INFO", "service": "user-service", "trace_id": "tr_730e7", "message": "Job completed", "endpoint": "/api/v1/users/register", "user_id": "usr_5342"}
+{"timestamp": "2026-10-17T10:13:46.958Z", "level": "DEBUG", "service": "auth-service", "trace_id": "tr_9f869", "message": "Starting transaction", "endpoint": "/api/v1/auth/login", "user_id": "usr_4524"}
+{"timestamp": "2026-10-17T10:13:48.764Z", "level": "INFO", "service": "user-service", "trace_id": "tr_3004b", "message": "Email sent", "endpoint": "/api/v1/users/register", "user_id": "usr_1212"}
+{"timestamp": "2026-10-17T10:13:50.581Z", "level": "INFO", "service": "email-service", "trace_id": "tr_8a259", "message": "Job completed", "endpoint": "/api/v1/email/send"}
+{"timestamp": "2026-10-17T10:13:50.706Z", "level": "WARN", "service": "payment-gateway", "trace_id": "tr_54e4b", "message": "Deprecated API used", "endpoint": "/api/v1/checkout/refund", "cart_id": "crt_6720"}
+{"timestamp": "2026-10-17T10:13:52.164Z", "level": "INFO", "service": "inventory-service", "trace_id": "tr_ec47e", "message": "Request processed successfully", "endpoint": "/api/v1/warehouse/sync"}
+{"timestamp": "2026-10-17T10:13:53.734Z", "level": "ERROR", "service": "inventory-service", "trace_id": "tr_3e91d", "message": "Service unavailable", "endpoint": "/api/v1/warehouse/sync", "error": "NullReferenceException"}
+{"timestamp": "2026-10-17T10:13:53.848Z", "level": "ERROR", "service": "search-service", "trace_id": "tr_27b48", "message": "Null pointer exception", "endpoint": "/api/v1/catalog/index", "error": "QueryTimeoutException"}
+{"timestamp": "2026-10-17T10:13:57.198Z", "level": "ERROR", "service": "user-service", "trace_id": "tr_e46be", "message": "Payment rejected", "endpoint": "/api/v1/users/usr_7144/settings", "user_id": "usr_1320", "error": "QueryTimeoutException"}
+{"timestamp": "2026-10-17T10:14:00.932Z", "level": "DEBUG", "service": "auth-service", "trace_id": "tr_71da8", "message": "Payload size: 450 bytes", "endpoint": "/api/v1/auth/logout", "user_id": "usr_5145"}
+{"timestamp": "2026-10-17T10:14:04.428Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_a9c72", "message": "Stock updated", "endpoint": "/api/v1/billing/status", "cart_id": "crt_2781"}
+{"timestamp": "2026-10-17T10:14:06.823Z", "level": "INFO", "service": "email-service", "trace_id": "tr_4537d", "message": "User logged in", "endpoint": "/api/v1/email/templates"}
+{"timestamp": "2026-10-17T10:14:08.371Z", "level": "DEBUG", "service": "inventory-service", "trace_id": "tr_e109c", "message": "Cache miss", "endpoint": "/api/v1/products/usr_3532/stock"}
+{"timestamp": "2026-10-17T10:14:09.314Z", "level": "DEBUG", "service": "payment-gateway", "trace_id": "tr_c2bac", "message": "Cache miss", "endpoint": "/api/v1/checkout/refund", "cart_id": "crt_1367"}
+{"timestamp": "2026-10-17T10:14:13.458Z", "level": "INFO", "service": "email-service", "trace_id": "tr_e18bf", "message": "Request processed successfully", "endpoint": "/api/v1/email/send"}
+{"timestamp": "2026-10-17T10:14:14.373Z", "level": "INFO", "service": "inventory-service", "trace_id": "tr_90970", "message": "Email sent", "endpoint": "/api/v1/warehouse/sync"}
+{"timestamp": "2026-10-17T10:14:18.709Z", "level": "DEBUG", "service": "user-service", "trace_id": "tr_d92c7", "message": "Cache miss", "endpoint": "/api/v1/users/usr_1119/settings", "user_id": "usr_1551"}
+{"timestamp": "2026-10-17T10:14:19.644Z", "level": "INFO", "service": "search-service", "trace_id": "tr_8f03a", "message": "Email sent", "endpoint": "/api/v1/catalog/index"}
+{"timestamp": "2026-10-17T10:14:22.861Z", "level": "WARN", "service": "user-service", "trace_id": "tr_d411c", "message": "Rate limit approaching", "endpoint": "/api/v1/users/usr_6362/settings", "user_id": "usr_4037"}
+{"timestamp": "2026-10-17T10:14:26.024Z", "level": "INFO", "service": "search-service", "trace_id": "tr_ad791", "message": "Request processed successfully", "endpoint": "/api/v1/catalog/index"}
+{"timestamp": "2026-10-17T10:14:30.498Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_323d1", "message": "Request processed successfully", "endpoint": "/api/v1/checkout/charge", "cart_id": "crt_7724"}
+{"timestamp": "2026-10-17T10:14:35.460Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_7968e", "message": "Job completed", "endpoint": "/api/v1/checkout/refund", "cart_id": "crt_7204"}
+{"timestamp": "2026-10-17T10:14:37.935Z", "level": "DEBUG", "service": "user-service", "trace_id": "tr_6f205", "message": "Starting transaction", "endpoint": "/api/v1/users/register", "user_id": "usr_5404"}
+{"timestamp": "2026-10-17T10:14:39.867Z", "level": "ERROR", "service": "search-service", "trace_id": "tr_93e03", "message": "Null pointer exception", "endpoint": "/api/v1/search?q=shoes", "error": "QueryTimeoutException"}
+{"timestamp": "2026-10-17T10:14:40.866Z", "level": "INFO", "service": "inventory-service", "trace_id": "tr_7201d", "message": "Job completed", "endpoint": "/api/v1/warehouse/sync"}
+{"timestamp": "2026-10-17T10:14:43.419Z", "level": "INFO", "service": "auth-service", "trace_id": "tr_1f0ee", "message": "Email sent", "endpoint": "/api/v1/auth/login", "user_id": "usr_1406"}
+{"timestamp": "2026-10-17T10:14:46.601Z", "level": "WARN", "service": "payment-gateway", "trace_id": "tr_c8a00", "message": "Retry attempt 1", "endpoint": "/api/v1/checkout/refund", "cart_id": "crt_9837"}
+{"timestamp": "2026-10-17T10:14:51.021Z", "level": "INFO", "service": "search-service", "trace_id": "tr_d4027", "message": "Job completed", "endpoint": "/api/v1/search?q=shoes"}
+{"timestamp": "2026-10-17T10:14:51.677Z", "level": "WARN", "service": "search-service", "trace_id": "tr_da496", "message": "Rate limit approaching", "endpoint": "/api/v1/catalog/index"}
+{"timestamp": "2026-10-17T10:14:55.706Z", "level": "INFO", "service": "email-service", "trace_id": "tr_293fd", "message": "Job completed", "endpoint": "/api/v1/email/send"}
+{"timestamp": "2026-10-17T10:14:57.055Z", "level": "DEBUG", "service": "search-service", "trace_id": "tr_708fc", "message": "Payload size: 450 bytes", "endpoint": "/api/v1/search?q=shoes"}
+{"timestamp": "2026-10-17T10:15:00.267Z", "level": "WARN", "service": "search-service", "trace_id": "tr_6e3a5", "message": "Retry attempt 1", "endpoint": "/api/v1/search?q=watch"}
+{"timestamp": "2026-10-17T10:15:04.767Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_7af39", "message": "Job completed", "endpoint": "/api/v1/checkout/refund", "cart_id": "crt_4537"}
+{"timestamp": "2026-10-17T10:15:07.495Z", "level": "ERROR", "service": "user-service", "trace_id": "tr_c6880", "message": "Payment rejected", "endpoint": "/api/v1/users/register", "user_id": "usr_8081", "error": "ConnectionRefused"}
+{"timestamp": "2026-10-17T10:15:09.867Z", "level": "ERROR", "service": "payment-gateway", "trace_id": "tr_9a7ee", "message": "Service unavailable", "endpoint": "/api/v1/billing/status", "cart_id": "crt_8414", "error": "ConnectionRefused"}
+{"timestamp": "2026-10-17T10:15:10.533Z", "level": "INFO", "service": "user-service", "trace_id": "tr_994f9", "message": "User logged in", "endpoint": "/api/v1/users/usr_2716/profile", "user_id": "usr_8643"}
+{"timestamp": "2026-10-17T10:15:14.066Z", "level": "DEBUG", "service": "inventory-service", "trace_id": "tr_8c96b", "message": "Cache hit", "endpoint": "/api/v1/warehouse/sync"}
+{"timestamp": "2026-10-17T10:15:14.833Z", "level": "INFO", "service": "search-service", "trace_id": "tr_1e7cb", "message": "User logged in", "endpoint": "/api/v1/search?q=laptop"}
+{"timestamp": "2026-10-17T10:15:17.769Z", "level": "INFO", "service": "inventory-service", "trace_id": "tr_510b0", "message": "Stock updated", "endpoint": "/api/v1/products/usr_4837/stock"}
+{"timestamp": "2026-10-17T10:15:19.463Z", "level": "DEBUG", "service": "payment-gateway", "trace_id": "tr_eee36", "message": "Cache miss", "endpoint": "/api/v1/checkout/refund", "cart_id": "crt_2543"}
+{"timestamp": "2026-10-17T10:15:23.093Z", "level": "INFO", "service": "auth-service", "trace_id": "tr_473ef", "message": "User logged in", "endpoint": "/api/v1/auth/login", "user_id": "usr_2939"}
+{"timestamp": "2026-10-17T10:15:26.052Z", "level": "INFO", "service": "inventory-service", "trace_id": "tr_cb285", "message": "Email sent", "endpoint": "/api/v1/warehouse/sync"}
+{"timestamp": "2026-10-17T10:15:26.956Z", "level": "INFO", "service": "inventory-service", "trace_id": "tr_bd41a", "message": "Request processed successfully", "endpoint": "/api/v1/inventory/reserve"}
+{"timestamp": "2026-10-17T10:15:27.246Z", "level": "WARN", "service": "inventory-service", "trace_id": "tr_585cd", "message": "Rate limit approaching", "endpoint": "/api/v1/products/usr_4529/stock"}
+{"timestamp": "2026-10-17T10:15:29.210Z", "level": "INFO", "service": "auth-service", "trace_id": "tr_9e494", "message": "Stock updated", "endpoint": "/api/v1/auth/refresh", "user_id": "usr_7359"}
+{"timestamp": "2026-10-17T10:15:31.093Z", "level": "DEBUG", "service": "auth-service", "trace_id": "tr_6698a", "message": "Starting transaction", "endpoint": "/api/v1/auth/refresh", "user_id": "usr_6675"}
+{"timestamp": "2026-10-17T10:15:34.552Z", "level": "WARN", "service": "payment-gateway", "trace_id": "tr_c30d0", "message": "Rate limit approaching", "endpoint": "/api/v1/billing/status", "cart_id": "crt_8726"}
+{"timestamp": "2026-10-17T10:15:35.852Z", "level": "WARN", "service": "email-service", "trace_id": "tr_be1df", "message": "Rate limit approaching", "endpoint": "/api/v1/email/send"}
+{"timestamp": "2026-10-17T10:15:36.929Z", "level": "ERROR", "service": "search-service", "trace_id": "tr_a82ff", "message": "Payment rejected", "endpoint": "/api/v1/catalog/index", "error": "ConnectionRefused"}
+{"timestamp": "2026-10-17T10:15:36.960Z", "level": "INFO", "service": "auth-service", "trace_id": "tr_70b57", "message": "Stock updated", "endpoint": "/api/v1/auth/logout", "user_id": "usr_1970"}
+{"timestamp": "2026-10-17T10:15:41.766Z", "level": "INFO", "service": "search-service", "trace_id": "tr_2373c", "message": "Job completed", "endpoint": "/api/v1/catalog/index"}
+{"timestamp": "2026-10-17T10:15:46.557Z", "level": "DEBUG", "service": "inventory-service", "trace_id": "tr_8eed9", "message": "Payload size: 450 bytes", "endpoint": "/api/v1/inventory/reserve"}
+{"timestamp": "2026-10-17T10:15:51.202Z", "level": "ERROR", "service": "inventory-service", "trace_id": "tr_a6691", "message": "Null pointer exception", "endpoint": "/api/v1/warehouse/sync", "error": "ConnectionRefused"}
+{"timestamp": "2026-10-17T10:15:55.091Z", "level": "INFO", "service": "email-service", "trace_id": "tr_f4034", "message": "Job completed", "endpoint": "/api/v1/email/send"}
+{"timestamp": "2026-10-17T10:15:57.262Z", "level": "INFO", "service": "email-service", "trace_id": "tr_a3457", "message": "Request processed successfully", "endpoint": "/api/v1/email/templates"}
+{"timestamp": "2026-10-17T10:15:59.820Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_2fa95", "message": "User logged in", "endpoint": "/api/v1/checkout/charge", "cart_id": "crt_2665"}
+{"timestamp": "2026-10-17T10:16:04.328Z", "level": "INFO", "service": "email-service", "trace_id": "tr_48386", "message": "Request processed successfully", "endpoint": "/api/v1/email/templates"}
+{"timestamp": "2026-10-17T10:16:08.278Z", "level": "INFO", "service": "email-service", "trace_id": "tr_2e02b", "message": "Stock updated", "endpoint": "/api/v1/email/templates"}
+{"timestamp": "2026-10-17T10:16:12.877Z", "level": "WARN", "service": "auth-service", "trace_id": "tr_4d735", "message": "Deprecated API used", "endpoint": "/api/v1/auth/refresh", "user_id": "usr_3248"}
+{"timestamp": "2026-10-17T10:16:14.783Z", "level": "WARN", "service": "inventory-service", "trace_id": "tr_ec24b", "message": "Retry attempt 1", "endpoint": "/api/v1/warehouse/sync"}
+{"timestamp": "2026-10-17T10:16:16.752Z", "level": "INFO", "service": "user-service", "trace_id": "tr_1d80c", "message": "Request processed successfully", "endpoint": "/api/v1/users/register", "user_id": "usr_7875"}
+{"timestamp": "2026-10-17T10:16:17.386Z", "level": "DEBUG", "service": "search-service", "trace_id": "tr_e94ef", "message": "Starting transaction", "endpoint": "/api/v1/catalog/index"}
+{"timestamp": "2026-10-17T10:16:19.049Z", "level": "INFO", "service": "user-service", "trace_id": "tr_bb9a5", "message": "Job completed", "endpoint": "/api/v1/users/usr_4143/profile", "user_id": "usr_1306"}
+{"timestamp": "2026-10-17T10:16:23.920Z", "level": "DEBUG", "service": "email-service", "trace_id": "tr_af7dd", "message": "Cache miss", "endpoint": "/api/v1/email/send"}
+{"timestamp": "2026-10-17T10:16:28.682Z", "level": "INFO", "service": "auth-service", "trace_id": "tr_8e598", "message": "Request processed successfully", "endpoint": "/api/v1/auth/refresh", "user_id": "usr_5591"}
+{"timestamp": "2026-10-17T10:16:28.948Z", "level": "WARN", "service": "search-service", "trace_id": "tr_2d5f6", "message": "Latency high", "endpoint": "/api/v1/catalog/index"}
+{"timestamp": "2026-10-17T10:16:33.249Z", "level": "DEBUG", "service": "search-service", "trace_id": "tr_d63f5", "message": "Payload size: 450 bytes", "endpoint": "/api/v1/catalog/index"}
+{"timestamp": "2026-10-17T10:16:35.689Z", "level": "INFO", "service": "user-service", "trace_id": "tr_3f287", "message": "Job completed", "endpoint": "/api/v1/users/usr_3915/settings", "user_id": "usr_5713"}
+{"timestamp": "2026-10-17T10:16:37.022Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_4c5b6", "message": "Job completed", "endpoint": "/api/v1/checkout/refund", "cart_id": "crt_1256"}
+{"timestamp": "2026-10-17T10:16:39.614Z", "level": "DEBUG", "service": "search-service", "trace_id": "tr_417e3", "message": "Starting transaction", "endpoint": "/api/v1/search?q=watch"}
+{"timestamp": "2026-10-17T10:16:44.352Z", "level": "ERROR", "service": "search-service", "trace_id": "tr_f1214", "message": "Null pointer exception", "endpoint": "/api/v1/catalog/index", "error": "NullReferenceException"}
+{"timestamp": "2026-10-17T10:16:49.083Z", "level": "INFO", "service": "auth-service", "trace_id": "tr_a5d36", "message": "User logged in", "endpoint": "/api/v1/auth/login", "user_id": "usr_5998"}
+{"timestamp": "2026-10-17T10:16:52.569Z", "level": "INFO", "service": "user-service", "trace_id": "tr_65018", "message": "User logged in", "endpoint": "/api/v1/users/usr_5285/settings", "user_id": "usr_4214"}
+{"timestamp": "2026-10-17T10:16:56.986Z", "level": "INFO", "service": "auth-service", "trace_id": "tr_a103d", "message": "Job completed", "endpoint": "/api/v1/auth/logout", "user_id": "usr_4844"}
+{"timestamp": "2026-10-17T10:17:01.332Z", "level": "INFO", "service": "search-service", "trace_id": "tr_ae09d", "message": "Job completed", "endpoint": "/api/v1/search?q=laptop"}
+{"timestamp": "2026-10-17T10:17:05.734Z", "level": "WARN", "service": "auth-service", "trace_id": "tr_3818b", "message": "Deprecated API used", "endpoint": "/api/v1/auth/login", "user_id": "usr_5057"}
+{"timestamp": "2026-10-17T10:17:08.345Z", "level": "INFO", "service": "inventory-service", "trace_id": "tr_2921b", "message": "Email sent", "endpoint": "/api/v1/inventory/reserve"}
+{"timestamp": "2026-10-17T10:17:09.964Z", "level": "DEBUG", "service": "email-service", "trace_id": "tr_ad15f", "message": "Cache hit", "endpoint": "/api/v1/email/send"}
+{"timestamp": "2026-10-17T10:17:10.450Z", "level": "INFO", "service": "user-service", "trace_id": "tr_61925", "message": "User logged in", "endpoint": "/api/v1/users/register", "user_id": "usr_3904"}
+{"timestamp": "2026-10-17T10:17:14.187Z", "level": "INFO", "service": "search-service", "trace_id": "tr_d851a", "message": "Request processed successfully", "endpoint": "/api/v1/search?q=shoes"}
+{"timestamp": "2026-10-17T10:17:18.262Z", "level": "INFO", "service": "search-service", "trace_id": "tr_c0bae", "message": "Email sent", "endpoint": "/api/v1/catalog/index"}
+{"timestamp": "2026-10-17T10:17:19.388Z", "level": "INFO", "service": "user-service", "trace_id": "tr_b98aa", "message": "Request processed successfully", "endpoint": "/api/v1/users/register", "user_id": "usr_6690"}
+{"timestamp": "2026-10-17T10:17:22.253Z", "level": "INFO", "service": "search-service", "trace_id": "tr_4bc4f", "message": "User logged in", "endpoint": "/api/v1/catalog/index"}
+{"timestamp": "2026-10-17T10:17:22.900Z", "level": "INFO", "service": "inventory-service", "trace_id": "tr_d91e6", "message": "User logged in", "endpoint": "/api/v1/inventory/reserve"}
+{"timestamp": "2026-10-17T10:17:26.831Z", "level": "ERROR", "service": "inventory-service", "trace_id": "tr_c70ca", "message": "Null pointer exception", "endpoint": "/api/v1/products/usr_8887/stock", "error": "QueryTimeoutException"}
+{"timestamp": "2026-10-17T10:17:29.748Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_22881", "message": "Email sent", "endpoint": "/api/v1/billing/status", "cart_id": "crt_4825"}
+{"timestamp": "2026-10-17T10:17:33.308Z", "level": "WARN", "service": "auth-service", "trace_id": "tr_520e6", "message": "Deprecated API used", "endpoint": "/api/v1/auth/login", "user_id": "usr_9408"}
+{"timestamp": "2026-10-17T10:17:35.825Z", "level": "DEBUG", "service": "payment-gateway", "trace_id": "tr_22917", "message": "Cache miss", "endpoint": "/api/v1/checkout/refund", "cart_id": "crt_6722"}
+{"timestamp": "2026-10-17T10:17:40.103Z", "level": "INFO", "service": "inventory-service", "trace_id": "tr_bc238", "message": "Stock updated", "endpoint": "/api/v1/warehouse/sync"}
+{"timestamp": "2026-10-17T10:17:45.024Z", "level": "INFO", "service": "email-service", "trace_id": "tr_5e333", "message": "Request processed successfully", "endpoint": "/api/v1/email/templates"}
+{"timestamp": "2026-10-17T10:17:49.327Z", "level": "DEBUG", "service": "inventory-service", "trace_id": "tr_88974", "message": "Payload size: 450 bytes", "endpoint": "/api/v1/products/usr_4043/stock"}
+{"timestamp": "2026-10-17T10:17:49.630Z", "level": "DEBUG", "service": "auth-service", "trace_id": "tr_d7b7b", "message": "Payload size: 450 bytes", "endpoint": "/api/v1/auth/login", "user_id": "usr_4243"}
+{"timestamp": "2026-10-17T10:17:51.983Z", "level": "ERROR", "service": "auth-service", "trace_id": "tr_b117e", "message": "Database connection timeout", "endpoint": "/api/v1/auth/login", "user_id": "usr_4672", "error": "QueryTimeoutException"}
+{"timestamp": "2026-10-17T10:17:54.091Z", "level": "INFO", "service": "email-service", "trace_id": "tr_83753", "message": "Request processed successfully", "endpoint": "/api/v1/email/send"}
+{"timestamp": "2026-10-17T10:17:54.647Z", "level": "INFO", "service": "user-service", "trace_id": "tr_96bb8", "message": "Request processed successfully", "endpoint": "/api/v1/users/register", "user_id": "usr_6758"}
+{"timestamp": "2026-10-17T10:17:59.029Z", "level": "INFO", "service": "search-service", "trace_id": "tr_2320b", "message": "User logged in", "endpoint": "/api/v1/catalog/index"}
+{"timestamp": "2026-10-17T10:18:02.464Z", "level": "INFO", "service": "auth-service", "trace_id": "tr_32ddb", "message": "Stock updated", "endpoint": "/api/v1/auth/login", "user_id": "usr_7320"}
+{"timestamp": "2026-10-17T10:18:07.289Z", "level": "INFO", "service": "user-service", "trace_id": "tr_b1979", "message": "User logged in", "endpoint": "/api/v1/users/register", "user_id": "usr_6515"}
+{"timestamp": "2026-10-17T10:18:11.501Z", "level": "INFO", "service": "auth-service", "trace_id": "tr_a6c19", "message": "User logged in", "endpoint": "/api/v1/auth/login", "user_id": "usr_6892"}
+{"timestamp": "2026-10-17T10:18:12.133Z", "level": "INFO", "service": "auth-service", "trace_id": "tr_39282", "message": "Request processed successfully", "endpoint": "/api/v1/auth/refresh", "user_id": "usr_6365"}
+{"timestamp": "2026-10-17T10:18:13.717Z", "level": "DEBUG", "service": "inventory-service", "trace_id": "tr_7c6f2", "message": "Cache miss", "endpoint": "/api/v1/inventory/reserve"}
+{"timestamp": "2026-10-17T10:18:15.702Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_647fc", "message": "Request processed successfully", "endpoint": "/api/v1/checkout/charge", "cart_id": "crt_5785"}
+{"timestamp": "2026-10-17T10:18:17.938Z", "level": "INFO", "service": "email-service", "trace_id": "tr_400bd", "message": "Request processed successfully", "endpoint": "/api/v1/email/send"}
+{"timestamp": "2026-10-17T10:18:18.622Z", "level": "INFO", "service": "email-service", "trace_id": "tr_f3ade", "message": "Job completed", "endpoint": "/api/v1/email/send"}
+{"timestamp": "2026-10-17T10:18:18.974Z", "level": "WARN", "service": "search-service", "trace_id": "tr_1d171", "message": "Rate limit approaching", "endpoint": "/api/v1/catalog/index"}
+{"timestamp": "2026-10-17T10:18:20.522Z", "level": "DEBUG", "service": "user-service", "trace_id": "tr_da6ab", "message": "Cache hit", "endpoint": "/api/v1/users/register", "user_id": "usr_7235"}
+{"timestamp": "2026-10-17T10:18:21.039Z", "level": "INFO", "service": "email-service", "trace_id": "tr_7fffa", "message": "User logged in", "endpoint": "/api/v1/email/templates"}
+{"timestamp": "2026-10-17T10:18:22.138Z", "level": "INFO", "service": "auth-service", "trace_id": "tr_b6ebf", "message": "User logged in", "endpoint": "/api/v1/auth/refresh", "user_id": "usr_8449"}
+{"timestamp": "2026-10-17T10:18:22.225Z", "level": "INFO", "service": "user-service", "trace_id": "tr_5bd0a", "message": "Job completed", "endpoint": "/api/v1/users/usr_4294/profile", "user_id": "usr_3960"}
+{"timestamp": "2026-10-17T10:18:26.859Z", "level": "WARN", "service": "payment-gateway", "trace_id": "tr_67f2b", "message": "Retry attempt 1", "endpoint": "/api/v1/checkout/refund", "cart_id": "crt_3413"}
+{"timestamp": "2026-10-17T10:18:27.263Z", "level": "WARN", "service": "user-service", "trace_id": "tr_6d69a", "message": "Rate limit approaching", "endpoint": "/api/v1/users/usr_3430/settings", "user_id": "usr_8922"}
+{"timestamp": "2026-10-17T10:18:29.841Z", "level": "INFO", "service": "search-service", "trace_id": "tr_9edb6", "message": "Job completed", "endpoint": "/api/v1/search?q=shoes"}
+{"timestamp": "2026-10-17T10:18:33.269Z", "level": "WARN", "service": "user-service", "trace_id": "tr_b4fb6", "message": "Latency high", "endpoint": "/api/v1/users/usr_9120/profile", "user_id": "usr_2006"}
+{"timestamp": "2026-10-17T10:18:37.314Z", "level": "WARN", "service": "inventory-service", "trace_id": "tr_25e85", "message": "Latency high", "endpoint": "/api/v1/products/usr_6308/stock"}
+{"timestamp": "2026-10-17T10:18:40.279Z", "level": "WARN", "service": "inventory-service", "trace_id": "tr_7097f", "message": "Rate limit approaching", "endpoint": "/api/v1/inventory/reserve"}
+{"timestamp": "2026-10-17T10:18:41.733Z", "level": "INFO", "service": "user-service", "trace_id": "tr_35a8c", "message": "Email sent", "endpoint": "/api/v1/users/usr_3339/settings", "user_id": "usr_4776"}
+{"timestamp": "2026-10-17T10:18:45.155Z", "level": "DEBUG", "service": "user-service", "trace_id": "tr_a2568", "message": "Payload size: 450 bytes", "endpoint": "/api/v1/users/register", "user_id": "usr_9707"}
+{"timestamp": "2026-10-17T10:18:46.521Z", "level": "WARN", "service": "inventory-service", "trace_id": "tr_8d2d0", "message": "Rate limit approaching", "endpoint": "/api/v1/inventory/reserve"}
+{"timestamp": "2026-10-17T10:18:47.308Z", "level": "WARN", "service": "email-service", "trace_id": "tr_5abe5", "message": "Latency high", "endpoint": "/api/v1/email/templates"}
+{"timestamp": "2026-10-17T10:18:52.290Z", "level": "INFO", "service": "inventory-service", "trace_id": "tr_e6a78", "message": "Email sent", "endpoint": "/api/v1/warehouse/sync"}
+{"timestamp": "2026-10-17T10:18:54.245Z", "level": "ERROR", "service": "user-service", "trace_id": "tr_a4b46", "message": "Database connection timeout", "endpoint": "/api/v1/users/register", "user_id": "usr_2045", "error": "QueryTimeoutException"}
+{"timestamp": "2026-10-17T10:18:56.254Z", "level": "INFO", "service": "search-service", "trace_id": "tr_ab9fb", "message": "Request processed successfully", "endpoint": "/api/v1/catalog/index"}
+{"timestamp": "2026-10-17T10:18:56.533Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_d289c", "message": "Email sent", "endpoint": "/api/v1/checkout/charge", "cart_id": "crt_5148"}
+{"timestamp": "2026-10-17T10:18:58.280Z", "level": "DEBUG", "service": "email-service", "trace_id": "tr_275b0", "message": "Cache miss", "endpoint": "/api/v1/email/send"}
+{"timestamp": "2026-10-17T10:18:58.477Z", "level": "ERROR", "service": "search-service", "trace_id": "tr_8e9e0", "message": "Database connection timeout", "endpoint": "/api/v1/search?q=shoes", "error": "NullReferenceException"}
+{"timestamp": "2026-10-17T10:19:00.452Z", "level": "WARN", "service": "payment-gateway", "trace_id": "tr_cc340", "message": "Rate limit approaching", "endpoint": "/api/v1/checkout/refund", "cart_id": "crt_5300"}
+{"timestamp": "2026-10-17T10:19:02.568Z", "level": "WARN", "service": "email-service", "trace_id": "tr_63b87", "message": "Deprecated API used", "endpoint": "/api/v1/email/templates"}
+{"timestamp": "2026-10-17T10:19:06.798Z", "level": "WARN", "service": "inventory-service", "trace_id": "tr_2d85e", "message": "Latency high", "endpoint": "/api/v1/products/usr_4531/stock"}
+{"timestamp": "2026-10-17T10:19:11.588Z", "level": "DEBUG", "service": "search-service", "trace_id": "tr_60d82", "message": "Cache miss", "endpoint": "/api/v1/search?q=watch"}
+{"timestamp": "2026-10-17T10:19:12.428Z", "level": "INFO", "service": "email-service", "trace_id": "tr_d4893", "message": "Job completed", "endpoint": "/api/v1/email/send"}
+{"timestamp": "2026-10-17T10:19:14.515Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_ac7c2", "message": "Stock updated", "endpoint": "/api/v1/checkout/charge", "cart_id": "crt_8913"}
+{"timestamp": "2026-10-17T10:19:17.728Z", "level": "INFO", "service": "user-service", "trace_id": "tr_79973", "message": "Email sent", "endpoint": "/api/v1/users/register", "user_id": "usr_5446"}
+{"timestamp": "2026-10-17T10:19:17.964Z", "level": "INFO", "service": "auth-service", "trace_id": "tr_b405d", "message": "Stock updated", "endpoint": "/api/v1/auth/refresh", "user_id": "usr_5848"}
+{"timestamp": "2026-10-17T10:19:18.198Z", "level": "DEBUG", "service": "inventory-service", "trace_id": "tr_34d6a", "message": "Cache hit", "endpoint": "/api/v1/products/usr_8140/stock"}
+{"timestamp": "2026-10-17T10:19:18.584Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_99760", "message": "User logged in", "endpoint": "/api/v1/billing/status", "cart_id": "crt_8177"}
+{"timestamp": "2026-10-17T10:19:22.679Z", "level": "ERROR", "service": "email-service", "trace_id": "tr_3851a", "message": "Database connection timeout", "endpoint": "/api/v1/email/templates", "error": "QueryTimeoutException"}
+{"timestamp": "2026-10-17T10:19:25.541Z", "level": "INFO", "service": "auth-service", "trace_id": "tr_2a254", "message": "Request processed successfully", "endpoint": "/api/v1/auth/login", "user_id": "usr_3530"}
+{"timestamp": "2026-10-17T10:19:25.685Z", "level": "INFO", "service": "email-service", "trace_id": "tr_7af6c", "message": "Job completed", "endpoint": "/api/v1/email/send"}
+{"timestamp": "2026-10-17T10:19:27.868Z", "level": "WARN", "service": "auth-service", "trace_id": "tr_b288a", "message": "Retry attempt 1", "endpoint": "/api/v1/auth/refresh", "user_id": "usr_1064"}
+{"timestamp": "2026-10-17T10:19:32.243Z", "level": "DEBUG", "service": "email-service", "trace_id": "tr_1b79b", "message": "Cache hit", "endpoint": "/api/v1/email/send"}
+{"timestamp": "2026-10-17T10:19:33.272Z", "level": "WARN", "service": "user-service", "trace_id": "tr_f2ab3", "message": "Deprecated API used", "endpoint": "/api/v1/users/usr_2399/profile", "user_id": "usr_2577"}
+{"timestamp": "2026-10-17T10:19:34.901Z", "level": "DEBUG", "service": "inventory-service", "trace_id": "tr_9f77c", "message": "Payload size: 450 bytes", "endpoint": "/api/v1/warehouse/sync"}
+{"timestamp": "2026-10-17T10:19:38.169Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_5cc58", "message": "User logged in", "endpoint": "/api/v1/checkout/refund", "cart_id": "crt_1342"}
+{"timestamp": "2026-10-17T10:19:42.945Z", "level": "DEBUG", "service": "auth-service", "trace_id": "tr_cc838", "message": "Cache hit", "endpoint": "/api/v1/auth/logout", "user_id": "usr_2079"}
+{"timestamp": "2026-10-17T10:19:43.633Z", "level": "INFO", "service": "email-service", "trace_id": "tr_e4534", "message": "Email sent", "endpoint": "/api/v1/email/send"}
+{"timestamp": "2026-10-17T10:19:44.226Z", "level": "WARN", "service": "auth-service", "trace_id": "tr_1ee6e", "message": "Deprecated API used", "endpoint": "/api/v1/auth/login", "user_id": "usr_6157"}
+{"timestamp": "2026-10-17T10:19:49.161Z", "level": "DEBUG", "service": "payment-gateway", "trace_id": "tr_78f87", "message": "Starting transaction", "endpoint": "/api/v1/billing/status", "cart_id": "crt_1570"}
+{"timestamp": "2026-10-17T10:19:52.236Z", "level": "DEBUG", "service": "inventory-service", "trace_id": "tr_a42da", "message": "Cache miss", "endpoint": "/api/v1/warehouse/sync"}
+{"timestamp": "2026-10-17T10:19:55.248Z", "level": "INFO", "service": "search-service", "trace_id": "tr_603b8", "message": "Stock updated", "endpoint": "/api/v1/catalog/index"}
+{"timestamp": "2026-10-17T10:19:55.666Z", "level": "INFO", "service": "user-service", "trace_id": "tr_ad5db", "message": "User logged in", "endpoint": "/api/v1/users/usr_4791/profile", "user_id": "usr_9313"}
+{"timestamp": "2026-10-17T10:19:57.451Z", "level": "DEBUG", "service": "payment-gateway", "trace_id": "tr_bb9ba", "message": "Payload size: 450 bytes", "endpoint": "/api/v1/billing/status", "cart_id": "crt_4380"}
+{"timestamp": "2026-10-17T10:20:01.311Z", "level": "INFO", "service": "auth-service", "trace_id": "tr_59a9f", "message": "Request processed successfully", "endpoint": "/api/v1/auth/logout", "user_id": "usr_8188"}
+{"timestamp": "2026-10-17T10:20:03.135Z", "level": "INFO", "service": "inventory-service", "trace_id": "tr_35792", "message": "Job completed", "endpoint": "/api/v1/warehouse/sync"}
+{"timestamp": "2026-10-17T10:20:06.972Z", "level": "INFO", "service": "inventory-service", "trace_id": "tr_b8fda", "message": "Job completed", "endpoint": "/api/v1/warehouse/sync"}
+{"timestamp": "2026-10-17T10:20:10.763Z", "level": "INFO", "service": "auth-service", "trace_id": "tr_ad09a", "message": "User logged in", "endpoint": "/api/v1/auth/refresh", "user_id": "usr_3999"}
+{"timestamp": "2026-10-17T10:20:12.755Z", "level": "ERROR", "service": "inventory-service", "trace_id": "tr_97913", "message": "Database connection timeout", "endpoint": "/api/v1/warehouse/sync", "error": "NullReferenceException"}
+{"timestamp": "2026-10-17T10:20:15.893Z", "level": "DEBUG", "service": "email-service", "trace_id": "tr_a1a96", "message": "Cache miss", "endpoint": "/api/v1/email/templates"}
+{"timestamp": "2026-10-17T10:20:17.171Z", "level": "WARN", "service": "search-service", "trace_id": "tr_afd7e", "message": "Rate limit approaching", "endpoint": "/api/v1/catalog/index"}
+{"timestamp": "2026-10-17T10:20:21.817Z", "level": "ERROR", "service": "email-service", "trace_id": "tr_f3263", "message": "Service unavailable", "endpoint": "/api/v1/email/templates", "error": "ConnectionRefused"}
+{"timestamp": "2026-10-17T10:20:22.790Z", "level": "DEBUG", "service": "email-service", "trace_id": "tr_cc585", "message": "Starting transaction", "endpoint": "/api/v1/email/send"}
+{"timestamp": "2026-10-17T10:20:27.449Z", "level": "INFO", "service": "inventory-service", "trace_id": "tr_648fd", "message": "Stock updated", "endpoint": "/api/v1/warehouse/sync"}
+{"timestamp": "2026-10-17T10:20:30.840Z", "level": "INFO", "service": "user-service", "trace_id": "tr_cebd3", "message": "Email sent", "endpoint": "/api/v1/users/register", "user_id": "usr_1816"}
+{"timestamp": "2026-10-17T10:20:34.401Z", "level": "ERROR", "service": "email-service", "trace_id": "tr_7eeda", "message": "Payment rejected", "endpoint": "/api/v1/email/templates", "error": "ConnectionRefused"}
+{"timestamp": "2026-10-17T10:20:36.082Z", "level": "ERROR", "service": "payment-gateway", "trace_id": "tr_73399", "message": "Database connection timeout", "endpoint": "/api/v1/checkout/charge", "cart_id": "crt_8009", "error": "ConnectionRefused"}
+{"timestamp": "2026-10-17T10:20:39.188Z", "level": "DEBUG", "service": "auth-service", "trace_id": "tr_e149b", "message": "Cache miss", "endpoint": "/api/v1/auth/login", "user_id": "usr_9158"}
+{"timestamp": "2026-10-17T10:20:43.978Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_cba76", "message": "Stock updated", "endpoint": "/api/v1/checkout/charge", "cart_id": "crt_6887"}
+{"timestamp": "2026-10-17T10:20:48.000Z", "level": "INFO", "service": "inventory-service", "trace_id": "tr_ea3e2", "message": "Email sent", "endpoint": "/api/v1/inventory/reserve"}
+{"timestamp": "2026-10-17T10:20:49.749Z", "level": "DEBUG", "service": "user-service", "trace_id": "tr_7230b", "message": "Starting transaction", "endpoint": "/api/v1/users/usr_2339/profile", "user_id": "usr_5407"}
+{"timestamp": "2026-10-17T10:20:52.143Z", "level": "INFO", "service": "user-service", "trace_id": "tr_64c2b", "message": "Job completed", "endpoint": "/api/v1/users/usr_5601/profile", "user_id": "usr_4274"}
+{"timestamp": "2026-10-17T10:20:52.352Z", "level": "DEBUG", "service": "inventory-service", "trace_id": "tr_bfbdf", "message": "Cache miss", "endpoint": "/api/v1/inventory/reserve"}
+{"timestamp": "2026-10-17T10:20:55.256Z", "level": "DEBUG", "service": "auth-service", "trace_id": "tr_a9fdf", "message": "Payload size: 450 bytes", "endpoint": "/api/v1/auth/login", "user_id": "usr_3455"}
+{"timestamp": "2026-10-17T10:20:55.295Z", "level": "WARN", "service": "user-service", "trace_id": "tr_5beb5", "message": "Rate limit approaching", "endpoint": "/api/v1/users/register", "user_id": "usr_5563"}
+{"timestamp": "2026-10-17T10:20:59.498Z", "level": "DEBUG", "service": "inventory-service", "trace_id": "tr_553d7", "message": "Payload size: 450 bytes", "endpoint": "/api/v1/products/usr_2989/stock"}
+{"timestamp": "2026-10-17T10:21:00.442Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_dd5a1", "message": "User logged in", "endpoint": "/api/v1/billing/status", "cart_id": "crt_4796"}
+{"timestamp": "2026-10-17T10:21:01.906Z", "level": "DEBUG", "service": "search-service", "trace_id": "tr_86e13", "message": "Starting transaction", "endpoint": "/api/v1/catalog/index"}
+{"timestamp": "2026-10-17T10:21:02.662Z", "level": "DEBUG", "service": "inventory-service", "trace_id": "tr_b8b61", "message": "Cache miss", "endpoint": "/api/v1/products/usr_9576/stock"}
+{"timestamp": "2026-10-17T10:21:06.030Z", "level": "DEBUG", "service": "payment-gateway", "trace_id": "tr_f2e16", "message": "Cache hit", "endpoint": "/api/v1/checkout/charge", "cart_id": "crt_1251"}
+{"timestamp": "2026-10-17T10:21:06.110Z", "level": "INFO", "service": "user-service", "trace_id": "tr_8edcf", "message": "Email sent", "endpoint": "/api/v1/users/usr_3200/settings", "user_id": "usr_1216"}
+{"timestamp": "2026-10-17T10:21:10.579Z", "level": "ERROR", "service": "payment-gateway", "trace_id": "tr_91298", "message": "Payment rejected", "endpoint": "/api/v1/billing/status", "cart_id": "crt_3144", "error": "NullReferenceException"}
+{"timestamp": "2026-10-17T10:21:12.002Z", "level": "DEBUG", "service": "inventory-service", "trace_id": "tr_8e0aa", "message": "Payload size: 450 bytes", "endpoint": "/api/v1/inventory/reserve"}
+{"timestamp": "2026-10-17T10:21:13.793Z", "level": "WARN", "service": "inventory-service", "trace_id": "tr_82d82", "message": "Retry attempt 1", "endpoint": "/api/v1/inventory/reserve"}
+{"timestamp": "2026-10-17T10:21:14.452Z", "level": "INFO", "service": "inventory-service", "trace_id": "tr_c06b7", "message": "Stock updated", "endpoint": "/api/v1/products/usr_6031/stock"}
+{"timestamp": "2026-10-17T10:21:17.060Z", "level": "DEBUG", "service": "inventory-service", "trace_id": "tr_80c03", "message": "Payload size: 450 bytes", "endpoint": "/api/v1/products/usr_1219/stock"}
+{"timestamp": "2026-10-17T10:21:19.848Z", "level": "INFO", "service": "email-service", "trace_id": "tr_6cf20", "message": "User logged in", "endpoint": "/api/v1/email/send"}
+{"timestamp": "2026-10-17T10:21:21.364Z", "level": "WARN", "service": "inventory-service", "trace_id": "tr_5ac1f", "message": "Latency high", "endpoint": "/api/v1/products/usr_5357/stock"}
+{"timestamp": "2026-10-17T10:21:22.386Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_ec143", "message": "Request processed successfully", "endpoint": "/api/v1/checkout/refund", "cart_id": "crt_1399"}
+{"timestamp": "2026-10-17T10:21:24.966Z", "level": "DEBUG", "service": "user-service", "trace_id": "tr_c445a", "message": "Cache hit", "endpoint": "/api/v1/users/register", "user_id": "usr_7432"}
+{"timestamp": "2026-10-17T10:21:28.150Z", "level": "INFO", "service": "search-service", "trace_id": "tr_6bb79", "message": "Email sent", "endpoint": "/api/v1/search?q=watch"}
+{"timestamp": "2026-10-17T10:21:31.598Z", "level": "INFO", "service": "inventory-service", "trace_id": "tr_db670", "message": "Request processed successfully", "endpoint": "/api/v1/inventory/reserve"}
+{"timestamp": "2026-10-17T10:21:34.905Z", "level": "WARN", "service": "inventory-service", "trace_id": "tr_3de64", "message": "Retry attempt 1", "endpoint": "/api/v1/inventory/reserve"}
+{"timestamp": "2026-10-17T10:21:39.707Z", "level": "INFO", "service": "inventory-service", "trace_id": "tr_2b363", "message": "Request processed successfully", "endpoint": "/api/v1/inventory/reserve"}
+{"timestamp": "2026-10-17T10:21:42.320Z", "level": "WARN", "service": "user-service", "trace_id": "tr_86b39", "message": "Rate limit approaching", "endpoint": "/api/v1/users/register", "user_id": "usr_4971"}
+{"timestamp": "2026-10-17T10:21:42.840Z", "level": "INFO", "service": "auth-service", "trace_id": "tr_5ffbf", "message": "Request processed successfully", "endpoint": "/api/v1/auth/refresh", "user_id": "usr_5563"}
+{"timestamp": "2026-10-17T10:21:43.242Z", "level": "INFO", "service": "user-service", "trace_id": "tr_7cd71", "message": "Email sent", "endpoint": "/api/v1/users/usr_3742/settings", "user_id": "usr_5682"}
+{"timestamp": "2026-10-17T10:21:46.029Z", "level": "INFO", "service": "inventory-service", "trace_id": "tr_aeac1", "message": "Job completed", "endpoint": "/api/v1/inventory/reserve"}
+{"timestamp": "2026-10-17T10:21:46.977Z", "level": "INFO", "service": "inventory-service", "trace_id": "tr_9c663", "message": "Stock updated", "endpoint": "/api/v1/warehouse/sync"}
+{"timestamp": "2026-10-17T10:21:51.159Z", "level": "DEBUG", "service": "payment-gateway", "trace_id": "tr_cb769", "message": "Cache miss", "endpoint": "/api/v1/billing/status", "cart_id": "crt_3173"}
+{"timestamp": "2026-10-17T10:21:53.781Z", "level": "WARN", "service": "inventory-service", "trace_id": "tr_354c3", "message": "Rate limit approaching", "endpoint": "/api/v1/inventory/reserve"}
+{"timestamp": "2026-10-17T10:21:57.173Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_94641", "message": "User logged in", "endpoint": "/api/v1/billing/status", "cart_id": "crt_3137"}
+{"timestamp": "2026-10-17T10:22:00.822Z", "level": "INFO", "service": "email-service", "trace_id": "tr_2fd20", "message": "Email sent", "endpoint": "/api/v1/email/send"}
+{"timestamp": "2026-10-17T10:22:02.620Z", "level": "DEBUG", "service": "payment-gateway", "trace_id": "tr_b914c", "message": "Cache hit", "endpoint": "/api/v1/checkout/refund", "cart_id": "crt_2683"}
+{"timestamp": "2026-10-17T10:22:04.962Z", "level": "INFO", "service": "auth-service", "trace_id": "tr_cba19", "message": "Request processed successfully", "endpoint": "/api/v1/auth/logout", "user_id": "usr_6564"}
+{"timestamp": "2026-10-17T10:22:06.075Z", "level": "DEBUG", "service": "auth-service", "trace_id": "tr_cf9e8", "message": "Cache hit", "endpoint": "/api/v1/auth/refresh", "user_id": "usr_7404"}
+{"timestamp": "2026-10-17T10:22:10.256Z", "level": "DEBUG", "service": "inventory-service", "trace_id": "tr_8d5b4", "message": "Payload size: 450 bytes", "endpoint": "/api/v1/warehouse/sync"}
+{"timestamp": "2026-10-17T10:22:13.331Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_a377b", "message": "Request processed successfully", "endpoint": "/api/v1/checkout/charge", "cart_id": "crt_4653"}
+{"timestamp": "2026-10-17T10:22:16.343Z", "level": "DEBUG", "service": "inventory-service", "trace_id": "tr_55df6", "message": "Cache miss", "endpoint": "/api/v1/inventory/reserve"}
+{"timestamp": "2026-10-17T10:22:18.470Z", "level": "WARN", "service": "payment-gateway", "trace_id": "tr_e65dc", "message": "Latency high", "endpoint": "/api/v1/billing/status", "cart_id": "crt_2439"}
+{"timestamp": "2026-10-17T10:22:22.495Z", "level": "DEBUG", "service": "search-service", "trace_id": "tr_75346", "message": "Payload size: 450 bytes", "endpoint": "/api/v1/search?q=watch"}
+{"timestamp": "2026-10-17T10:22:25.942Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_9c7d4", "message": "Request processed successfully", "endpoint": "/api/v1/billing/status", "cart_id": "crt_6816"}
+{"timestamp": "2026-10-17T10:22:26.729Z", "level": "INFO", "service": "auth-service", "trace_id": "tr_36dbd", "message": "User logged in", "endpoint": "/api/v1/auth/logout", "user_id": "usr_3714"}
+{"timestamp": "2026-10-17T10:22:31.669Z", "level": "DEBUG", "service": "auth-service", "trace_id": "tr_dddd3", "message": "Cache hit", "endpoint": "/api/v1/auth/login", "user_id": "usr_9418"}
+{"timestamp": "2026-10-17T10:22:32.239Z", "level": "DEBUG", "service": "user-service", "trace_id": "tr_e8e22", "message": "Cache hit", "endpoint": "/api/v1/users/usr_2234/profile", "user_id": "usr_8438"}
+{"timestamp": "2026-10-17T10:22:36.493Z", "level": "INFO", "service": "inventory-service", "trace_id": "tr_461f7", "message": "Request processed successfully", "endpoint": "/api/v1/inventory/reserve"}
+{"timestamp": "2026-10-17T10:22:41.153Z", "level": "DEBUG", "service": "payment-gateway", "trace_id": "tr_3f279", "message": "Payload size: 450 bytes", "endpoint": "/api/v1/billing/status", "cart_id": "crt_3058"}
+{"timestamp": "2026-10-17T10:22:44.786Z", "level": "INFO", "service": "search-service", "trace_id": "tr_24f3a", "message": "User logged in", "endpoint": "/api/v1/search?q=shoes"}
+{"timestamp": "2026-10-17T10:22:45.338Z", "level": "WARN", "service": "search-service", "trace_id": "tr_995da", "message": "Deprecated API used", "endpoint": "/api/v1/search?q=watch"}
+{"timestamp": "2026-10-17T10:22:45.671Z", "level": "DEBUG", "service": "payment-gateway", "trace_id": "tr_19088", "message": "Cache miss", "endpoint": "/api/v1/checkout/refund", "cart_id": "crt_5881"}
+{"timestamp": "2026-10-17T10:22:49.767Z", "level": "INFO", "service": "search-service", "trace_id": "tr_3db38", "message": "User logged in", "endpoint": "/api/v1/catalog/index"}
+{"timestamp": "2026-10-17T10:22:52.338Z", "level": "WARN", "service": "payment-gateway", "trace_id": "tr_3bf8c", "message": "Rate limit approaching", "endpoint": "/api/v1/billing/status", "cart_id": "crt_5863"}
+{"timestamp": "2026-10-17T10:22:56.884Z", "level": "INFO", "service": "auth-service", "trace_id": "tr_d0378", "message": "Request processed successfully", "endpoint": "/api/v1/auth/logout", "user_id": "usr_3982"}
+{"timestamp": "2026-10-17T10:22:58.609Z", "level": "DEBUG", "service": "search-service", "trace_id": "tr_c267e", "message": "Starting transaction", "endpoint": "/api/v1/search?q=laptop"}
+{"timestamp": "2026-10-17T10:23:03.495Z", "level": "INFO", "service": "auth-service", "trace_id": "tr_28748", "message": "Email sent", "endpoint": "/api/v1/auth/login", "user_id": "usr_2104"}
+{"timestamp": "2026-10-17T10:23:05.085Z", "level": "DEBUG", "service": "auth-service", "trace_id": "tr_7191a", "message": "Payload size: 450 bytes", "endpoint": "/api/v1/auth/login", "user_id": "usr_8380"}
+{"timestamp": "2026-10-17T10:23:09.127Z", "level": "WARN", "service": "search-service", "trace_id": "tr_4a380", "message": "Latency high", "endpoint": "/api/v1/search?q=laptop"}
+{"timestamp": "2026-10-17T10:23:12.819Z", "level": "WARN", "service": "search-service", "trace_id": "tr_c15dd", "message": "Rate limit approaching", "endpoint": "/api/v1/search?q=shoes"}
+{"timestamp": "2026-10-17T10:23:15.135Z", "level": "INFO", "service": "user-service", "trace_id": "tr_2f09b", "message": "Job completed", "endpoint": "/api/v1/users/register", "user_id": "usr_3009"}
+{"timestamp": "2026-10-17T10:23:17.171Z", "level": "INFO", "service": "search-service", "trace_id": "tr_a7852", "message": "Request processed successfully", "endpoint": "/api/v1/catalog/index"}
+{"timestamp": "2026-10-17T10:23:21.785Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_ce995", "message": "Stock updated", "endpoint": "/api/v1/billing/status", "cart_id": "crt_6328"}
+{"timestamp": "2026-10-17T10:23:26.363Z", "level": "INFO", "service": "user-service", "trace_id": "tr_979ba", "message": "Stock updated", "endpoint": "/api/v1/users/usr_7145/settings", "user_id": "usr_4671"}
+{"timestamp": "2026-10-17T10:23:27.899Z", "level": "INFO", "service": "inventory-service", "trace_id": "tr_f2425", "message": "User logged in", "endpoint": "/api/v1/warehouse/sync"}
+{"timestamp": "2026-10-17T10:23:28.037Z", "level": "INFO", "service": "auth-service", "trace_id": "tr_2fe01", "message": "Job completed", "endpoint": "/api/v1/auth/refresh", "user_id": "usr_3377"}
+{"timestamp": "2026-10-17T10:23:31.101Z", "level": "INFO", "service": "email-service", "trace_id": "tr_34919", "message": "Job completed", "endpoint": "/api/v1/email/templates"}
+{"timestamp": "2026-10-17T10:23:35.175Z", "level": "ERROR", "service": "search-service", "trace_id": "tr_86723", "message": "Database connection timeout", "endpoint": "/api/v1/catalog/index", "error": "NullReferenceException"}
+{"timestamp": "2026-10-17T10:23:38.693Z", "level": "INFO", "service": "search-service", "trace_id": "tr_67ebe", "message": "User logged in", "endpoint": "/api/v1/search?q=watch"}
+{"timestamp": "2026-10-17T10:23:41.803Z", "level": "INFO", "service": "inventory-service", "trace_id": "tr_209d6", "message": "Stock updated", "endpoint": "/api/v1/warehouse/sync"}
+{"timestamp": "2026-10-17T10:23:43.192Z", "level": "ERROR", "service": "payment-gateway", "trace_id": "tr_5afbd", "message": "Null pointer exception", "endpoint": "/api/v1/billing/status", "cart_id": "crt_7786", "error": "NullReferenceException"}
+{"timestamp": "2026-10-17T10:23:43.548Z", "level": "WARN", "service": "auth-service", "trace_id": "tr_45179", "message": "Latency high", "endpoint": "/api/v1/auth/logout", "user_id": "usr_9798"}
+{"timestamp": "2026-10-17T10:23:46.508Z", "level": "INFO", "service": "email-service", "trace_id": "tr_89af8", "message": "Email sent", "endpoint": "/api/v1/email/templates"}
+{"timestamp": "2026-10-17T10:23:48.959Z", "level": "DEBUG", "service": "email-service", "trace_id": "tr_dcf75", "message": "Cache miss", "endpoint": "/api/v1/email/templates"}
+{"timestamp": "2026-10-17T10:23:49.958Z", "level": "INFO", "service": "inventory-service", "trace_id": "tr_44d4c", "message": "Stock updated", "endpoint": "/api/v1/inventory/reserve"}
+{"timestamp": "2026-10-17T10:23:50.636Z", "level": "INFO", "service": "search-service", "trace_id": "tr_25b6a", "message": "Job completed", "endpoint": "/api/v1/search?q=laptop"}
+{"timestamp": "2026-10-17T10:23:53.333Z", "level": "WARN", "service": "email-service", "trace_id": "tr_5df14", "message": "Latency high", "endpoint": "/api/v1/email/send"}
+{"timestamp": "2026-10-17T10:23:57.308Z", "level": "WARN", "service": "payment-gateway", "trace_id": "tr_b2a8f", "message": "Latency high", "endpoint": "/api/v1/checkout/charge", "cart_id": "crt_5724"}
+{"timestamp": "2026-10-17T10:24:00.755Z", "level": "DEBUG", "service": "user-service", "trace_id": "tr_705c0", "message": "Payload size: 450 bytes", "endpoint": "/api/v1/users/usr_6558/settings", "user_id": "usr_6312"}
+{"timestamp": "2026-10-17T10:24:02.535Z", "level": "WARN", "service": "payment-gateway", "trace_id": "tr_40679", "message": "Latency high", "endpoint": "/api/v1/billing/status", "cart_id": "crt_5995"}
+{"timestamp": "2026-10-17T10:24:07.531Z", "level": "WARN", "service": "search-service", "trace_id": "tr_28a08", "message": "Deprecated API used", "endpoint": "/api/v1/search?q=watch"}
+{"timestamp": "2026-10-17T10:24:08.751Z", "level": "DEBUG", "service": "inventory-service", "trace_id": "tr_e2477", "message": "Payload size: 450 bytes", "endpoint": "/api/v1/warehouse/sync"}
+{"timestamp": "2026-10-17T10:24:13.509Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_8fa22", "message": "User logged in", "endpoint": "/api/v1/checkout/refund", "cart_id": "crt_5108"}
+{"timestamp": "2026-10-17T10:24:14.131Z", "level": "ERROR", "service": "payment-gateway", "trace_id": "tr_bb7bf", "message": "Service unavailable", "endpoint": "/api/v1/billing/status", "cart_id": "crt_4038", "error": "ConnectionRefused"}
+{"timestamp": "2026-10-17T10:24:14.579Z", "level": "DEBUG", "service": "email-service", "trace_id": "tr_e2e77", "message": "Cache miss", "endpoint": "/api/v1/email/send"}
+{"timestamp": "2026-10-17T10:24:17.629Z", "level": "INFO", "service": "auth-service", "trace_id": "tr_39568", "message": "Request processed successfully", "endpoint": "/api/v1/auth/refresh", "user_id": "usr_1734"}
+{"timestamp": "2026-10-17T10:24:19.145Z", "level": "INFO", "service": "search-service", "trace_id": "tr_a8ba0", "message": "Stock updated", "endpoint": "/api/v1/catalog/index"}
+{"timestamp": "2026-10-17T10:24:24.106Z", "level": "INFO", "service": "search-service", "trace_id": "tr_e4867", "message": "Job completed", "endpoint": "/api/v1/search?q=shoes"}
+{"timestamp": "2026-10-17T10:24:28.083Z", "level": "INFO", "service": "search-service", "trace_id": "tr_bde19", "message": "Request processed successfully", "endpoint": "/api/v1/search?q=shoes"}
+{"timestamp": "2026-10-17T10:24:32.974Z", "level": "INFO", "service": "inventory-service", "trace_id": "tr_80407", "message": "Request processed successfully", "endpoint": "/api/v1/products/usr_2114/stock"}
+{"timestamp": "2026-10-17T10:24:35.042Z", "level": "DEBUG", "service": "auth-service", "trace_id": "tr_3e1f0", "message": "Starting transaction", "endpoint": "/api/v1/auth/refresh", "user_id": "usr_5551"}
+{"timestamp": "2026-10-17T10:24:36.417Z", "level": "DEBUG", "service": "search-service", "trace_id": "tr_30249", "message": "Starting transaction", "endpoint": "/api/v1/search?q=shoes"}
+{"timestamp": "2026-10-17T10:24:37.200Z", "level": "INFO", "service": "inventory-service", "trace_id": "tr_21ae2", "message": "Job completed", "endpoint": "/api/v1/inventory/reserve"}
+{"timestamp": "2026-10-17T10:24:40.000Z", "level": "ERROR", "service": "auth-service", "trace_id": "tr_76431", "message": "Service unavailable", "endpoint": "/api/v1/auth/login", "user_id": "usr_8889", "error": "ConnectionRefused"}
+{"timestamp": "2026-10-17T10:24:44.940Z", "level": "DEBUG", "service": "inventory-service", "trace_id": "tr_9b886", "message": "Starting transaction", "endpoint": "/api/v1/products/usr_1333/stock"}
+{"timestamp": "2026-10-17T10:24:46.335Z", "level": "ERROR", "service": "payment-gateway", "trace_id": "tr_7717a", "message": "Null pointer exception", "endpoint": "/api/v1/checkout/charge", "cart_id": "crt_2259", "error": "NullReferenceException"}
+{"timestamp": "2026-10-17T10:24:50.400Z", "level": "INFO", "service": "auth-service", "trace_id": "tr_861d3", "message": "Stock updated", "endpoint": "/api/v1/auth/refresh", "user_id": "usr_8088"}
+{"timestamp": "2026-10-17T10:24:51.602Z", "level": "INFO", "service": "search-service", "trace_id": "tr_b01ab", "message": "Stock updated", "endpoint": "/api/v1/search?q=laptop"}
+{"timestamp": "2026-10-17T10:24:54.413Z", "level": "INFO", "service": "email-service", "trace_id": "tr_4974b", "message": "Request processed successfully", "endpoint": "/api/v1/email/send"}
+{"timestamp": "2026-10-17T10:24:59.183Z", "level": "WARN", "service": "email-service", "trace_id": "tr_6d2d2", "message": "Latency high", "endpoint": "/api/v1/email/templates"}
+{"timestamp": "2026-10-17T10:25:01.041Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_7b65e", "message": "Job completed", "endpoint": "/api/v1/billing/status", "cart_id": "crt_4857"}
+{"timestamp": "2026-10-17T10:25:01.958Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_41f51", "message": "Request processed successfully", "endpoint": "/api/v1/checkout/refund", "cart_id": "crt_2539"}
+{"timestamp": "2026-10-17T10:25:02.395Z", "level": "DEBUG", "service": "inventory-service", "trace_id": "tr_ed02a", "message": "Payload size: 450 bytes", "endpoint": "/api/v1/warehouse/sync"}
+{"timestamp": "2026-10-17T10:25:06.972Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_84cda", "message": "Stock updated", "endpoint": "/api/v1/checkout/refund", "cart_id": "crt_3471"}
+{"timestamp": "2026-10-17T10:25:10.782Z", "level": "INFO", "service": "auth-service", "trace_id": "tr_1f00a", "message": "User logged in", "endpoint": "/api/v1/auth/login", "user_id": "usr_4468"}
+{"timestamp": "2026-10-17T10:25:13.796Z", "level": "ERROR", "service": "search-service", "trace_id": "tr_dcd39", "message": "Payment rejected", "endpoint": "/api/v1/catalog/index", "error": "QueryTimeoutException"}
+{"timestamp": "2026-10-17T10:25:14.931Z", "level": "INFO", "service": "search-service", "trace_id": "tr_5c993", "message": "Email sent", "endpoint": "/api/v1/catalog/index"}
+{"timestamp": "2026-10-17T10:25:19.160Z", "level": "WARN", "service": "user-service", "trace_id": "tr_200a4", "message": "Rate limit approaching", "endpoint": "/api/v1/users/register", "user_id": "usr_2649"}
+{"timestamp": "2026-10-17T10:25:22.231Z", "level": "DEBUG", "service": "user-service", "trace_id": "tr_8cf79", "message": "Payload size: 450 bytes", "endpoint": "/api/v1/users/usr_5233/profile", "user_id": "usr_1331"}
+{"timestamp": "2026-10-17T10:25:26.989Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_ae2c2", "message": "User logged in", "endpoint": "/api/v1/checkout/refund", "cart_id": "crt_2387"}
+{"timestamp": "2026-10-17T10:25:30.791Z", "level": "INFO", "service": "email-service", "trace_id": "tr_475d5", "message": "Stock updated", "endpoint": "/api/v1/email/templates"}
+{"timestamp": "2026-10-17T10:25:31.953Z", "level": "DEBUG", "service": "payment-gateway", "trace_id": "tr_45a1d", "message": "Cache hit", "endpoint": "/api/v1/billing/status", "cart_id": "crt_1646"}
+{"timestamp": "2026-10-17T10:25:35.405Z", "level": "INFO", "service": "auth-service", "trace_id": "tr_ca0c8", "message": "Request processed successfully", "endpoint": "/api/v1/auth/login", "user_id": "usr_8718"}
+{"timestamp": "2026-10-17T10:25:35.746Z", "level": "INFO", "service": "user-service", "trace_id": "tr_41695", "message": "Stock updated", "endpoint": "/api/v1/users/register", "user_id": "usr_6754"}
+{"timestamp": "2026-10-17T10:25:38.056Z", "level": "INFO", "service": "email-service", "trace_id": "tr_21471", "message": "User logged in", "endpoint": "/api/v1/email/send"}
+{"timestamp": "2026-10-17T10:25:43.027Z", "level": "WARN", "service": "payment-gateway", "trace_id": "tr_e3625", "message": "Retry attempt 1", "endpoint": "/api/v1/checkout/refund", "cart_id": "crt_3064"}
+{"timestamp": "2026-10-17T10:25:47.351Z", "level": "INFO", "service": "user-service", "trace_id": "tr_cafa6", "message": "Request processed successfully", "endpoint": "/api/v1/users/usr_9861/settings", "user_id": "usr_9337"}
+{"timestamp": "2026-10-17T10:25:47.371Z", "level": "INFO", "service": "inventory-service", "trace_id": "tr_d7e3e", "message": "Email sent", "endpoint": "/api/v1/warehouse/sync"}
+{"timestamp": "2026-10-17T10:25:47.660Z", "level": "DEBUG", "service": "auth-service", "trace_id": "tr_cbd01", "message": "Cache miss", "endpoint": "/api/v1/auth/logout", "user_id": "usr_3181"}
+{"timestamp": "2026-10-17T10:25:49.317Z", "level": "WARN", "service": "email-service", "trace_id": "tr_4d5fb", "message": "Deprecated API used", "endpoint": "/api/v1/email/send"}
+{"timestamp": "2026-10-17T10:25:50.677Z", "level": "ERROR", "service": "search-service", "trace_id": "tr_6de47", "message": "Payment rejected", "endpoint": "/api/v1/catalog/index", "error": "ConnectionRefused"}
+{"timestamp": "2026-10-17T10:25:52.935Z", "level": "INFO", "service": "user-service", "trace_id": "tr_ca212", "message": "User logged in", "endpoint": "/api/v1/users/register", "user_id": "usr_4785"}
+{"timestamp": "2026-10-17T10:25:56.588Z", "level": "WARN", "service": "auth-service", "trace_id": "tr_5ee27", "message": "Latency high", "endpoint": "/api/v1/auth/logout", "user_id": "usr_1223"}
+{"timestamp": "2026-10-17T10:26:00.577Z", "level": "INFO", "service": "auth-service", "trace_id": "tr_a6b37", "message": "Stock updated", "endpoint": "/api/v1/auth/login", "user_id": "usr_6034"}
+{"timestamp": "2026-10-17T10:26:02.900Z", "level": "INFO", "service": "email-service", "trace_id": "tr_3c1fb", "message": "User logged in", "endpoint": "/api/v1/email/send"}
+{"timestamp": "2026-10-17T10:26:07.319Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_44ad8", "message": "Job completed", "endpoint": "/api/v1/checkout/refund", "cart_id": "crt_9409"}
+{"timestamp": "2026-10-17T10:26:08.864Z", "level": "DEBUG", "service": "auth-service", "trace_id": "tr_7832a", "message": "Payload size: 450 bytes", "endpoint": "/api/v1/auth/login", "user_id": "usr_9616"}
+{"timestamp": "2026-10-17T10:26:12.811Z", "level": "ERROR", "service": "payment-gateway", "trace_id": "tr_567c2", "message": "Service unavailable", "endpoint": "/api/v1/checkout/refund", "cart_id": "crt_1064", "error": "QueryTimeoutException"}
+{"timestamp": "2026-10-17T10:26:13.649Z", "level": "INFO", "service": "email-service", "trace_id": "tr_c7501", "message": "User logged in", "endpoint": "/api/v1/email/templates"}
+{"timestamp": "2026-10-17T10:26:16.403Z", "level": "ERROR", "service": "email-service", "trace_id": "tr_ed654", "message": "Payment rejected", "endpoint": "/api/v1/email/send", "error": "QueryTimeoutException"}
+{"timestamp": "2026-10-17T10:26:16.835Z", "level": "DEBUG", "service": "inventory-service", "trace_id": "tr_26702", "message": "Cache hit", "endpoint": "/api/v1/inventory/reserve"}
+{"timestamp": "2026-10-17T10:26:17.107Z", "level": "INFO", "service": "email-service", "trace_id": "tr_bf194", "message": "Job completed", "endpoint": "/api/v1/email/templates"}
+{"timestamp": "2026-10-17T10:26:18.185Z", "level": "WARN", "service": "user-service", "trace_id": "tr_420be", "message": "Deprecated API used", "endpoint": "/api/v1/users/usr_7894/settings", "user_id": "usr_3137"}
+{"timestamp": "2026-10-17T10:26:21.128Z", "level": "WARN", "service": "email-service", "trace_id": "tr_b040e", "message": "Rate limit approaching", "endpoint": "/api/v1/email/templates"}
+{"timestamp": "2026-10-17T10:26:23.270Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_31397", "message": "Email sent", "endpoint": "/api/v1/checkout/charge", "cart_id": "crt_7480"}
+{"timestamp": "2026-10-17T10:26:26.251Z", "level": "INFO", "service": "auth-service", "trace_id": "tr_1c24f", "message": "Job completed", "endpoint": "/api/v1/auth/refresh", "user_id": "usr_8988"}
+{"timestamp": "2026-10-17T10:26:28.957Z", "level": "INFO", "service": "search-service", "trace_id": "tr_c5fcb", "message": "Email sent", "endpoint": "/api/v1/catalog/index"}
+{"timestamp": "2026-10-17T10:26:31.052Z", "level": "ERROR", "service": "email-service", "trace_id": "tr_b3fd6", "message": "Payment rejected", "endpoint": "/api/v1/email/templates", "error": "ConnectionRefused"}
+{"timestamp": "2026-10-17T10:26:34.361Z", "level": "DEBUG", "service": "inventory-service", "trace_id": "tr_651eb", "message": "Starting transaction", "endpoint": "/api/v1/inventory/reserve"}
+{"timestamp": "2026-10-17T10:26:36.012Z", "level": "INFO", "service": "user-service", "trace_id": "tr_a5f76", "message": "Request processed successfully", "endpoint": "/api/v1/users/usr_1330/settings", "user_id": "usr_2519"}
+{"timestamp": "2026-10-17T10:26:40.102Z", "level": "WARN", "service": "user-service", "trace_id": "tr_9e552", "message": "Rate limit approaching", "endpoint": "/api/v1/users/register", "user_id": "usr_8762"}
+{"timestamp": "2026-10-17T10:26:44.596Z", "level": "DEBUG", "service": "user-service", "trace_id": "tr_4c7a5", "message": "Payload size: 450 bytes", "endpoint": "/api/v1/users/register", "user_id": "usr_8702"}
+{"timestamp": "2026-10-17T10:26:45.011Z", "level": "INFO", "service": "search-service", "trace_id": "tr_b7b23", "message": "User logged in", "endpoint": "/api/v1/search?q=laptop"}
+{"timestamp": "2026-10-17T10:26:46.981Z", "level": "WARN", "service": "email-service", "trace_id": "tr_69841", "message": "Deprecated API used", "endpoint": "/api/v1/email/templates"}
+{"timestamp": "2026-10-17T10:26:47.087Z", "level": "ERROR", "service": "inventory-service", "trace_id": "tr_d334f", "message": "Database connection timeout", "endpoint": "/api/v1/products/usr_3194/stock", "error": "ConnectionRefused"}
+{"timestamp": "2026-10-17T10:26:47.394Z", "level": "DEBUG", "service": "user-service", "trace_id": "tr_33bcb", "message": "Cache miss", "endpoint": "/api/v1/users/usr_8990/profile", "user_id": "usr_1385"}
+{"timestamp": "2026-10-17T10:26:50.081Z", "level": "DEBUG", "service": "auth-service", "trace_id": "tr_8b83b", "message": "Payload size: 450 bytes", "endpoint": "/api/v1/auth/logout", "user_id": "usr_5557"}
+{"timestamp": "2026-10-17T10:26:54.721Z", "level": "ERROR", "service": "payment-gateway", "trace_id": "tr_d8064", "message": "Service unavailable", "endpoint": "/api/v1/checkout/refund", "cart_id": "crt_3797", "error": "NullReferenceException"}
+{"timestamp": "2026-10-17T10:26:56.757Z", "level": "DEBUG", "service": "inventory-service", "trace_id": "tr_c9c53", "message": "Starting transaction", "endpoint": "/api/v1/inventory/reserve"}
+{"timestamp": "2026-10-17T10:27:00.817Z", "level": "INFO", "service": "email-service", "trace_id": "tr_7f113", "message": "Stock updated", "endpoint": "/api/v1/email/send"}
+{"timestamp": "2026-10-17T10:27:01.448Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_e5b48", "message": "Email sent", "endpoint": "/api/v1/checkout/charge", "cart_id": "crt_5031"}
+{"timestamp": "2026-10-17T10:27:03.890Z", "level": "ERROR", "service": "payment-gateway", "trace_id": "tr_448d7", "message": "Service unavailable", "endpoint": "/api/v1/checkout/refund", "cart_id": "crt_6567", "error": "ConnectionRefused"}
+{"timestamp": "2026-10-17T10:27:08.093Z", "level": "INFO", "service": "search-service", "trace_id": "tr_6d663", "message": "Request processed successfully", "endpoint": "/api/v1/search?q=laptop"}
+{"timestamp": "2026-10-17T10:27:12.159Z", "level": "WARN", "service": "payment-gateway", "trace_id": "tr_19806", "message": "Deprecated API used", "endpoint": "/api/v1/billing/status", "cart_id": "crt_1785"}
+{"timestamp": "2026-10-17T10:27:17.074Z", "level": "DEBUG", "service": "payment-gateway", "trace_id": "tr_922f9", "message": "Payload size: 450 bytes", "endpoint": "/api/v1/checkout/charge", "cart_id": "crt_3857"}
+{"timestamp": "2026-10-17T10:27:21.801Z", "level": "INFO", "service": "auth-service", "trace_id": "tr_1c7e9", "message": "Email sent", "endpoint": "/api/v1/auth/refresh", "user_id": "usr_3777"}
+{"timestamp": "2026-10-17T10:27:21.970Z", "level": "INFO", "service": "email-service", "trace_id": "tr_47917", "message": "Job completed", "endpoint": "/api/v1/email/send"}
+{"timestamp": "2026-10-17T10:27:23.408Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_a195a", "message": "Job completed", "endpoint": "/api/v1/checkout/refund", "cart_id": "crt_6884"}
+{"timestamp": "2026-10-17T10:27:26.195Z", "level": "INFO", "service": "search-service", "trace_id": "tr_34648", "message": "Email sent", "endpoint": "/api/v1/catalog/index"}
+{"timestamp": "2026-10-17T10:27:29.999Z", "level": "ERROR", "service": "email-service", "trace_id": "tr_3458d", "message": "Database connection timeout", "endpoint": "/api/v1/email/templates", "error": "ConnectionRefused"}
+{"timestamp": "2026-10-17T10:27:33.189Z", "level": "INFO", "service": "search-service", "trace_id": "tr_3867c", "message": "Stock updated", "endpoint": "/api/v1/catalog/index"}
+{"timestamp": "2026-10-17T10:27:35.464Z", "level": "ERROR", "service": "user-service", "trace_id": "tr_94cd2", "message": "Database connection timeout", "endpoint": "/api/v1/users/usr_6448/settings", "user_id": "usr_7654", "error": "NullReferenceException"}
+{"timestamp": "2026-10-17T10:27:36.572Z", "level": "DEBUG", "service": "payment-gateway", "trace_id": "tr_a534d", "message": "Cache miss", "endpoint": "/api/v1/checkout/refund", "cart_id": "crt_5915"}
+{"timestamp": "2026-10-17T10:27:38.820Z", "level": "INFO", "service": "email-service", "trace_id": "tr_55a47", "message": "Stock updated", "endpoint": "/api/v1/email/templates"}
+{"timestamp": "2026-10-17T10:27:41.350Z", "level": "INFO", "service": "search-service", "trace_id": "tr_6d7c0", "message": "Email sent", "endpoint": "/api/v1/catalog/index"}
+{"timestamp": "2026-10-17T10:27:44.435Z", "level": "DEBUG", "service": "auth-service", "trace_id": "tr_ca2c3", "message": "Starting transaction", "endpoint": "/api/v1/auth/logout", "user_id": "usr_3104"}
+{"timestamp": "2026-10-17T10:27:46.382Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_e08f9", "message": "Job completed", "endpoint": "/api/v1/billing/status", "cart_id": "crt_7113"}
+{"timestamp": "2026-10-17T10:27:50.267Z", "level": "INFO", "service": "auth-service", "trace_id": "tr_297da", "message": "Job completed", "endpoint": "/api/v1/auth/refresh", "user_id": "usr_6928"}
+{"timestamp": "2026-10-17T10:27:53.196Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_9d830", "message": "Email sent", "endpoint": "/api/v1/checkout/charge", "cart_id": "crt_6975"}
+{"timestamp": "2026-10-17T10:27:57.605Z", "level": "WARN", "service": "inventory-service", "trace_id": "tr_d2220", "message": "Deprecated API used", "endpoint": "/api/v1/products/usr_7865/stock"}
+{"timestamp": "2026-10-17T10:28:01.867Z", "level": "INFO", "service": "search-service", "trace_id": "tr_a408e", "message": "User logged in", "endpoint": "/api/v1/catalog/index"}
+{"timestamp": "2026-10-17T10:28:02.930Z", "level": "ERROR", "service": "email-service", "trace_id": "tr_21698", "message": "Null pointer exception", "endpoint": "/api/v1/email/templates", "error": "ConnectionRefused"}
+{"timestamp": "2026-10-17T10:28:04.407Z", "level": "INFO", "service": "search-service", "trace_id": "tr_914d6", "message": "Email sent", "endpoint": "/api/v1/search?q=watch"}
+{"timestamp": "2026-10-17T10:28:07.040Z", "level": "WARN", "service": "payment-gateway", "trace_id": "tr_c8f5b", "message": "Retry attempt 1", "endpoint": "/api/v1/checkout/charge", "cart_id": "crt_8920"}
+{"timestamp": "2026-10-17T10:28:10.353Z", "level": "INFO", "service": "user-service", "trace_id": "tr_8b6c0", "message": "User logged in", "endpoint": "/api/v1/users/usr_6805/settings", "user_id": "usr_6275"}
+{"timestamp": "2026-10-17T10:28:14.272Z", "level": "INFO", "service": "search-service", "trace_id": "tr_c5af4", "message": "Job completed", "endpoint": "/api/v1/search?q=shoes"}
+{"timestamp": "2026-10-17T10:28:18.127Z", "level": "ERROR", "service": "inventory-service", "trace_id": "tr_bb57b", "message": "Service unavailable", "endpoint": "/api/v1/warehouse/sync", "error": "NullReferenceException"}
+{"timestamp": "2026-10-17T10:28:21.779Z", "level": "INFO", "service": "search-service", "trace_id": "tr_aeda8", "message": "Email sent", "endpoint": "/api/v1/search?q=laptop"}
+{"timestamp": "2026-10-17T10:28:25.734Z", "level": "WARN", "service": "auth-service", "trace_id": "tr_50aaf", "message": "Deprecated API used", "endpoint": "/api/v1/auth/refresh", "user_id": "usr_1620"}
+{"timestamp": "2026-10-17T10:28:29.447Z", "level": "ERROR", "service": "auth-service", "trace_id": "tr_3b685", "message": "Database connection timeout", "endpoint": "/api/v1/auth/logout", "user_id": "usr_2364", "error": "ConnectionRefused"}
+{"timestamp": "2026-10-17T10:28:33.759Z", "level": "DEBUG", "service": "inventory-service", "trace_id": "tr_8c366", "message": "Starting transaction", "endpoint": "/api/v1/inventory/reserve"}
+{"timestamp": "2026-10-17T10:28:36.724Z", "level": "INFO", "service": "inventory-service", "trace_id": "tr_d1f92", "message": "Request processed successfully", "endpoint": "/api/v1/products/usr_6623/stock"}
+{"timestamp": "2026-10-17T10:28:38.645Z", "level": "WARN", "service": "user-service", "trace_id": "tr_96012", "message": "Rate limit approaching", "endpoint": "/api/v1/users/register", "user_id": "usr_5640"}
+{"timestamp": "2026-10-17T10:28:41.394Z", "level": "INFO", "service": "email-service", "trace_id": "tr_5bae0", "message": "Email sent", "endpoint": "/api/v1/email/send"}
+{"timestamp": "2026-10-17T10:28:43.805Z", "level": "DEBUG", "service": "search-service", "trace_id": "tr_e64a7", "message": "Cache miss", "endpoint": "/api/v1/catalog/index"}
+{"timestamp": "2026-10-17T10:28:45.166Z", "level": "DEBUG", "service": "search-service", "trace_id": "tr_d9c0c", "message": "Starting transaction", "endpoint": "/api/v1/search?q=shoes"}
+{"timestamp": "2026-10-17T10:28:48.451Z", "level": "WARN", "service": "email-service", "trace_id": "tr_e867e", "message": "Retry attempt 1", "endpoint": "/api/v1/email/templates"}
+{"timestamp": "2026-10-17T10:28:52.544Z", "level": "ERROR", "service": "search-service", "trace_id": "tr_71a33", "message": "Service unavailable", "endpoint": "/api/v1/search?q=watch", "error": "ConnectionRefused"}
+{"timestamp": "2026-10-17T10:28:52.938Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_dbe99", "message": "Email sent", "endpoint": "/api/v1/checkout/refund", "cart_id": "crt_2114"}
+{"timestamp": "2026-10-17T10:28:55.502Z", "level": "DEBUG", "service": "search-service", "trace_id": "tr_9076b", "message": "Starting transaction", "endpoint": "/api/v1/search?q=shoes"}
+{"timestamp": "2026-10-17T10:29:00.158Z", "level": "ERROR", "service": "inventory-service", "trace_id": "tr_4e5cf", "message": "Service unavailable", "endpoint": "/api/v1/warehouse/sync", "error": "QueryTimeoutException"}
+{"timestamp": "2026-10-17T10:29:01.323Z", "level": "ERROR", "service": "user-service", "trace_id": "tr_9002d", "message": "Service unavailable", "endpoint": "/api/v1/users/usr_4078/settings", "user_id": "usr_6733", "error": "QueryTimeoutException"}
+{"timestamp": "2026-10-17T10:29:01.867Z", "level": "INFO", "service": "inventory-service", "trace_id": "tr_54514", "message": "Email sent", "endpoint": "/api/v1/warehouse/sync"}
+{"timestamp": "2026-10-17T10:29:02.550Z", "level": "WARN", "service": "inventory-service", "trace_id": "tr_541ba", "message": "Deprecated API used", "endpoint": "/api/v1/products/usr_8901/stock"}
+{"timestamp": "2026-10-17T10:29:06.824Z", "level": "WARN", "service": "inventory-service", "trace_id": "tr_3523c", "message": "Latency high", "endpoint": "/api/v1/warehouse/sync"}
+{"timestamp": "2026-10-17T10:29:08.226Z", "level": "WARN", "service": "search-service", "trace_id": "tr_a545d", "message": "Retry attempt 1", "endpoint": "/api/v1/catalog/index"}
+{"timestamp": "2026-10-17T10:29:09.460Z", "level": "INFO", "service": "email-service", "trace_id": "tr_c1945", "message": "Stock updated", "endpoint": "/api/v1/email/templates"}
+{"timestamp": "2026-10-17T10:29:11.760Z", "level": "INFO", "service": "inventory-service", "trace_id": "tr_1b216", "message": "User logged in", "endpoint": "/api/v1/products/usr_3729/stock"}
+{"timestamp": "2026-10-17T10:29:15.651Z", "level": "WARN", "service": "email-service", "trace_id": "tr_993f6", "message": "Retry attempt 1", "endpoint": "/api/v1/email/templates"}
+{"timestamp": "2026-10-17T10:29:18.177Z", "level": "DEBUG", "service": "search-service", "trace_id": "tr_3d6ed", "message": "Starting transaction", "endpoint": "/api/v1/search?q=shoes"}
+{"timestamp": "2026-10-17T10:29:19.888Z", "level": "INFO", "service": "email-service", "trace_id": "tr_223df", "message": "User logged in", "endpoint": "/api/v1/email/templates"}
+{"timestamp": "2026-10-17T10:29:20.069Z", "level": "ERROR", "service": "inventory-service", "trace_id": "tr_7fcca", "message": "Service unavailable", "endpoint": "/api/v1/products/usr_5163/stock", "error": "QueryTimeoutException"}
+{"timestamp": "2026-10-17T10:29:21.136Z", "level": "INFO", "service": "search-service", "trace_id": "tr_dbaa6", "message": "Request processed successfully", "endpoint": "/api/v1/search?q=watch"}
+{"timestamp": "2026-10-17T10:29:25.877Z", "level": "ERROR", "service": "auth-service", "trace_id": "tr_24014", "message": "Database connection timeout", "endpoint": "/api/v1/auth/login", "user_id": "usr_5471", "error": "NullReferenceException"}
+{"timestamp": "2026-10-17T10:29:27.671Z", "level": "WARN", "service": "email-service", "trace_id": "tr_d60e0", "message": "Rate limit approaching", "endpoint": "/api/v1/email/templates"}
+{"timestamp": "2026-10-17T10:29:31.252Z", "level": "WARN", "service": "inventory-service", "trace_id": "tr_a2768", "message": "Latency high", "endpoint": "/api/v1/inventory/reserve"}
+{"timestamp": "2026-10-17T10:29:31.336Z", "level": "WARN", "service": "email-service", "trace_id": "tr_e2134", "message": "Latency high", "endpoint": "/api/v1/email/send"}
+{"timestamp": "2026-10-17T10:29:34.929Z", "level": "DEBUG", "service": "payment-gateway", "trace_id": "tr_6e75f", "message": "Cache hit", "endpoint": "/api/v1/billing/status", "cart_id": "crt_9243"}
+{"timestamp": "2026-10-17T10:29:37.989Z", "level": "DEBUG", "service": "auth-service", "trace_id": "tr_86959", "message": "Cache hit", "endpoint": "/api/v1/auth/refresh", "user_id": "usr_8587"}
+{"timestamp": "2026-10-17T10:29:42.236Z", "level": "DEBUG", "service": "payment-gateway", "trace_id": "tr_65cfe", "message": "Payload size: 450 bytes", "endpoint": "/api/v1/billing/status", "cart_id": "crt_3488"}
+{"timestamp": "2026-10-17T10:29:45.453Z", "level": "ERROR", "service": "search-service", "trace_id": "tr_cc685", "message": "Service unavailable", "endpoint": "/api/v1/search?q=laptop", "error": "ConnectionRefused"}
+{"timestamp": "2026-10-17T10:29:47.651Z", "level": "WARN", "service": "payment-gateway", "trace_id": "tr_e8086", "message": "Rate limit approaching", "endpoint": "/api/v1/checkout/charge", "cart_id": "crt_4054"}
+{"timestamp": "2026-10-17T10:29:48.358Z", "level": "INFO", "service": "auth-service", "trace_id": "tr_91ef2", "message": "Job completed", "endpoint": "/api/v1/auth/logout", "user_id": "usr_6584"}
+{"timestamp": "2026-10-17T10:29:49.156Z", "level": "INFO", "service": "inventory-service", "trace_id": "tr_47043", "message": "Email sent", "endpoint": "/api/v1/inventory/reserve"}
+{"timestamp": "2026-10-17T10:29:52.435Z", "level": "WARN", "service": "payment-gateway", "trace_id": "tr_cf4d4", "message": "Rate limit approaching", "endpoint": "/api/v1/billing/status", "cart_id": "crt_2498"}
+{"timestamp": "2026-10-17T10:29:57.218Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_8f736", "message": "Request processed successfully", "endpoint": "/api/v1/checkout/refund", "cart_id": "crt_9237"}
+{"timestamp": "2026-10-17T10:29:59.327Z", "level": "WARN", "service": "auth-service", "trace_id": "tr_65274", "message": "Retry attempt 1", "endpoint": "/api/v1/auth/login", "user_id": "usr_1374"}
+{"timestamp": "2026-10-17T10:29:59.598Z", "level": "INFO", "service": "email-service", "trace_id": "tr_683f9", "message": "Job completed", "endpoint": "/api/v1/email/templates"}
+{"timestamp": "2026-10-17T10:29:59.720Z", "level": "WARN", "service": "inventory-service", "trace_id": "tr_26655", "message": "Deprecated API used", "endpoint": "/api/v1/products/usr_4778/stock"}
+{"timestamp": "2026-10-17T10:30:01.149Z", "level": "DEBUG", "service": "search-service", "trace_id": "tr_4242e", "message": "Starting transaction", "endpoint": "/api/v1/catalog/index"}
+{"timestamp": "2026-10-17T10:30:04.739Z", "level": "ERROR", "service": "user-service", "trace_id": "tr_3a41d", "message": "Null pointer exception", "endpoint": "/api/v1/users/register", "user_id": "usr_8352", "error": "NullReferenceException"}
+{"timestamp": "2026-10-17T10:30:08.968Z", "level": "INFO", "service": "email-service", "trace_id": "tr_abba1", "message": "Email sent", "endpoint": "/api/v1/email/send"}
+{"timestamp": "2026-10-17T10:30:13.637Z", "level": "DEBUG", "service": "search-service", "trace_id": "tr_b668f", "message": "Payload size: 450 bytes", "endpoint": "/api/v1/catalog/index"}
+{"timestamp": "2026-10-17T10:30:14.039Z", "level": "ERROR", "service": "search-service", "trace_id": "tr_47819", "message": "Service unavailable", "endpoint": "/api/v1/catalog/index", "error": "ConnectionRefused"}
+{"timestamp": "2026-10-17T10:30:16.819Z", "level": "DEBUG", "service": "inventory-service", "trace_id": "tr_6ae33", "message": "Payload size: 450 bytes", "endpoint": "/api/v1/inventory/reserve"}
+{"timestamp": "2026-10-17T10:30:18.307Z", "level": "WARN", "service": "email-service", "trace_id": "tr_c34f9", "message": "Latency high", "endpoint": "/api/v1/email/send"}
+{"timestamp": "2026-10-17T10:30:19.819Z", "level": "INFO", "service": "search-service", "trace_id": "tr_cad99", "message": "User logged in", "endpoint": "/api/v1/search?q=shoes"}
+{"timestamp": "2026-10-17T10:30:21.319Z", "level": "WARN", "service": "payment-gateway", "trace_id": "tr_89e80", "message": "Retry attempt 1", "endpoint": "/api/v1/checkout/charge", "cart_id": "crt_7218"}
+{"timestamp": "2026-10-17T10:30:21.369Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_b6c6d", "message": "Job completed", "endpoint": "/api/v1/billing/status", "cart_id": "crt_1011"}
+{"timestamp": "2026-10-17T10:30:26.293Z", "level": "WARN", "service": "user-service", "trace_id": "tr_6efeb", "message": "Retry attempt 1", "endpoint": "/api/v1/users/usr_1701/profile", "user_id": "usr_7578"}
+{"timestamp": "2026-10-17T10:30:28.949Z", "level": "WARN", "service": "user-service", "trace_id": "tr_38757", "message": "Latency high", "endpoint": "/api/v1/users/usr_4200/settings", "user_id": "usr_9064"}
+{"timestamp": "2026-10-17T10:30:32.513Z", "level": "DEBUG", "service": "auth-service", "trace_id": "tr_2f03d", "message": "Payload size: 450 bytes", "endpoint": "/api/v1/auth/login", "user_id": "usr_5519"}
+{"timestamp": "2026-10-17T10:30:36.624Z", "level": "WARN", "service": "inventory-service", "trace_id": "tr_eecad", "message": "Deprecated API used", "endpoint": "/api/v1/products/usr_4128/stock"}
+{"timestamp": "2026-10-17T10:30:36.788Z", "level": "INFO", "service": "user-service", "trace_id": "tr_90759", "message": "Request processed successfully", "endpoint": "/api/v1/users/register", "user_id": "usr_8269"}
+{"timestamp": "2026-10-17T10:30:41.575Z", "level": "INFO", "service": "user-service", "trace_id": "tr_bf615", "message": "User logged in", "endpoint": "/api/v1/users/usr_5655/settings", "user_id": "usr_8866"}
+{"timestamp": "2026-10-17T10:30:43.207Z", "level": "DEBUG", "service": "user-service", "trace_id": "tr_c79ef", "message": "Cache hit", "endpoint": "/api/v1/users/usr_7960/settings", "user_id": "usr_8186"}
+{"timestamp": "2026-10-17T10:30:43.774Z", "level": "DEBUG", "service": "user-service", "trace_id": "tr_3907b", "message": "Cache hit", "endpoint": "/api/v1/users/usr_1723/settings", "user_id": "usr_1485"}
+{"timestamp": "2026-10-17T10:30:46.915Z", "level": "WARN", "service": "payment-gateway", "trace_id": "tr_5748c", "message": "Deprecated API used", "endpoint": "/api/v1/checkout/charge", "cart_id": "crt_4774"}
+{"timestamp": "2026-10-17T10:30:49.547Z", "level": "WARN", "service": "auth-service", "trace_id": "tr_4959c", "message": "Latency high", "endpoint": "/api/v1/auth/login", "user_id": "usr_9019"}
+{"timestamp": "2026-10-17T10:30:50.683Z", "level": "INFO", "service": "inventory-service", "trace_id": "tr_449b5", "message": "Job completed", "endpoint": "/api/v1/warehouse/sync"}
+{"timestamp": "2026-10-17T10:30:55.377Z", "level": "DEBUG", "service": "email-service", "trace_id": "tr_d338c", "message": "Payload size: 450 bytes", "endpoint": "/api/v1/email/templates"}
+{"timestamp": "2026-10-17T10:30:56.740Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_b2213", "message": "Stock updated", "endpoint": "/api/v1/checkout/refund", "cart_id": "crt_6861"}
+{"timestamp": "2026-10-17T10:30:58.605Z", "level": "DEBUG", "service": "email-service", "trace_id": "tr_c4c9e", "message": "Cache hit", "endpoint": "/api/v1/email/send"}
+{"timestamp": "2026-10-17T10:31:02.257Z", "level": "ERROR", "service": "payment-gateway", "trace_id": "tr_27a6b", "message": "Database connection timeout", "endpoint": "/api/v1/billing/status", "cart_id": "crt_1786", "error": "QueryTimeoutException"}
+{"timestamp": "2026-10-17T10:31:03.472Z", "level": "WARN", "service": "user-service", "trace_id": "tr_26e9f", "message": "Rate limit approaching", "endpoint": "/api/v1/users/register", "user_id": "usr_6553"}
+{"timestamp": "2026-10-17T10:31:08.235Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_25967", "message": "Email sent", "endpoint": "/api/v1/billing/status", "cart_id": "crt_1203"}
+{"timestamp": "2026-10-17T10:31:12.033Z", "level": "INFO", "service": "user-service", "trace_id": "tr_36dc9", "message": "Stock updated", "endpoint": "/api/v1/users/register", "user_id": "usr_7922"}
+{"timestamp": "2026-10-17T10:31:13.865Z", "level": "INFO", "service": "search-service", "trace_id": "tr_8f9a5", "message": "Job completed", "endpoint": "/api/v1/catalog/index"}
+{"timestamp": "2026-10-17T10:31:17.890Z", "level": "WARN", "service": "email-service", "trace_id": "tr_d1bfc", "message": "Latency high", "endpoint": "/api/v1/email/send"}
+{"timestamp": "2026-10-17T10:31:18.074Z", "level": "DEBUG", "service": "email-service", "trace_id": "tr_376be", "message": "Cache hit", "endpoint": "/api/v1/email/templates"}
+{"timestamp": "2026-10-17T10:31:18.868Z", "level": "ERROR", "service": "payment-gateway", "trace_id": "tr_493dd", "message": "Service unavailable", "endpoint": "/api/v1/checkout/charge", "cart_id": "crt_4700", "error": "QueryTimeoutException"}
+{"timestamp": "2026-10-17T10:31:23.789Z", "level": "ERROR", "service": "search-service", "trace_id": "tr_f06a8", "message": "Database connection timeout", "endpoint": "/api/v1/catalog/index", "error": "QueryTimeoutException"}
+{"timestamp": "2026-10-17T10:31:26.496Z", "level": "DEBUG", "service": "search-service", "trace_id": "tr_8ef14", "message": "Cache hit", "endpoint": "/api/v1/search?q=laptop"}
+{"timestamp": "2026-10-17T10:31:29.637Z", "level": "ERROR", "service": "email-service", "trace_id": "tr_d291c", "message": "Database connection timeout", "endpoint": "/api/v1/email/templates", "error": "ConnectionRefused"}
+{"timestamp": "2026-10-17T10:31:31.027Z", "level": "DEBUG", "service": "search-service", "trace_id": "tr_6f9af", "message": "Cache miss", "endpoint": "/api/v1/catalog/index"}
+{"timestamp": "2026-10-17T10:31:32.026Z", "level": "INFO", "service": "search-service", "trace_id": "tr_d60e8", "message": "Email sent", "endpoint": "/api/v1/search?q=shoes"}
+{"timestamp": "2026-10-17T10:31:37.001Z", "level": "INFO", "service": "search-service", "trace_id": "tr_5db42", "message": "Stock updated", "endpoint": "/api/v1/catalog/index"}
+{"timestamp": "2026-10-17T10:31:39.815Z", "level": "INFO", "service": "auth-service", "trace_id": "tr_56cfd", "message": "User logged in", "endpoint": "/api/v1/auth/login", "user_id": "usr_2614"}
+{"timestamp": "2026-10-17T10:31:44.800Z", "level": "ERROR", "service": "user-service", "trace_id": "tr_59dc4", "message": "Service unavailable", "endpoint": "/api/v1/users/usr_4318/settings", "user_id": "usr_8122", "error": "NullReferenceException"}
+{"timestamp": "2026-10-17T10:31:47.805Z", "level": "INFO", "service": "search-service", "trace_id": "tr_31e6a", "message": "Job completed", "endpoint": "/api/v1/catalog/index"}
+{"timestamp": "2026-10-17T10:31:52.492Z", "level": "WARN", "service": "inventory-service", "trace_id": "tr_aa972", "message": "Retry attempt 1", "endpoint": "/api/v1/inventory/reserve"}
+{"timestamp": "2026-10-17T10:31:53.483Z", "level": "DEBUG", "service": "search-service", "trace_id": "tr_72e65", "message": "Starting transaction", "endpoint": "/api/v1/search?q=watch"}
+{"timestamp": "2026-10-17T10:31:55.461Z", "level": "WARN", "service": "auth-service", "trace_id": "tr_d9e2e", "message": "Latency high", "endpoint": "/api/v1/auth/login", "user_id": "usr_1622"}
+{"timestamp": "2026-10-17T10:32:00.265Z", "level": "DEBUG", "service": "auth-service", "trace_id": "tr_a2cc5", "message": "Cache hit", "endpoint": "/api/v1/auth/login", "user_id": "usr_6189"}
+{"timestamp": "2026-10-17T10:32:02.274Z", "level": "INFO", "service": "email-service", "trace_id": "tr_82589", "message": "Job completed", "endpoint": "/api/v1/email/send"}
+{"timestamp": "2026-10-17T10:32:05.318Z", "level": "WARN", "service": "inventory-service", "trace_id": "tr_a3851", "message": "Deprecated API used", "endpoint": "/api/v1/products/usr_8155/stock"}
+{"timestamp": "2026-10-17T10:32:07.782Z", "level": "DEBUG", "service": "auth-service", "trace_id": "tr_95dd9", "message": "Cache miss", "endpoint": "/api/v1/auth/login", "user_id": "usr_7703"}
+{"timestamp": "2026-10-17T10:32:09.088Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_472b4", "message": "Request processed successfully", "endpoint": "/api/v1/checkout/refund", "cart_id": "crt_4591"}
+{"timestamp": "2026-10-17T10:32:13.368Z", "level": "WARN", "service": "auth-service", "trace_id": "tr_c9a7f", "message": "Latency high", "endpoint": "/api/v1/auth/logout", "user_id": "usr_8664"}
+{"timestamp": "2026-10-17T10:32:15.818Z", "level": "WARN", "service": "email-service", "trace_id": "tr_f37bd", "message": "Latency high", "endpoint": "/api/v1/email/templates"}
+{"timestamp": "2026-10-17T10:32:20.696Z", "level": "WARN", "service": "email-service", "trace_id": "tr_5c5de", "message": "Deprecated API used", "endpoint": "/api/v1/email/send"}
+{"timestamp": "2026-10-17T10:32:23.889Z", "level": "DEBUG", "service": "search-service", "trace_id": "tr_f32ad", "message": "Payload size: 450 bytes", "endpoint": "/api/v1/catalog/index"}
+{"timestamp": "2026-10-17T10:32:27.219Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_cbe9c", "message": "Stock updated", "endpoint": "/api/v1/checkout/charge", "cart_id": "crt_5354"}
+{"timestamp": "2026-10-17T10:32:28.472Z", "level": "DEBUG", "service": "email-service", "trace_id": "tr_a7b90", "message": "Cache miss", "endpoint": "/api/v1/email/templates"}
+{"timestamp": "2026-10-17T10:32:29.561Z", "level": "ERROR", "service": "payment-gateway", "trace_id": "tr_cf569", "message": "Null pointer exception", "endpoint": "/api/v1/checkout/charge", "cart_id": "crt_9097", "error": "NullReferenceException"}
+{"timestamp": "2026-10-17T10:32:34.304Z", "level": "WARN", "service": "user-service", "trace_id": "tr_ea26f", "message": "Deprecated API used", "endpoint": "/api/v1/users/usr_5998/profile", "user_id": "usr_4546"}
+{"timestamp": "2026-10-17T10:32:37.704Z", "level": "WARN", "service": "auth-service", "trace_id": "tr_4f6b6", "message": "Latency high", "endpoint": "/api/v1/auth/login", "user_id": "usr_7545"}
+{"timestamp": "2026-10-17T10:32:41.813Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_5e061", "message": "Job completed", "endpoint": "/api/v1/billing/status", "cart_id": "crt_4247"}
+{"timestamp": "2026-10-17T10:32:43.947Z", "level": "ERROR", "service": "payment-gateway", "trace_id": "tr_7b8e4", "message": "Service unavailable", "endpoint": "/api/v1/checkout/charge", "cart_id": "crt_9036", "error": "NullReferenceException"}
+{"timestamp": "2026-10-17T10:32:48.220Z", "level": "DEBUG", "service": "payment-gateway", "trace_id": "tr_f1872", "message": "Cache miss", "endpoint": "/api/v1/checkout/charge", "cart_id": "crt_5960"}
+{"timestamp": "2026-10-17T10:32:51.032Z", "level": "DEBUG", "service": "email-service", "trace_id": "tr_99c3d", "message": "Cache miss", "endpoint": "/api/v1/email/send"}
+{"timestamp": "2026-10-17T10:32:55.783Z", "level": "WARN", "service": "inventory-service", "trace_id": "tr_6e0b2", "message": "Latency high", "endpoint": "/api/v1/warehouse/sync"}
+{"timestamp": "2026-10-17T10:32:58.401Z", "level": "INFO", "service": "user-service", "trace_id": "tr_945db", "message": "User logged in", "endpoint": "/api/v1/users/usr_4424/settings", "user_id": "usr_2494"}
+{"timestamp": "2026-10-17T10:33:00.718Z", "level": "ERROR", "service": "search-service", "trace_id": "tr_b85b4", "message": "Service unavailable", "endpoint": "/api/v1/catalog/index", "error": "ConnectionRefused"}
+{"timestamp": "2026-10-17T10:33:04.604Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_c3202", "message": "Request processed successfully", "endpoint": "/api/v1/checkout/charge", "cart_id": "crt_1880"}
+{"timestamp": "2026-10-17T10:33:06.527Z", "level": "DEBUG", "service": "email-service", "trace_id": "tr_af5ce", "message": "Cache hit", "endpoint": "/api/v1/email/send"}
+{"timestamp": "2026-10-17T10:33:06.839Z", "level": "INFO", "service": "email-service", "trace_id": "tr_30b5a", "message": "Job completed", "endpoint": "/api/v1/email/templates"}
+{"timestamp": "2026-10-17T10:33:09.653Z", "level": "INFO", "service": "inventory-service", "trace_id": "tr_bd92b", "message": "Stock updated", "endpoint": "/api/v1/products/usr_4237/stock"}
+{"timestamp": "2026-10-17T10:33:11.811Z", "level": "ERROR", "service": "inventory-service", "trace_id": "tr_2e30c", "message": "Payment rejected", "endpoint": "/api/v1/products/usr_1301/stock", "error": "ConnectionRefused"}
+{"timestamp": "2026-10-17T10:33:15.554Z", "level": "INFO", "service": "user-service", "trace_id": "tr_2bc54", "message": "User logged in", "endpoint": "/api/v1/users/usr_6064/settings", "user_id": "usr_3535"}
+{"timestamp": "2026-10-17T10:33:17.447Z", "level": "ERROR", "service": "inventory-service", "trace_id": "tr_200b9", "message": "Service unavailable", "endpoint": "/api/v1/products/usr_7097/stock", "error": "NullReferenceException"}
+{"timestamp": "2026-10-17T10:33:18.616Z", "level": "INFO", "service": "auth-service", "trace_id": "tr_dab97", "message": "Job completed", "endpoint": "/api/v1/auth/login", "user_id": "usr_1220"}
+{"timestamp": "2026-10-17T10:33:19.238Z", "level": "WARN", "service": "payment-gateway", "trace_id": "tr_b8a24", "message": "Retry attempt 1", "endpoint": "/api/v1/checkout/refund", "cart_id": "crt_7726"}
+{"timestamp": "2026-10-17T10:33:19.918Z", "level": "WARN", "service": "email-service", "trace_id": "tr_1b775", "message": "Latency high", "endpoint": "/api/v1/email/templates"}
+{"timestamp": "2026-10-17T10:33:23.972Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_2c6f7", "message": "Job completed", "endpoint": "/api/v1/checkout/refund", "cart_id": "crt_2046"}
+{"timestamp": "2026-10-17T10:33:27.472Z", "level": "DEBUG", "service": "inventory-service", "trace_id": "tr_ac5e3", "message": "Cache hit", "endpoint": "/api/v1/warehouse/sync"}
+{"timestamp": "2026-10-17T10:33:32.220Z", "level": "INFO", "service": "search-service", "trace_id": "tr_36cca", "message": "Stock updated", "endpoint": "/api/v1/catalog/index"}
+{"timestamp": "2026-10-17T10:33:36.197Z", "level": "ERROR", "service": "email-service", "trace_id": "tr_4a62c", "message": "Null pointer exception", "endpoint": "/api/v1/email/send", "error": "ConnectionRefused"}
+{"timestamp": "2026-10-17T10:33:37.920Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_b37cb", "message": "User logged in", "endpoint": "/api/v1/checkout/refund", "cart_id": "crt_7048"}
+{"timestamp": "2026-10-17T10:33:42.427Z", "level": "DEBUG", "service": "search-service", "trace_id": "tr_605d9", "message": "Payload size: 450 bytes", "endpoint": "/api/v1/catalog/index"}
+{"timestamp": "2026-10-17T10:33:45.953Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_d413c", "message": "Job completed", "endpoint": "/api/v1/billing/status", "cart_id": "crt_6766"}
+{"timestamp": "2026-10-17T10:33:50.080Z", "level": "DEBUG", "service": "user-service", "trace_id": "tr_3ca8d", "message": "Starting transaction", "endpoint": "/api/v1/users/usr_9203/profile", "user_id": "usr_9206"}
+{"timestamp": "2026-10-17T10:33:52.441Z", "level": "DEBUG", "service": "inventory-service", "trace_id": "tr_b88e1", "message": "Starting transaction", "endpoint": "/api/v1/products/usr_9920/stock"}
+{"timestamp": "2026-10-17T10:33:57.297Z", "level": "DEBUG", "service": "auth-service", "trace_id": "tr_3ee7d", "message": "Cache hit", "endpoint": "/api/v1/auth/login", "user_id": "usr_1162"}
+{"timestamp": "2026-10-17T10:33:57.324Z", "level": "INFO", "service": "auth-service", "trace_id": "tr_c9981", "message": "Stock updated", "endpoint": "/api/v1/auth/logout", "user_id": "usr_6732"}
+{"timestamp": "2026-10-17T10:34:01.143Z", "level": "WARN", "service": "search-service", "trace_id": "tr_cf3b5", "message": "Retry attempt 1", "endpoint": "/api/v1/search?q=laptop"}
+{"timestamp": "2026-10-17T10:34:04.818Z", "level": "INFO", "service": "email-service", "trace_id": "tr_7d2e9", "message": "Job completed", "endpoint": "/api/v1/email/templates"}
+{"timestamp": "2026-10-17T10:34:09.162Z", "level": "DEBUG", "service": "search-service", "trace_id": "tr_e6310", "message": "Starting transaction", "endpoint": "/api/v1/search?q=shoes"}
+{"timestamp": "2026-10-17T10:34:12.952Z", "level": "INFO", "service": "search-service", "trace_id": "tr_394d6", "message": "Request processed successfully", "endpoint": "/api/v1/catalog/index"}
+{"timestamp": "2026-10-17T10:34:14.128Z", "level": "DEBUG", "service": "email-service", "trace_id": "tr_62cef", "message": "Cache hit", "endpoint": "/api/v1/email/templates"}
+{"timestamp": "2026-10-17T10:34:15.103Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_538f3", "message": "Request processed successfully", "endpoint": "/api/v1/checkout/charge", "cart_id": "crt_2922"}
+{"timestamp": "2026-10-17T10:34:18.372Z", "level": "INFO", "service": "search-service", "trace_id": "tr_c3f0d", "message": "User logged in", "endpoint": "/api/v1/search?q=shoes"}
+{"timestamp": "2026-10-17T10:34:20.577Z", "level": "WARN", "service": "search-service", "trace_id": "tr_27139", "message": "Latency high", "endpoint": "/api/v1/catalog/index"}
+{"timestamp": "2026-10-17T10:34:25.001Z", "level": "ERROR", "service": "email-service", "trace_id": "tr_8c302", "message": "Database connection timeout", "endpoint": "/api/v1/email/send", "error": "QueryTimeoutException"}
+{"timestamp": "2026-10-17T10:34:26.788Z", "level": "INFO", "service": "user-service", "trace_id": "tr_ae862", "message": "Job completed", "endpoint": "/api/v1/users/register", "user_id": "usr_6440"}
+{"timestamp": "2026-10-17T10:34:29.655Z", "level": "DEBUG", "service": "email-service", "trace_id": "tr_97f53", "message": "Cache hit", "endpoint": "/api/v1/email/templates"}
+{"timestamp": "2026-10-17T10:34:30.052Z", "level": "WARN", "service": "inventory-service", "trace_id": "tr_636db", "message": "Latency high", "endpoint": "/api/v1/inventory/reserve"}
+{"timestamp": "2026-10-17T10:34:33.687Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_2ce65", "message": "Request processed successfully", "endpoint": "/api/v1/checkout/refund", "cart_id": "crt_8979"}
+{"timestamp": "2026-10-17T10:34:36.124Z", "level": "DEBUG", "service": "user-service", "trace_id": "tr_d8741", "message": "Cache miss", "endpoint": "/api/v1/users/register", "user_id": "usr_9349"}
+{"timestamp": "2026-10-17T10:34:39.555Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_55ea6", "message": "User logged in", "endpoint": "/api/v1/billing/status", "cart_id": "crt_8513"}
+{"timestamp": "2026-10-17T10:34:41.617Z", "level": "WARN", "service": "user-service", "trace_id": "tr_cc6e9", "message": "Deprecated API used", "endpoint": "/api/v1/users/register", "user_id": "usr_9824"}
+{"timestamp": "2026-10-17T10:34:46.318Z", "level": "WARN", "service": "email-service", "trace_id": "tr_423c4", "message": "Latency high", "endpoint": "/api/v1/email/templates"}
+{"timestamp": "2026-10-17T10:34:46.626Z", "level": "DEBUG", "service": "user-service", "trace_id": "tr_72684", "message": "Cache hit", "endpoint": "/api/v1/users/usr_1219/profile", "user_id": "usr_4999"}
+{"timestamp": "2026-10-17T10:34:50.530Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_561c7", "message": "Stock updated", "endpoint": "/api/v1/checkout/refund", "cart_id": "crt_8339"}
+{"timestamp": "2026-10-17T10:34:50.684Z", "level": "INFO", "service": "auth-service", "trace_id": "tr_4517a", "message": "Stock updated", "endpoint": "/api/v1/auth/login", "user_id": "usr_8488"}
+{"timestamp": "2026-10-17T10:34:50.829Z", "level": "DEBUG", "service": "search-service", "trace_id": "tr_a96b9", "message": "Payload size: 450 bytes", "endpoint": "/api/v1/catalog/index"}
+{"timestamp": "2026-10-17T10:34:52.082Z", "level": "ERROR", "service": "email-service", "trace_id": "tr_678d7", "message": "Database connection timeout", "endpoint": "/api/v1/email/send", "error": "QueryTimeoutException"}
+{"timestamp": "2026-10-17T10:34:56.483Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_78d13", "message": "User logged in", "endpoint": "/api/v1/checkout/charge", "cart_id": "crt_3954"}
+{"timestamp": "2026-10-17T10:34:57.832Z", "level": "INFO", "service": "auth-service", "trace_id": "tr_f1c3f", "message": "User logged in", "endpoint": "/api/v1/auth/logout", "user_id": "usr_8191"}
+{"timestamp": "2026-10-17T10:34:57.933Z", "level": "INFO", "service": "user-service", "trace_id": "tr_49e61", "message": "Stock updated", "endpoint": "/api/v1/users/usr_5562/profile", "user_id": "usr_2628"}
+{"timestamp": "2026-10-17T10:34:58.053Z", "level": "INFO", "service": "auth-service", "trace_id": "tr_cb78e", "message": "Request processed successfully", "endpoint": "/api/v1/auth/logout", "user_id": "usr_8321"}
+{"timestamp": "2026-10-17T10:34:59.005Z", "level": "ERROR", "service": "payment-gateway", "trace_id": "tr_57a07", "message": "Null pointer exception", "endpoint": "/api/v1/billing/status", "cart_id": "crt_1005", "error": "QueryTimeoutException"}
+{"timestamp": "2026-10-17T10:35:02.606Z", "level": "INFO", "service": "search-service", "trace_id": "tr_b2760", "message": "Request processed successfully", "endpoint": "/api/v1/search?q=shoes"}
+{"timestamp": "2026-10-17T10:35:04.413Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_848b0", "message": "Request processed successfully", "endpoint": "/api/v1/checkout/charge", "cart_id": "crt_4624"}
+{"timestamp": "2026-10-17T10:35:04.503Z", "level": "WARN", "service": "email-service", "trace_id": "tr_c559c", "message": "Latency high", "endpoint": "/api/v1/email/templates"}
+{"timestamp": "2026-10-17T10:35:08.555Z", "level": "INFO", "service": "inventory-service", "trace_id": "tr_ae637", "message": "Job completed", "endpoint": "/api/v1/inventory/reserve"}
+{"timestamp": "2026-10-17T10:35:10.728Z", "level": "INFO", "service": "email-service", "trace_id": "tr_7e9d7", "message": "Stock updated", "endpoint": "/api/v1/email/templates"}
+{"timestamp": "2026-10-17T10:35:11.737Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_a18c2", "message": "User logged in", "endpoint": "/api/v1/checkout/refund", "cart_id": "crt_4186"}
+{"timestamp": "2026-10-17T10:35:16.272Z", "level": "INFO", "service": "search-service", "trace_id": "tr_1dde3", "message": "Email sent", "endpoint": "/api/v1/search?q=watch"}
+{"timestamp": "2026-10-17T10:35:17.467Z", "level": "DEBUG", "service": "search-service", "trace_id": "tr_da9fc", "message": "Payload size: 450 bytes", "endpoint": "/api/v1/search?q=laptop"}
+{"timestamp": "2026-10-17T10:35:20.277Z", "level": "INFO", "service": "email-service", "trace_id": "tr_3ce59", "message": "Request processed successfully", "endpoint": "/api/v1/email/send"}
+{"timestamp": "2026-10-17T10:35:24.474Z", "level": "DEBUG", "service": "search-service", "trace_id": "tr_abd8e", "message": "Cache miss", "endpoint": "/api/v1/catalog/index"}
+{"timestamp": "2026-10-17T10:35:24.952Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_4ed78", "message": "User logged in", "endpoint": "/api/v1/checkout/charge", "cart_id": "crt_6906"}
+{"timestamp": "2026-10-17T10:35:28.015Z", "level": "ERROR", "service": "inventory-service", "trace_id": "tr_8c2fd", "message": "Database connection timeout", "endpoint": "/api/v1/warehouse/sync", "error": "QueryTimeoutException"}
+{"timestamp": "2026-10-17T10:35:32.543Z", "level": "DEBUG", "service": "search-service", "trace_id": "tr_299af", "message": "Starting transaction", "endpoint": "/api/v1/search?q=laptop"}
+{"timestamp": "2026-10-17T10:35:37.040Z", "level": "DEBUG", "service": "payment-gateway", "trace_id": "tr_6a03d", "message": "Payload size: 450 bytes", "endpoint": "/api/v1/checkout/charge", "cart_id": "crt_1086"}
+{"timestamp": "2026-10-17T10:35:40.334Z", "level": "ERROR", "service": "search-service", "trace_id": "tr_856f5", "message": "Database connection timeout", "endpoint": "/api/v1/search?q=shoes", "error": "NullReferenceException"}
+{"timestamp": "2026-10-17T10:35:45.000Z", "level": "INFO", "service": "email-service", "trace_id": "tr_72bd3", "message": "Email sent", "endpoint": "/api/v1/email/send"}
+{"timestamp": "2026-10-17T10:35:47.141Z", "level": "WARN", "service": "auth-service", "trace_id": "tr_49aa1", "message": "Deprecated API used", "endpoint": "/api/v1/auth/logout", "user_id": "usr_7940"}
+{"timestamp": "2026-10-17T10:35:47.893Z", "level": "ERROR", "service": "inventory-service", "trace_id": "tr_b0bcd", "message": "Payment rejected", "endpoint": "/api/v1/inventory/reserve", "error": "ConnectionRefused"}
+{"timestamp": "2026-10-17T10:35:49.679Z", "level": "INFO", "service": "search-service", "trace_id": "tr_43720", "message": "Stock updated", "endpoint": "/api/v1/search?q=shoes"}
+{"timestamp": "2026-10-17T10:35:50.674Z", "level": "ERROR", "service": "payment-gateway", "trace_id": "tr_f0b10", "message": "Service unavailable", "endpoint": "/api/v1/checkout/charge", "cart_id": "crt_8561", "error": "NullReferenceException"}
+{"timestamp": "2026-10-17T10:35:53.197Z", "level": "INFO", "service": "inventory-service", "trace_id": "tr_76755", "message": "Job completed", "endpoint": "/api/v1/inventory/reserve"}
+{"timestamp": "2026-10-17T10:35:57.033Z", "level": "ERROR", "service": "user-service", "trace_id": "tr_98685", "message": "Null pointer exception", "endpoint": "/api/v1/users/usr_3441/settings", "user_id": "usr_4858", "error": "NullReferenceException"}
+{"timestamp": "2026-10-17T10:36:01.209Z", "level": "INFO", "service": "user-service", "trace_id": "tr_8f45e", "message": "Job completed", "endpoint": "/api/v1/users/usr_1397/settings", "user_id": "usr_1158"}
+{"timestamp": "2026-10-17T10:36:03.201Z", "level": "ERROR", "service": "auth-service", "trace_id": "tr_cc1b4", "message": "Database connection timeout", "endpoint": "/api/v1/auth/logout", "user_id": "usr_4357", "error": "ConnectionRefused"}
+{"timestamp": "2026-10-17T10:36:04.133Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_e278d", "message": "Request processed successfully", "endpoint": "/api/v1/checkout/refund", "cart_id": "crt_3952"}
+{"timestamp": "2026-10-17T10:36:04.875Z", "level": "INFO", "service": "user-service", "trace_id": "tr_258d8", "message": "Stock updated", "endpoint": "/api/v1/users/register", "user_id": "usr_1561"}
+{"timestamp": "2026-10-17T10:36:05.356Z", "level": "INFO", "service": "user-service", "trace_id": "tr_4ceb4", "message": "Request processed successfully", "endpoint": "/api/v1/users/usr_9258/profile", "user_id": "usr_4592"}
+{"timestamp": "2026-10-17T10:36:10.116Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_8062f", "message": "Job completed", "endpoint": "/api/v1/checkout/refund", "cart_id": "crt_3876"}
+{"timestamp": "2026-10-17T10:36:14.907Z", "level": "INFO", "service": "search-service", "trace_id": "tr_63192", "message": "Email sent", "endpoint": "/api/v1/catalog/index"}
+{"timestamp": "2026-10-17T10:36:19.591Z", "level": "DEBUG", "service": "inventory-service", "trace_id": "tr_827e0", "message": "Starting transaction", "endpoint": "/api/v1/products/usr_5622/stock"}
+{"timestamp": "2026-10-17T10:36:21.313Z", "level": "DEBUG", "service": "search-service", "trace_id": "tr_9b474", "message": "Cache miss", "endpoint": "/api/v1/catalog/index"}
+{"timestamp": "2026-10-17T10:36:26.219Z", "level": "INFO", "service": "email-service", "trace_id": "tr_aa634", "message": "Stock updated", "endpoint": "/api/v1/email/templates"}
+{"timestamp": "2026-10-17T10:36:27.442Z", "level": "WARN", "service": "search-service", "trace_id": "tr_92e17", "message": "Latency high", "endpoint": "/api/v1/catalog/index"}
+{"timestamp": "2026-10-17T10:36:30.704Z", "level": "INFO", "service": "auth-service", "trace_id": "tr_212cb", "message": "Job completed", "endpoint": "/api/v1/auth/logout", "user_id": "usr_4124"}
+{"timestamp": "2026-10-17T10:36:34.009Z", "level": "WARN", "service": "user-service", "trace_id": "tr_ed01d", "message": "Latency high", "endpoint": "/api/v1/users/register", "user_id": "usr_5196"}
+{"timestamp": "2026-10-17T10:36:37.546Z", "level": "DEBUG", "service": "auth-service", "trace_id": "tr_e8a88", "message": "Cache hit", "endpoint": "/api/v1/auth/login", "user_id": "usr_3515"}
+{"timestamp": "2026-10-17T10:36:37.704Z", "level": "INFO", "service": "user-service", "trace_id": "tr_c99e5", "message": "Stock updated", "endpoint": "/api/v1/users/register", "user_id": "usr_5828"}
+{"timestamp": "2026-10-17T10:36:41.496Z", "level": "INFO", "service": "user-service", "trace_id": "tr_673d7", "message": "User logged in", "endpoint": "/api/v1/users/register", "user_id": "usr_4534"}
+{"timestamp": "2026-10-17T10:36:44.443Z", "level": "INFO", "service": "inventory-service", "trace_id": "tr_6a548", "message": "User logged in", "endpoint": "/api/v1/inventory/reserve"}
+{"timestamp": "2026-10-17T10:36:46.348Z", "level": "INFO", "service": "inventory-service", "trace_id": "tr_afb08", "message": "Request processed successfully", "endpoint": "/api/v1/warehouse/sync"}
+{"timestamp": "2026-10-17T10:36:51.261Z", "level": "INFO", "service": "email-service", "trace_id": "tr_2b43f", "message": "Stock updated", "endpoint": "/api/v1/email/send"}
+{"timestamp": "2026-10-17T10:36:55.177Z", "level": "INFO", "service": "auth-service", "trace_id": "tr_84a8b", "message": "User logged in", "endpoint": "/api/v1/auth/refresh", "user_id": "usr_1368"}
+{"timestamp": "2026-10-17T10:36:56.438Z", "level": "INFO", "service": "auth-service", "trace_id": "tr_44cc8", "message": "Request processed successfully", "endpoint": "/api/v1/auth/logout", "user_id": "usr_9632"}
+{"timestamp": "2026-10-17T10:37:00.285Z", "level": "WARN", "service": "search-service", "trace_id": "tr_a097c", "message": "Latency high", "endpoint": "/api/v1/catalog/index"}
+{"timestamp": "2026-10-17T10:37:03.709Z", "level": "INFO", "service": "user-service", "trace_id": "tr_417f6", "message": "Email sent", "endpoint": "/api/v1/users/usr_3443/profile", "user_id": "usr_1242"}
+{"timestamp": "2026-10-17T10:37:06.897Z", "level": "WARN", "service": "email-service", "trace_id": "tr_6769b", "message": "Latency high", "endpoint": "/api/v1/email/send"}
+{"timestamp": "2026-10-17T10:37:11.811Z", "level": "INFO", "service": "auth-service", "trace_id": "tr_2f2d8", "message": "User logged in", "endpoint": "/api/v1/auth/refresh", "user_id": "usr_2740"}
+{"timestamp": "2026-10-17T10:37:13.854Z", "level": "INFO", "service": "search-service", "trace_id": "tr_9a7e1", "message": "Email sent", "endpoint": "/api/v1/search?q=shoes"}
+{"timestamp": "2026-10-17T10:37:17.413Z", "level": "DEBUG", "service": "email-service", "trace_id": "tr_85a4a", "message": "Payload size: 450 bytes", "endpoint": "/api/v1/email/templates"}
+{"timestamp": "2026-10-17T10:37:20.541Z", "level": "WARN", "service": "search-service", "trace_id": "tr_50d21", "message": "Retry attempt 1", "endpoint": "/api/v1/search?q=laptop"}
+{"timestamp": "2026-10-17T10:37:23.738Z", "level": "DEBUG", "service": "payment-gateway", "trace_id": "tr_62df1", "message": "Cache hit", "endpoint": "/api/v1/billing/status", "cart_id": "crt_7887"}
+{"timestamp": "2026-10-17T10:37:28.282Z", "level": "WARN", "service": "search-service", "trace_id": "tr_e1409", "message": "Retry attempt 1", "endpoint": "/api/v1/catalog/index"}
+{"timestamp": "2026-10-17T10:37:29.079Z", "level": "DEBUG", "service": "payment-gateway", "trace_id": "tr_76e19", "message": "Cache hit", "endpoint": "/api/v1/checkout/refund", "cart_id": "crt_8108"}
+{"timestamp": "2026-10-17T10:37:34.033Z", "level": "INFO", "service": "user-service", "trace_id": "tr_d5591", "message": "Request processed successfully", "endpoint": "/api/v1/users/usr_2529/settings", "user_id": "usr_7670"}
+{"timestamp": "2026-10-17T10:37:38.345Z", "level": "WARN", "service": "payment-gateway", "trace_id": "tr_21ad7", "message": "Deprecated API used", "endpoint": "/api/v1/billing/status", "cart_id": "crt_6896"}
+{"timestamp": "2026-10-17T10:37:41.734Z", "level": "INFO", "service": "auth-service", "trace_id": "tr_a444a", "message": "Email sent", "endpoint": "/api/v1/auth/refresh", "user_id": "usr_4967"}
+{"timestamp": "2026-10-17T10:37:41.999Z", "level": "INFO", "service": "user-service", "trace_id": "tr_327c0", "message": "Request processed successfully", "endpoint": "/api/v1/users/usr_5797/profile", "user_id": "usr_7755"}
+{"timestamp": "2026-10-17T10:37:43.999Z", "level": "INFO", "service": "email-service", "trace_id": "tr_29b37", "message": "Email sent", "endpoint": "/api/v1/email/templates"}
+{"timestamp": "2026-10-17T10:37:47.575Z", "level": "INFO", "service": "user-service", "trace_id": "tr_ae8cb", "message": "User logged in", "endpoint": "/api/v1/users/usr_6763/settings", "user_id": "usr_3049"}
+{"timestamp": "2026-10-17T10:37:51.820Z", "level": "INFO", "service": "search-service", "trace_id": "tr_687d8", "message": "Stock updated", "endpoint": "/api/v1/catalog/index"}
+{"timestamp": "2026-10-17T10:37:53.566Z", "level": "WARN", "service": "user-service", "trace_id": "tr_39640", "message": "Latency high", "endpoint": "/api/v1/users/register", "user_id": "usr_6312"}
+{"timestamp": "2026-10-17T10:37:55.968Z", "level": "INFO", "service": "auth-service", "trace_id": "tr_dae4f", "message": "User logged in", "endpoint": "/api/v1/auth/login", "user_id": "usr_6477"}
+{"timestamp": "2026-10-17T10:37:56.628Z", "level": "ERROR", "service": "auth-service", "trace_id": "tr_91bc2", "message": "Payment rejected", "endpoint": "/api/v1/auth/refresh", "user_id": "usr_2372", "error": "ConnectionRefused"}
+{"timestamp": "2026-10-17T10:37:57.286Z", "level": "WARN", "service": "user-service", "trace_id": "tr_f2a40", "message": "Rate limit approaching", "endpoint": "/api/v1/users/usr_1386/profile", "user_id": "usr_3341"}
+{"timestamp": "2026-10-17T10:37:58.842Z", "level": "INFO", "service": "search-service", "trace_id": "tr_dac40", "message": "Stock updated", "endpoint": "/api/v1/search?q=watch"}
+{"timestamp": "2026-10-17T10:38:00.323Z", "level": "DEBUG", "service": "auth-service", "trace_id": "tr_8aecf", "message": "Starting transaction", "endpoint": "/api/v1/auth/logout", "user_id": "usr_7403"}
+{"timestamp": "2026-10-17T10:38:02.702Z", "level": "INFO", "service": "inventory-service", "trace_id": "tr_1fec7", "message": "Email sent", "endpoint": "/api/v1/warehouse/sync"}
+{"timestamp": "2026-10-17T10:38:03.035Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_272df", "message": "User logged in", "endpoint": "/api/v1/checkout/charge", "cart_id": "crt_4902"}
+{"timestamp": "2026-10-17T10:38:03.244Z", "level": "DEBUG", "service": "inventory-service", "trace_id": "tr_c554d", "message": "Starting transaction", "endpoint": "/api/v1/products/usr_7344/stock"}
+{"timestamp": "2026-10-17T10:38:06.097Z", "level": "INFO", "service": "search-service", "trace_id": "tr_85b71", "message": "Email sent", "endpoint": "/api/v1/catalog/index"}
+{"timestamp": "2026-10-17T10:38:06.994Z", "level": "WARN", "service": "inventory-service", "trace_id": "tr_b3549", "message": "Retry attempt 1", "endpoint": "/api/v1/warehouse/sync"}
+{"timestamp": "2026-10-17T10:38:07.896Z", "level": "DEBUG", "service": "payment-gateway", "trace_id": "tr_e6e49", "message": "Payload size: 450 bytes", "endpoint": "/api/v1/billing/status", "cart_id": "crt_6936"}
+{"timestamp": "2026-10-17T10:38:10.824Z", "level": "WARN", "service": "inventory-service", "trace_id": "tr_7a7cb", "message": "Deprecated API used", "endpoint": "/api/v1/warehouse/sync"}
+{"timestamp": "2026-10-17T10:38:12.637Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_1eb25", "message": "User logged in", "endpoint": "/api/v1/billing/status", "cart_id": "crt_7084"}
+{"timestamp": "2026-10-17T10:38:16.680Z", "level": "INFO", "service": "inventory-service", "trace_id": "tr_7c389", "message": "Stock updated", "endpoint": "/api/v1/products/usr_8698/stock"}
+{"timestamp": "2026-10-17T10:38:18.382Z", "level": "DEBUG", "service": "user-service", "trace_id": "tr_932c1", "message": "Cache hit", "endpoint": "/api/v1/users/usr_7858/profile", "user_id": "usr_6139"}
+{"timestamp": "2026-10-17T10:38:19.964Z", "level": "INFO", "service": "user-service", "trace_id": "tr_e2b65", "message": "User logged in", "endpoint": "/api/v1/users/usr_7496/settings", "user_id": "usr_3280"}
+{"timestamp": "2026-10-17T10:38:20.104Z", "level": "ERROR", "service": "email-service", "trace_id": "tr_610c4", "message": "Service unavailable", "endpoint": "/api/v1/email/send", "error": "QueryTimeoutException"}
+{"timestamp": "2026-10-17T10:38:21.970Z", "level": "ERROR", "service": "inventory-service", "trace_id": "tr_ce856", "message": "Service unavailable", "endpoint": "/api/v1/products/usr_8708/stock", "error": "NullReferenceException"}
+{"timestamp": "2026-10-17T10:38:24.745Z", "level": "WARN", "service": "user-service", "trace_id": "tr_3a8c9", "message": "Latency high", "endpoint": "/api/v1/users/usr_4972/profile", "user_id": "usr_9160"}
+{"timestamp": "2026-10-17T10:38:29.071Z", "level": "WARN", "service": "search-service", "trace_id": "tr_80d3e", "message": "Deprecated API used", "endpoint": "/api/v1/search?q=watch"}
+{"timestamp": "2026-10-17T10:38:32.935Z", "level": "WARN", "service": "inventory-service", "trace_id": "tr_53190", "message": "Deprecated API used", "endpoint": "/api/v1/warehouse/sync"}
+{"timestamp": "2026-10-17T10:38:35.603Z", "level": "ERROR", "service": "email-service", "trace_id": "tr_b7d90", "message": "Payment rejected", "endpoint": "/api/v1/email/templates", "error": "NullReferenceException"}
+{"timestamp": "2026-10-17T10:38:36.056Z", "level": "ERROR", "service": "email-service", "trace_id": "tr_e9a1d", "message": "Service unavailable", "endpoint": "/api/v1/email/templates", "error": "NullReferenceException"}
+{"timestamp": "2026-10-17T10:38:36.180Z", "level": "WARN", "service": "user-service", "trace_id": "tr_2a0b5", "message": "Latency high", "endpoint": "/api/v1/users/register", "user_id": "usr_6189"}
+{"timestamp": "2026-10-17T10:38:37.401Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_450e4", "message": "Stock updated", "endpoint": "/api/v1/checkout/refund", "cart_id": "crt_7878"}
+{"timestamp": "2026-10-17T10:38:38.929Z", "level": "DEBUG", "service": "payment-gateway", "trace_id": "tr_aa7e2", "message": "Cache miss", "endpoint": "/api/v1/billing/status", "cart_id": "crt_3868"}
+{"timestamp": "2026-10-17T10:38:41.209Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_6ed1f", "message": "Email sent", "endpoint": "/api/v1/checkout/refund", "cart_id": "crt_8018"}
+{"timestamp": "2026-10-17T10:38:41.884Z", "level": "WARN", "service": "auth-service", "trace_id": "tr_db37b", "message": "Deprecated API used", "endpoint": "/api/v1/auth/refresh", "user_id": "usr_2258"}
+{"timestamp": "2026-10-17T10:38:43.243Z", "level": "WARN", "service": "user-service", "trace_id": "tr_2a7d8", "message": "Rate limit approaching", "endpoint": "/api/v1/users/register", "user_id": "usr_8849"}
+{"timestamp": "2026-10-17T10:38:48.205Z", "level": "INFO", "service": "inventory-service", "trace_id": "tr_612e1", "message": "Job completed", "endpoint": "/api/v1/products/usr_2650/stock"}
+{"timestamp": "2026-10-17T10:38:52.870Z", "level": "ERROR", "service": "inventory-service", "trace_id": "tr_2d9b8", "message": "Payment rejected", "endpoint": "/api/v1/warehouse/sync", "error": "QueryTimeoutException"}
+{"timestamp": "2026-10-17T10:38:57.698Z", "level": "INFO", "service": "inventory-service", "trace_id": "tr_5908f", "message": "Job completed", "endpoint": "/api/v1/inventory/reserve"}
+{"timestamp": "2026-10-17T10:39:00.922Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_7cc36", "message": "Email sent", "endpoint": "/api/v1/checkout/charge", "cart_id": "crt_7700"}
+{"timestamp": "2026-10-17T10:39:04.107Z", "level": "WARN", "service": "email-service", "trace_id": "tr_9492a", "message": "Deprecated API used", "endpoint": "/api/v1/email/send"}
+{"timestamp": "2026-10-17T10:39:07.251Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_d847f", "message": "Request processed successfully", "endpoint": "/api/v1/billing/status", "cart_id": "crt_5132"}
+{"timestamp": "2026-10-17T10:39:07.855Z", "level": "INFO", "service": "inventory-service", "trace_id": "tr_d3de1", "message": "Stock updated", "endpoint": "/api/v1/products/usr_1353/stock"}
+{"timestamp": "2026-10-17T10:39:11.977Z", "level": "INFO", "service": "user-service", "trace_id": "tr_3e749", "message": "User logged in", "endpoint": "/api/v1/users/usr_8557/profile", "user_id": "usr_7002"}
+{"timestamp": "2026-10-17T10:39:12.412Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_54cf2", "message": "Stock updated", "endpoint": "/api/v1/checkout/refund", "cart_id": "crt_3470"}
+{"timestamp": "2026-10-17T10:39:13.892Z", "level": "WARN", "service": "email-service", "trace_id": "tr_bbb95", "message": "Rate limit approaching", "endpoint": "/api/v1/email/send"}
+{"timestamp": "2026-10-17T10:39:15.301Z", "level": "INFO", "service": "search-service", "trace_id": "tr_d76a6", "message": "Email sent", "endpoint": "/api/v1/search?q=watch"}
+{"timestamp": "2026-10-17T10:39:15.782Z", "level": "INFO", "service": "email-service", "trace_id": "tr_de7b9", "message": "Stock updated", "endpoint": "/api/v1/email/send"}
+{"timestamp": "2026-10-17T10:39:19.912Z", "level": "DEBUG", "service": "auth-service", "trace_id": "tr_530a2", "message": "Starting transaction", "endpoint": "/api/v1/auth/refresh", "user_id": "usr_6999"}
+{"timestamp": "2026-10-17T10:39:20.140Z", "level": "WARN", "service": "inventory-service", "trace_id": "tr_e7a0f", "message": "Latency high", "endpoint": "/api/v1/warehouse/sync"}
+{"timestamp": "2026-10-17T10:39:23.991Z", "level": "INFO", "service": "inventory-service", "trace_id": "tr_5d6d4", "message": "User logged in", "endpoint": "/api/v1/warehouse/sync"}
+{"timestamp": "2026-10-17T10:39:24.050Z", "level": "INFO", "service": "user-service", "trace_id": "tr_3925b", "message": "User logged in", "endpoint": "/api/v1/users/usr_1030/settings", "user_id": "usr_3913"}
+{"timestamp": "2026-10-17T10:39:24.811Z", "level": "DEBUG", "service": "email-service", "trace_id": "tr_b01d4", "message": "Cache miss", "endpoint": "/api/v1/email/send"}
+{"timestamp": "2026-10-17T10:39:28.451Z", "level": "INFO", "service": "auth-service", "trace_id": "tr_ebb89", "message": "User logged in", "endpoint": "/api/v1/auth/logout", "user_id": "usr_3631"}
+{"timestamp": "2026-10-17T10:39:29.778Z", "level": "WARN", "service": "search-service", "trace_id": "tr_60db8", "message": "Latency high", "endpoint": "/api/v1/catalog/index"}
+{"timestamp": "2026-10-17T10:39:30.525Z", "level": "INFO", "service": "inventory-service", "trace_id": "tr_8cd6e", "message": "Job completed", "endpoint": "/api/v1/products/usr_2153/stock"}
+{"timestamp": "2026-10-17T10:39:33.389Z", "level": "INFO", "service": "search-service", "trace_id": "tr_c99ac", "message": "User logged in", "endpoint": "/api/v1/catalog/index"}
+{"timestamp": "2026-10-17T10:39:37.926Z", "level": "DEBUG", "service": "inventory-service", "trace_id": "tr_ae30f", "message": "Payload size: 450 bytes", "endpoint": "/api/v1/warehouse/sync"}
+{"timestamp": "2026-10-17T10:39:37.967Z", "level": "INFO", "service": "auth-service", "trace_id": "tr_de4ad", "message": "Stock updated", "endpoint": "/api/v1/auth/logout", "user_id": "usr_3123"}
+{"timestamp": "2026-10-17T10:39:42.653Z", "level": "INFO", "service": "auth-service", "trace_id": "tr_d31ec", "message": "Request processed successfully", "endpoint": "/api/v1/auth/login", "user_id": "usr_9823"}
+{"timestamp": "2026-10-17T10:39:42.906Z", "level": "DEBUG", "service": "user-service", "trace_id": "tr_42bf7", "message": "Payload size: 450 bytes", "endpoint": "/api/v1/users/usr_2631/profile", "user_id": "usr_5088"}
+{"timestamp": "2026-10-17T10:39:43.871Z", "level": "INFO", "service": "search-service", "trace_id": "tr_c3ffa", "message": "Stock updated", "endpoint": "/api/v1/catalog/index"}
+{"timestamp": "2026-10-17T10:39:46.785Z", "level": "INFO", "service": "user-service", "trace_id": "tr_df847", "message": "User logged in", "endpoint": "/api/v1/users/usr_5466/profile", "user_id": "usr_3848"}
+{"timestamp": "2026-10-17T10:39:50.233Z", "level": "WARN", "service": "search-service", "trace_id": "tr_18f67", "message": "Latency high", "endpoint": "/api/v1/catalog/index"}
+{"timestamp": "2026-10-17T10:39:51.992Z", "level": "INFO", "service": "search-service", "trace_id": "tr_9e9da", "message": "Email sent", "endpoint": "/api/v1/search?q=laptop"}
+{"timestamp": "2026-10-17T10:39:53.839Z", "level": "DEBUG", "service": "email-service", "trace_id": "tr_b9ab9", "message": "Cache miss", "endpoint": "/api/v1/email/send"}
+{"timestamp": "2026-10-17T10:39:55.757Z", "level": "INFO", "service": "user-service", "trace_id": "tr_1db42", "message": "Job completed", "endpoint": "/api/v1/users/usr_1635/settings", "user_id": "usr_2180"}
+{"timestamp": "2026-10-17T10:39:56.950Z", "level": "INFO", "service": "user-service", "trace_id": "tr_9ba29", "message": "User logged in", "endpoint": "/api/v1/users/usr_2520/settings", "user_id": "usr_2807"}
+{"timestamp": "2026-10-17T10:40:01.266Z", "level": "DEBUG", "service": "inventory-service", "trace_id": "tr_50ec4", "message": "Cache miss", "endpoint": "/api/v1/products/usr_8783/stock"}
+{"timestamp": "2026-10-17T10:40:04.516Z", "level": "ERROR", "service": "auth-service", "trace_id": "tr_6fe3a", "message": "Database connection timeout", "endpoint": "/api/v1/auth/logout", "user_id": "usr_7927", "error": "NullReferenceException"}
+{"timestamp": "2026-10-17T10:40:06.762Z", "level": "WARN", "service": "user-service", "trace_id": "tr_38d3b", "message": "Rate limit approaching", "endpoint": "/api/v1/users/usr_4730/profile", "user_id": "usr_4882"}
+{"timestamp": "2026-10-17T10:40:11.305Z", "level": "INFO", "service": "email-service", "trace_id": "tr_27f18", "message": "Stock updated", "endpoint": "/api/v1/email/templates"}
+{"timestamp": "2026-10-17T10:40:12.381Z", "level": "DEBUG", "service": "inventory-service", "trace_id": "tr_91c00", "message": "Starting transaction", "endpoint": "/api/v1/inventory/reserve"}
+{"timestamp": "2026-10-17T10:40:16.668Z", "level": "ERROR", "service": "search-service", "trace_id": "tr_92653", "message": "Service unavailable", "endpoint": "/api/v1/catalog/index", "error": "QueryTimeoutException"}
+{"timestamp": "2026-10-17T10:40:17.285Z", "level": "ERROR", "service": "email-service", "trace_id": "tr_6a271", "message": "Payment rejected", "endpoint": "/api/v1/email/templates", "error": "QueryTimeoutException"}
+{"timestamp": "2026-10-17T10:40:21.660Z", "level": "INFO", "service": "search-service", "trace_id": "tr_c4cbb", "message": "Email sent", "endpoint": "/api/v1/catalog/index"}
+{"timestamp": "2026-10-17T10:40:23.600Z", "level": "DEBUG", "service": "search-service", "trace_id": "tr_62951", "message": "Starting transaction", "endpoint": "/api/v1/search?q=watch"}
+{"timestamp": "2026-10-17T10:40:26.799Z", "level": "DEBUG", "service": "email-service", "trace_id": "tr_bd7a5", "message": "Starting transaction", "endpoint": "/api/v1/email/templates"}
+{"timestamp": "2026-10-17T10:40:29.849Z", "level": "WARN", "service": "user-service", "trace_id": "tr_eeb9b", "message": "Latency high", "endpoint": "/api/v1/users/usr_1760/settings", "user_id": "usr_2372"}
+{"timestamp": "2026-10-17T10:40:32.499Z", "level": "DEBUG", "service": "inventory-service", "trace_id": "tr_75b16", "message": "Payload size: 450 bytes", "endpoint": "/api/v1/warehouse/sync"}
+{"timestamp": "2026-10-17T10:40:34.086Z", "level": "INFO", "service": "user-service", "trace_id": "tr_1ab9f", "message": "User logged in", "endpoint": "/api/v1/users/usr_8651/settings", "user_id": "usr_6419"}
+{"timestamp": "2026-10-17T10:40:36.250Z", "level": "INFO", "service": "auth-service", "trace_id": "tr_f0bd9", "message": "Job completed", "endpoint": "/api/v1/auth/logout", "user_id": "usr_9248"}
+{"timestamp": "2026-10-17T10:40:39.793Z", "level": "WARN", "service": "payment-gateway", "trace_id": "tr_ec4e2", "message": "Latency high", "endpoint": "/api/v1/billing/status", "cart_id": "crt_8209"}
+{"timestamp": "2026-10-17T10:40:42.278Z", "level": "DEBUG", "service": "inventory-service", "trace_id": "tr_c4254", "message": "Cache miss", "endpoint": "/api/v1/inventory/reserve"}
+{"timestamp": "2026-10-17T10:40:43.603Z", "level": "INFO", "service": "search-service", "trace_id": "tr_7ef5c", "message": "Request processed successfully", "endpoint": "/api/v1/search?q=laptop"}
+{"timestamp": "2026-10-17T10:40:43.790Z", "level": "INFO", "service": "user-service", "trace_id": "tr_b2fba", "message": "Email sent", "endpoint": "/api/v1/users/usr_5216/settings", "user_id": "usr_7954"}
+{"timestamp": "2026-10-17T10:40:46.379Z", "level": "DEBUG", "service": "payment-gateway", "trace_id": "tr_7039b", "message": "Payload size: 450 bytes", "endpoint": "/api/v1/billing/status", "cart_id": "crt_8895"}
+{"timestamp": "2026-10-17T10:40:50.358Z", "level": "INFO", "service": "inventory-service", "trace_id": "tr_39903", "message": "User logged in", "endpoint": "/api/v1/products/usr_5827/stock"}
+{"timestamp": "2026-10-17T10:40:51.526Z", "level": "WARN", "service": "payment-gateway", "trace_id": "tr_5e7a4", "message": "Rate limit approaching", "endpoint": "/api/v1/checkout/refund", "cart_id": "crt_1487"}
+{"timestamp": "2026-10-17T10:40:55.692Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_383d8", "message": "Stock updated", "endpoint": "/api/v1/billing/status", "cart_id": "crt_3466"}
+{"timestamp": "2026-10-17T10:40:57.624Z", "level": "DEBUG", "service": "email-service", "trace_id": "tr_d63e5", "message": "Payload size: 450 bytes", "endpoint": "/api/v1/email/templates"}
+{"timestamp": "2026-10-17T10:41:00.124Z", "level": "DEBUG", "service": "search-service", "trace_id": "tr_ce741", "message": "Cache hit", "endpoint": "/api/v1/catalog/index"}
+{"timestamp": "2026-10-17T10:41:00.871Z", "level": "ERROR", "service": "auth-service", "trace_id": "tr_222b9", "message": "Payment rejected", "endpoint": "/api/v1/auth/logout", "user_id": "usr_8840", "error": "QueryTimeoutException"}
+{"timestamp": "2026-10-17T10:41:04.917Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_85ed3", "message": "Email sent", "endpoint": "/api/v1/billing/status", "cart_id": "crt_9112"}
+{"timestamp": "2026-10-17T10:41:06.980Z", "level": "DEBUG", "service": "user-service", "trace_id": "tr_d3d84", "message": "Cache miss", "endpoint": "/api/v1/users/usr_5021/settings", "user_id": "usr_3424"}
+{"timestamp": "2026-10-17T10:41:08.301Z", "level": "DEBUG", "service": "user-service", "trace_id": "tr_7f20d", "message": "Cache hit", "endpoint": "/api/v1/users/usr_7116/profile", "user_id": "usr_6079"}
+{"timestamp": "2026-10-17T10:41:10.490Z", "level": "WARN", "service": "email-service", "trace_id": "tr_2f000", "message": "Retry attempt 1", "endpoint": "/api/v1/email/send"}
+{"timestamp": "2026-10-17T10:41:12.154Z", "level": "INFO", "service": "user-service", "trace_id": "tr_77932", "message": "User logged in", "endpoint": "/api/v1/users/register", "user_id": "usr_2418"}
+{"timestamp": "2026-10-17T10:41:15.674Z", "level": "INFO", "service": "inventory-service", "trace_id": "tr_85f06", "message": "Stock updated", "endpoint": "/api/v1/warehouse/sync"}
+{"timestamp": "2026-10-17T10:41:18.007Z", "level": "WARN", "service": "email-service", "trace_id": "tr_d2b99", "message": "Deprecated API used", "endpoint": "/api/v1/email/send"}
+{"timestamp": "2026-10-17T10:41:20.883Z", "level": "WARN", "service": "search-service", "trace_id": "tr_220c6", "message": "Retry attempt 1", "endpoint": "/api/v1/catalog/index"}
+{"timestamp": "2026-10-17T10:41:23.987Z", "level": "INFO", "service": "search-service", "trace_id": "tr_7f20d", "message": "User logged in", "endpoint": "/api/v1/catalog/index"}
+{"timestamp": "2026-10-17T10:41:26.913Z", "level": "INFO", "service": "email-service", "trace_id": "tr_84278", "message": "Stock updated", "endpoint": "/api/v1/email/send"}
+{"timestamp": "2026-10-17T10:41:30.365Z", "level": "DEBUG", "service": "search-service", "trace_id": "tr_de43f", "message": "Cache miss", "endpoint": "/api/v1/catalog/index"}
+{"timestamp": "2026-10-17T10:41:30.920Z", "level": "DEBUG", "service": "payment-gateway", "trace_id": "tr_b588c", "message": "Payload size: 450 bytes", "endpoint": "/api/v1/checkout/charge", "cart_id": "crt_8431"}
+{"timestamp": "2026-10-17T10:41:32.119Z", "level": "DEBUG", "service": "auth-service", "trace_id": "tr_8b682", "message": "Starting transaction", "endpoint": "/api/v1/auth/logout", "user_id": "usr_9693"}
+{"timestamp": "2026-10-17T10:41:35.782Z", "level": "INFO", "service": "inventory-service", "trace_id": "tr_d8b98", "message": "Email sent", "endpoint": "/api/v1/inventory/reserve"}
+{"timestamp": "2026-10-17T10:41:40.305Z", "level": "DEBUG", "service": "inventory-service", "trace_id": "tr_8d3b6", "message": "Starting transaction", "endpoint": "/api/v1/products/usr_3494/stock"}
+{"timestamp": "2026-10-17T10:41:41.905Z", "level": "INFO", "service": "auth-service", "trace_id": "tr_8300f", "message": "Request processed successfully", "endpoint": "/api/v1/auth/refresh", "user_id": "usr_4655"}
+{"timestamp": "2026-10-17T10:41:42.854Z", "level": "INFO", "service": "email-service", "trace_id": "tr_1c137", "message": "Stock updated", "endpoint": "/api/v1/email/send"}
+{"timestamp": "2026-10-17T10:41:46.374Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_b71f3", "message": "User logged in", "endpoint": "/api/v1/billing/status", "cart_id": "crt_6022"}
+{"timestamp": "2026-10-17T10:41:48.658Z", "level": "ERROR", "service": "email-service", "trace_id": "tr_44d19", "message": "Payment rejected", "endpoint": "/api/v1/email/send", "error": "ConnectionRefused"}
+{"timestamp": "2026-10-17T10:41:52.482Z", "level": "INFO", "service": "inventory-service", "trace_id": "tr_1bce2", "message": "Job completed", "endpoint": "/api/v1/products/usr_4243/stock"}
+{"timestamp": "2026-10-17T10:41:57.354Z", "level": "INFO", "service": "search-service", "trace_id": "tr_dc6dd", "message": "User logged in", "endpoint": "/api/v1/search?q=watch"}
+{"timestamp": "2026-10-17T10:41:58.891Z", "level": "INFO", "service": "auth-service", "trace_id": "tr_f3568", "message": "Request processed successfully", "endpoint": "/api/v1/auth/refresh", "user_id": "usr_7918"}
+{"timestamp": "2026-10-17T10:42:02.553Z", "level": "WARN", "service": "user-service", "trace_id": "tr_86f57", "message": "Retry attempt 1", "endpoint": "/api/v1/users/register", "user_id": "usr_1531"}
+{"timestamp": "2026-10-17T10:42:04.996Z", "level": "WARN", "service": "user-service", "trace_id": "tr_a3aea", "message": "Retry attempt 1", "endpoint": "/api/v1/users/register", "user_id": "usr_3770"}
+{"timestamp": "2026-10-17T10:42:08.012Z", "level": "INFO", "service": "payment-gateway", "trace_id": "tr_ba107", "message": "User logged in", "endpoint": "/api/v1/checkout/charge", "cart_id": "crt_1598"}
+{"timestamp": "2026-10-17T10:42:11.167Z", "level": "ERROR", "service": "inventory-service", "trace_id": "tr_8b203", "message": "Service unavailable", "endpoint": "/api/v1/products/usr_8677/stock", "error": "ConnectionRefused"}
+{"timestamp": "2026-10-17T10:42:13.108Z", "level": "INFO", "service": "auth-service", "trace_id": "tr_20c12", "message": "Stock updated", "endpoint": "/api/v1/auth/login", "user_id": "usr_8449"}
+{"timestamp": "2026-10-17T10:42:15.786Z", "level": "DEBUG", "service": "inventory-service", "trace_id": "tr_1f904", "message": "Starting transaction", "endpoint": "/api/v1/products/usr_4278/stock"}
+{"timestamp": "2026-10-17T10:42:15.960Z", "level": "ERROR", "service": "user-service", "trace_id": "tr_d5589", "message": "Null pointer exception", "endpoint": "/api/v1/users/register", "user_id": "usr_6069", "error": "QueryTimeoutException"}
+{"timestamp": "2026-10-17T10:42:20.855Z", "level": "INFO", "service": "inventory-service", "trace_id": "tr_1d1ad", "message": "Request processed successfully", "endpoint": "/api/v1/products/usr_1601/stock"}
+{"timestamp": "2026-10-17T10:42:22.542Z", "level": "WARN", "service": "inventory-service", "trace_id": "tr_ef755", "message": "Latency high", "endpoint": "/api/v1/products/usr_6920/stock"}
+{"timestamp": "2026-10-17T10:42:26.682Z", "level": "INFO", "service": "search-service", "trace_id": "tr_5e2de", "message": "Job completed", "endpoint": "/api/v1/search?q=watch"}
+{"timestamp": "2026-10-17T10:42:31.346Z", "level": "INFO", "service": "search-service", "trace_id": "tr_e2eb3", "message": "User logged in", "endpoint": "/api/v1/search?q=shoes"}
+{"timestamp": "2026-10-17T10:42:31.710Z", "level": "DEBUG", "service": "search-service", "trace_id": "tr_ae8cc", "message": "Cache hit", "endpoint": "/api/v1/catalog/index"}
+{"timestamp": "2026-10-17T10:20:34.401Z", "level": "ERROR", "service": "email-service", "trace_id": "tr_7eeda", "message": "Payment rejected", "endpoint": "/api/v1/email/templates", "error": "ConnectionRefused"}
+{"timestamp": "2026-10-17T10:20:34.401Z", "level": "ERROR", "service": "email-service", "trace_id": "tr_7eeda", "message": "Payment rejected", "endpoint": "/api/v1/email/templates", "error": "ConnectionRefused"}
+{"timestamp": "2026-10-17T10:20:34.401Z", "level": "ERROR", "service": "email-service", "trace_id": "tr_7eeda", "message": "Payment rejected", "endpoint": "/api/v1/email/templates", "error": "ConnectionRefused"}
+{"timestamp": "2026-10-17T10:20:34.401Z", "level": "ERROR", "service": "email-service", "trace_id": "tr_7eeda", "message": "Payment rejected", "endpoint": "/api/v1/email/templates", "error": "ConnectionRefused"}
